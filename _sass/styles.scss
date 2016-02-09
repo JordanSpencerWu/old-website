@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 .flex-anchor-item {
   height: 100%;
 }
@@ -34,4 +35,36 @@
 
 .fix-navbar-margin {
   height: 64px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.site-footer {
+  background-color: #1976D2;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  a {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+    
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.footer-header {
+  color: #fff;
+  font-size: 1.5em;
 }
