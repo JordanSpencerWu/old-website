@@ -11,5 +11,8 @@ paginate: 5
 # Gems
 gems: ['jekyll-paginate']
 
+# Disqus comments configuration
+disqus_shortname: jordanwu
+
 # Build settings
 markdown: kramdown
