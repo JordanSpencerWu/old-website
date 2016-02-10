@@ -173,3 +173,34 @@
   padding: 20px;
   font-size: 1.656rem;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1976D2;
+  text-align: center;
+  letter-spacing: .5px;
+  border-radius: 2px;
+  padding: .75rem 2rem;
+  line-height: 36px;
+  cursor: pointer;
+  margin: 0 1em;
+
+  &:hover {
+    background-color: #00BCD4;
+  }
+  
+  &.disabled {
+    background-color: #DFDFDF;
+    box-shadow: none;
+    color: #9F9F9F;
+    cursor: default;
+  }
+}
