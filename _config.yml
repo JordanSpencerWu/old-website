@@ -2,10 +2,10 @@
 title: Jordan Wu Blog Site
 email: jordan.spencer.wu@gmail.com
 description: Jordan Wu personal blog
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://JordanSpencerWu.github.io" # the base hostname & protocol for your site
 
 # Pagination
+permalink: /:year/:month/:day/:title/
 paginate: 5
 
 # Gems
