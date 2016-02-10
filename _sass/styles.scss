@@ -72,4 +72,13 @@
 .background-404 {
   background-color: #DCECEC;
   margin-top: 0;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .background-404 {
+    img {
+      width: 100%;
+    }
+  }
 }
