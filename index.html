@@ -5,12 +5,14 @@ layout: default
 <div class="card shadow">
   {% for post in paginator.posts %}
     <h2 class="card-header">{{ post.title }}</h2>
-    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <div class="paragraph">
-      {{ post.excerpt }}
-    </div>
-    <div class="card-action">
-      <a class="shadow" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+    <div class="text-flow">
+      <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="paragraph">
+        {{ post.excerpt }}
+      </div>
+      <div class="card-action">
+        <a class="shadow" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+      </div>
     </div>
   {% endfor %}
 </div>

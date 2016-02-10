@@ -188,7 +188,7 @@
   text-align: center;
   letter-spacing: .5px;
   border-radius: 2px;
-  padding: .75rem 2rem;
+  padding: .75rem 1rem;
   line-height: 36px;
   cursor: pointer;
   margin: 0 1em;
@@ -203,4 +203,8 @@
     color: #9F9F9F;
     cursor: default;
   }
+}
+
+.text-flow {
+  font-size: 1.5rem;
 }
