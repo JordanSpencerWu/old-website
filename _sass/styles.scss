@@ -79,14 +79,6 @@
   
 }
 
-@media only screen and (max-width: 768px) {
-  .background-404 {
-    img {
-      width: 100%;
-    }
-  }
-}
-
 .card {
   background-color: #fff;
   margin: 20px 0;
@@ -136,4 +128,19 @@
   height: 206px;
   background-color: blue;
   margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .background-404 {
+    img {
+      width: 100%;
+    }
+  }
+  
+  .business-card {
+    width: 80%;
+    height: 53%;
+    background-color: blue;
+    margin: 20px 0;
+  }
 }
