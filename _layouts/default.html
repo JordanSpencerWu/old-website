@@ -3,9 +3,14 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+    {% if page.url != "/404.html" %}
     <div class="container">
       {{ content }}
     </div>
+    {% endif %}
+    {% if page.url == "/404.html" %}
+      {{ content }}
+    {% endif %}
     {% include footer.html %}
   </body>
 </html>
