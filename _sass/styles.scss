@@ -48,7 +48,7 @@
 
 .site-footer {
   background-color: #1976D2;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top: 30px;
 }
 
@@ -69,6 +69,7 @@
 }
 
 .footer-header {
+  text-align: center;
   color: #fff;
   font-size: 1.5em;
 }
@@ -159,4 +160,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
 }
