@@ -46,5 +46,19 @@ Python
 Matlab
 ------
 {% highlight matlab %}
-  Disp("Hello World!)
+  Disp("Hello World!")
 {% endhighlight %}
+
+I remember learning my first programming language at a community college a few years 
+back. My first programming language was C++ and my first program was Hello World. 
+Anyone can learn how to code, all you need is the right tools to compile the code. Every 
+programming language needs a compiler, a compiler is a program that converts your code 
+into a low-level language like assembly language. A low-level language is code that deals 
+with the registers in your CPU and are instructions used to write and read data to and from 
+memory. Our computers only understands binary so it uses a assembler program that converts 
+the assembly language into machine code. Different operating system understand different 
+machine code and uses different assembler, it is important to download the correct tools 
+depending on your operating system. Remember when learning a new programming language, the 
+first step is to download the tools needed to run the program. Programming is fun and anyone 
+can start learning. The best way to start is by creating a Hello World program and the best 
+part is getting to pick which languages to learn!
