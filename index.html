@@ -5,10 +5,11 @@ layout: default
 <div class="card shadow">
   {% for post in paginator.posts %}
     <h2 class="card-header">{{ post.title }}</h2>
-    <div class="text-flow">
-      <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="card-body">
+      <p><i class="fa fa-user"></i> {{ site.author }}</p>
+      <p><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
       {% if site.disqus_shortname %}
-        &middot;
+        <i class="fa fa-comment"></i>
         <a href="{{ site.url }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
         {% if post.update_date %}
           &middot;
@@ -17,9 +18,7 @@ layout: default
       {% endif %}
       <div class="paragraph">
         {{ post.excerpt }}
-      </div>
-      <div class="card-action">
-        <a class="shadow" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        <span><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></span>
       </div>
     </div>
   {% endfor %}

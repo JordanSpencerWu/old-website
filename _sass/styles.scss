@@ -87,15 +87,11 @@
 }
 
 .card-header {
-  background-color: #1976D2;
-  color: #fff;
   font-size: 1.75em;
   padding: 10px;
   text-align: center;
-}
-
-.date {
-  padding-left: 10px;
+  margin: 0;
+  font-size: 1.5em;
 }
 
 .paragraph {
@@ -205,6 +201,12 @@
   }
 }
 
-.text-flow {
-  font-size: 1.5rem;
+.card-body {
+  font-size: 1rem;
+  padding: 0 10px;
+  
+  p {
+    margin: 0;
+    padding: 4px 0;
+  }
 }

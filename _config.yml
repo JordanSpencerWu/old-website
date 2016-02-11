@@ -3,6 +3,7 @@ title: Jordan Wu Blog Site
 email: jordan.spencer.wu@gmail.com
 description: Jordan Wu personal blog
 url: "http://JordanSpencerWu.github.io" # the base hostname & protocol for your site
+author: Jordan Wu
 
 # Pagination
 permalink: /:year/:month/:day/:title/
