@@ -46,12 +46,6 @@
   width: 90%;
 }
 
-pre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .site-footer {
   background-color: #1976D2;
   padding-bottom: 20px;
@@ -90,6 +84,7 @@ pre {
   background-color: #fff;
   margin: 20px 0;
   border-radius: 2px;
+  padding: 20px 0;
 }
 
 .card-header {
@@ -213,4 +208,9 @@ pre {
 .blog-info {
   padding: 10px;
   margin: 0;
+  text-align: center;
+}
+
+.post-content {
+      padding: 20px 0;
 }

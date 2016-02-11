@@ -8,8 +8,8 @@ layout: default
   </p>
 </header>
 <!-- This loops through the paginated posts -->
-<div class="card shadow">
-  {% for post in paginator.posts %}
+{% for post in paginator.posts %}
+  <div class="card shadow">
     <h2 class="card-header">{{ post.title }}</h2>
     <div class="card-body">
       <p><i class="fa fa-user"></i> {{ site.author }}</p>
@@ -27,8 +27,8 @@ layout: default
         <span><a href="{{ post.url | prepend: site.baseurl }}">Read More...</a></span>
       </div>
     </div>
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}
 
 <!-- Pagination links -->
 <div class="pagination">
