@@ -43,3 +43,8 @@ Python
   print "Hello World"
 {% endhighlight %}
 
+Matlab
+------
+{% highlight matlab %}
+  Disp("Hello World!)
+{% endhighlight %}
