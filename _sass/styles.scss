@@ -103,21 +103,6 @@
   padding: 10px;
   display: flex;
   justify-content: center;
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #1976D2;
-    text-align: center;
-    letter-spacing: .5px;
-    border-radius: 2px;
-    padding: 0 2rem;
-    line-height: 36px;
-    
-    &:hover {
-      background-color: #00BCD4;
-    }
-  }
 }
 
 .business-card {
