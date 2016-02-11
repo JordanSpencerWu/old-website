@@ -28,7 +28,7 @@ C++
 Java
 ----
 {% highlight java %}
-  System.out.print("Hello World!);
+  System.out.print("Hello World!");
 {% endhighlight %}
 
 C#
@@ -43,3 +43,8 @@ Python
   print "Hello World"
 {% endhighlight %}
 
+Matlab
+------
+{% highlight matlab %}
+  Disp("Hello World!)
+{% endhighlight %}
