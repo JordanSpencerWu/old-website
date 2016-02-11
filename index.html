@@ -7,6 +7,14 @@ layout: default
     <h2 class="card-header">{{ post.title }}</h2>
     <div class="text-flow">
       <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if site.disqus_shortname %}
+        &middot;
+        <a href="{{ site.url }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+        {% if post.update_date %}
+          &middot;
+          Updated {{ post.update_date | date: site.date_format }}
+        {% endif %}
+      {% endif %}
       <div class="paragraph">
         {{ post.excerpt }}
       </div>
@@ -40,16 +48,16 @@ layout: default
 
 <!-- Add Disqus comment count (not the comments) -->
 {% if site.disqus_shortname %}
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname  = '{{ site.disqus_shortname }}';
-    // var disqus_developer = 1; // Comment out when the site is live
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-  </script>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname  = '{{ site.disqus_shortname }}';
+  // var disqus_developer = 1; // Comment out when the site is live
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
 {% endif %}
