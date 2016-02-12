@@ -51,7 +51,7 @@ Matlab
 
 I remember learning my first programming language at a community college a few years 
 back. My first programming language was C++ and my first program was Hello World. 
-Anyone can learn how to code, all you need is the right tools to compile the code. Every 
+You can learn how to code, all you need is the right tools to compile the code. Every 
 programming language needs a compiler, a compiler is a program that converts your code 
 into a low-level language like assembly language. A low-level language is code that deals 
 with the registers in your CPU and are instructions used to write and read data to and from 
