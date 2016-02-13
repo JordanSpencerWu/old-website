@@ -10,10 +10,22 @@ permalink: /:year/:month/:day/:title/
 paginate: 5
 
 # Gems
-gems: ['jekyll-paginate']
+gems: [jekyll-paginate, jekyll-sitemap]
 
 # Disqus comments configuration
 disqus_shortname: jordanwu
 
 # Build settings
 markdown: kramdown
+
+# Site map
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
