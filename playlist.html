@@ -1,15 +1,15 @@
 ---
 layout: default
+title: Playlist
 ---
 <header class="blog-wrapper">
   <p class="blog-info">
-    Welcome to my blog site! I will be blogging about current technologies I am learning 
-    in web develpment. Feel free to comment on my posts!
+    Here is my music playlist posts!
   </p>
 </header>
 
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
+{% for post in site.categories.music %}
     <div class="card shadow">
       <h2 class="card-header">{{ post.title }}</h2>
       <div class="card-body">
@@ -31,33 +31,12 @@ layout: default
     </div>
 {% endfor %}
 
-<!-- Pagination links -->
-<div class="pagination">
-      <div class="page-prev">
-          {% if paginator.previous_page %}
-              <a class="btn "href="{{ site.url }}{{ paginator.previous_page_path }}">Prev</a>
-          {% else %}
-              <span class="disabled btn">Prev</span>
-          {% endif %}
-      </div>
-      <div>
-          <span class="current">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      </div>
-      <div class="page-next">
-          {% if paginator.next_page %}
-              <a class="btn" href="{{ site.url }}{{ paginator.next_page_path }}">Next</a></li>
-          {% else %}
-              <span class="btn disabled">Next</span>
-          {% endif %}
-      </div>
-</div>
-
 {% if site.disqus_shortname %}
   <!-- Add Disqus comment count (not the comments) -->
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname  = '{{ site.disqus_shortname }}';
-    var disqus_developer = 1; // Comment out when the site is live
+    // var disqus_developer = 1; // Comment out when the site is live
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
         var s = document.createElement('script'); s.async = true;

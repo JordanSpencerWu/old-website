@@ -2,6 +2,7 @@
 layout: post
 title:  "Understanding the Web"
 date:   2016-02-11 22:20:00
+categories: [blog]
 ---
 These days there are many web browsers available to download for free, some of the popular 
 ones are Chrome, Safari, Firefox, and Internet Explorer. Everyone knows how to use a 
