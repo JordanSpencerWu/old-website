@@ -40,7 +40,7 @@ local server on your machine. In web development all the files for a web page is
 hosting server, this is what we are creating a local server on our machine for all the files to 
 be served. When you go to `localhost:4000` on any browser it is getting all the files like 
 HTML, CSS, and Javascript needed to render your web page. The port number is just a TCP port 
-that is available on your machine. To close your serve run `ctrl + c`.
+that is available on your machine. To close your server run `ctrl + c`.
 
 # Jekyll Structure
 
@@ -119,9 +119,9 @@ will be converted into css which jekyll does for you. To learn more about Sass c
 style your blog site, there are jekyll themes you can look at and implement. Here are a few jekyll 
 themes you can checkout: 
 
-* <a href="http://jekyllthemes.org/" target="_blank">http://jekyllthemes.org/</a>
-* <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">https://github.com/jekyll/jekyll/wiki/Themes</a>
-* <a href="http://jekyllthemes.io/" target="_blank">http://jekyllthemes.io/</a>
+* <a href="http://jekyllthemes.org/" target="_blank">jekyllthemes.org</a>
+* <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">wikiThemes</a>
+* <a href="http://jekyllthemes.io/" target="_blank">jekyllthemes.io/</a>
 
 # css
 This is the folder that converts all your sass files into css. This folder is important when 

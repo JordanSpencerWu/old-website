@@ -1,13 +1,9 @@
 ---
-layout: post
-title:  "My First Music Post"
+layout: music
 date:   2016-02-14 20:50:00
 categories: [music]
 hidden: true
 ---
-Some of the current songs I'm listening to. There is a ton of great
-female artists in this playlist!
-
 1. Dan Talevski - Knock Me Off My Feet
 2. Tori Kelly - Something Beautiful
 3. Electric Lady Lab - Love Is War

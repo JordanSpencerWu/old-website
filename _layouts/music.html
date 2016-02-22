@@ -3,18 +3,10 @@ layout: default
 ---
 <article class="post">
   <div class="card shadow">
-    <h1 class="card-header">{{ page.title }}</h1>
+    <h1 class="card-header">
+      <i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }} 
+    </h1>
     <div class="card-body">
-      <p><i class="fa fa-user"></i> {{ site.author }}</p>
-      <p><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</p>
-      {% if site.disqus_shortname %}
-        <i class="fa fa-comment"></i>
-        <a href="{{ site.url }}{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{{ page.url }}"></a>
-        {% if post.update_date %}
-          &middot;
-          Updated {{ post.update_date | date: site.date_format }}
-        {% endif %}
-      {% endif %}
       <div class="post-content">
         {{ content }}
       <div>

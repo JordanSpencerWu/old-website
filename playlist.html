@@ -4,49 +4,20 @@ title: Playlist
 ---
 <header class="blog-wrapper">
   <p class="blog-info">
-    Here is my music playlist posts!
+    Here is my music posts!
   </p>
 </header>
 
-<!-- This loops through the paginated posts -->
-{% for post in site.categories.music %}
-    <div class="card shadow">
-      <h2 class="card-header">{{ post.title }}</h2>
-      <div class="card-body">
-        <p><i class="fa fa-user"></i> {{ site.author }}</p>
-        <p><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
-        {% if site.disqus_shortname %}
-          <i class="fa fa-comment"></i>
-          <a href="{{ site.url }}{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
-          {% if post.update_date %}
-            &middot;
-            Updated {{ post.update_date | date: site.date_format }}
-          {% endif %}
-        {% endif %}
-        <div class="paragraph">
-          {{ post.excerpt }}
-          <span><a href="{{ post.url | prepend: site.baseurl }}">Read More...</a></span>
-        </div>
+<div class="card shadow">
+  <h2 class="card-header">MY MUSIC POST</h2>
+  <div class="card-body">
+    {% for post in site.categories.music %}
+      <div class="playlist-link">
+        <i class="fa fa-calendar"></i>
+        <a href="{{ post.url | prepend: site.baseurl }}"> 
+          {{ post.date | date: "%b %-d, %Y" }}
+        </a>
       </div>
-    </div>
-{% endfor %}
-
-{% if site.disqus_shortname %}
-  <!-- Add Disqus comment count (not the comments) -->
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname  = '{{ site.disqus_shortname }}';
-    // var disqus_developer = 1; // Comment out when the site is live
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-  </script>
-
-  <noscript>
-      Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
-{% endif %}
+    {% endfor %}
+  </div>
+</div>

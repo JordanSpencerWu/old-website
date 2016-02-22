@@ -1,11 +1,9 @@
 ---
-layout: post
-title:  "Music Post"
+layout: music
 date:   2016-02-19 12:50:00
 categories: [music]
 hidden: true
 ---
-Music post
 
 1. Illenium ft. King Deco - Reverie
 2. Illenium - It's All On U (ft. Liam O'Donnell)
