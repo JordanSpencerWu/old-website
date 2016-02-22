@@ -16,7 +16,7 @@ a blog site with Jekyll.
 Jekyll is a parsing engine bundled as a ruby gem, the first thing you would need to 
 do is install ruby onto your machine. There are many resources online for installing 
 ruby and it varies depending on your operating system. Once you have ruby installed, 
-you are able to installs gems which is a shareable code. Once you installed ruby, 
+you are able to install gems which is a shareable code. Once you installed ruby, 
 run the following commands inside your terminal.
  
 {% highlight shell %}
@@ -37,8 +37,8 @@ going to `localhost:4000` on any browser.
  
 It's important to understand what is going on when creating a 
 local server on your machine. In web development all the files for a web page is saved on a 
-hosting server, this is what we are creating a local server on our machine for all the files to 
-be served. When you go to `localhost:4000` on any browser it is getting all the files like 
+hosting server, we are doing something similar by creating local server on our machine for all the files to 
+be served. When you go to `localhost:4000` on any browser, it is getting all the files like 
 HTML, CSS, and Javascript needed to render your web page. The port number is just a TCP port 
 that is available on your machine. To close your server run `ctrl + c`.
 
@@ -73,38 +73,38 @@ that is available on your machine. To close your server run `ctrl + c`.
   └── index.html
 {% endhighlight %}
 
-This is what you create when you ran the `jekyll new myblog` CLI command in your terminal. 
+All this was created when you ran the `jekyll new myblog` CLI command in your terminal. 
 This provides you with an example of a blog site using jekyll and understanding all the files 
-is essential to creating your own blog site. Before I start talking about what each folder 
-and file do, it's important to know what Jekyl uses the `Liquid` templating language (for 
-more information click <a href="https://docs.shopify.com/themes/liquid" target="_blank">here</a>). 
-What is great about this template is that it allows HTML reuse and has build in filtering 
+is essential to creating your own custom blog site. It's important to know what Jekyl uses the 
+`Liquid` templating language, for more information 
+click <a href="https://docs.shopify.com/themes/liquid" target="_blank">here</a>). 
+What is great about this language is that it allows HTML reuse and has built-in filtering 
 methods which is great for filtering your posts.
 
 ## _includes
 
 This folder is used when you have reuseable html that you might want to include into your 
-HTML page. Some great examples are having a `navbar.html`, you can include this navbar 
-in all your static websites. In the example, jekyll included a footer, head, header, and 
+HTML page. A great examples is having a `navbar.html`, you can include this navbar 
+in all your static websites. In the blog structure, jekyll included a footer, head, header, and 
 other files like svg. Scalable Vector Graphic (SVG) are very popular in web development when 
-rendering logos on the website for their scalability in varies device screen.
+rendering logos in the browser for their scalability in varies device screens.
 
 # _layouts
 
 This folder is used for creating HTML for different static pages on your websites. You might 
 want a page to look different depending on the content you want to display. For example if you 
-had a `post.html` for all your post, this HTML page will be use to display your post so that 
-every post looks similar. Jekyll provides you with some example html files, you can easily 
+had a `post.html` for all your post, this HTML page will be use to display all your posts so that 
+every post looks uniform. Jekyll provides you with some example html files, you can easily 
 customize them to your needs.
 
 # _posts
 
-This folder is where you create all your post in a specific format, following this format is 
+This folder is where you create all your posts in a specific format, following this format is 
 important since the jekyll will parse your files in a conventional way. These files can be 
 saved as HTML or Markdown. **All post must have 
 <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank">YAML Front Matter</a>**. 
 The YAML Front Matter is how jekyll know how to build your static websites. When creating a post 
-the naming convention is `YEAR-MONTH-DAY-name-of-blog.md`. Jekyll allows you to add tags and 
+the naming convention is `YEAR-MONTH-DAY-name-of-blog.md`. In addition Jekyll allows you to add tags and 
 categories to your post. Using the categories allows you to have different types of post like 
 blog, music, anime, etc. You can also add tags your post for different topics like web development, 
 html, css, javascript, etc. Just remember this folder is where you store all your posts.
@@ -113,11 +113,11 @@ html, css, javascript, etc. Just remember this folder is where you store all you
 This folder is where you store all the styles for your website. Syntactically Awesome Style 
 Sheet (Sass) is a extension of CSS. This extension is a better way of writing CSS and follows 
 the Don't Repeat Yourself (DRY) principle. Sass allows you to write less code by introducing 
-variable, nested rules, mixins, inline imports, and more. At the end of the day your sass files 
+variables, nested rules, mixins, inline imports, and more. At the end of the day your sass files 
 will be converted into css which jekyll does for you. To learn more about Sass click 
-<a href="http://sass-lang.com/guide" target="_blank">here</a>. This folder is where you can 
-style your blog site, there are jekyll themes you can look at and implement. Here are a few jekyll 
-themes you can checkout: 
+<a href="http://sass-lang.com/guide" target="_blank">here</a>. Just remember this folder is where you can 
+style your blog site, there are many jekyll themes you can look at and implement. Here are a few jekyll 
+themes sites: 
 
 * <a href="http://jekyllthemes.org/" target="_blank">jekyllthemes.org</a>
 * <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">wikiThemes</a>
@@ -125,7 +125,7 @@ themes you can checkout:
 
 # css
 This is the folder that converts all your sass files into css. This folder is important when 
-using the jekyll with sass, you need this `main.scss` for jekyll to convert your sass file to 
+using the jekyll with sass, you need this `main.scss` for jekyll to convert your sass files to 
 css files. This is where you import all your sass files and jekyll will add them into your 
 static websites.
 
@@ -148,25 +148,25 @@ click <a href="http://jekyllrb.com/docs/configuration/" target="_blank">here</a>
 These are the static website page that jekyll will render. The index.html is where all your 
 posts will be rendered and is the home page. The about page will contain 
 information about yourself in Markdown. **Note these pages must have YAML Front Matter**. You can create 
-more static pages by saving a new html file at the root of this project. Example of creating 
+more static pages by saving a new html or markdown file at the root of this project. Examples of creating 
 more html file might be a project page, contact page, etc.
 
 # feed.xml
 This is used for a RSS feed which allows users to subscribe to your content. Jekyll already 
-include everything you need for the RSS feed, all you have to do is change the name, description, 
+included everything you need for the RSS feed, all you have to do is change the name, description, 
 and url in the `_config.yml` to your own.
 
 # Hosting on GitHub
 Github will host one site for you and unlimited project sites for free. It is very easy to use and 
 allows you to show off your projects to the world. They provide a quick get started tutorial, 
-check it out by clicking this <a href="https://pages.github.com/" target="_blank">link</a>
+check it out by clicking this <a href="https://pages.github.com/" target="_blank">link</a>.
 
 # Conclusion
 
-Jekyll allows you to customize your blog website any way you want. Adding more features to 
-your blog site will require some coding. There are many things you can add to your 
+Jekyll allows you to customize your blog website by allowing you to add more features to 
+your blog site. There are many features you can add to your 
 blog site like pagination, 404.html, Disqus, Archive, etc. The web provides many 
-resources on how to add these featueres to your jekyll project. Creating your blog website 
+resources on how to add these features to your jekyll project. Creating your blog website 
 with Jekyll give you more control over your site than other CMS blog platforms. 
 This is just a basic tutorial on how to use Jekyll to create your own blog site. 
-Anyone can create a blog site!
+Anyone can create a blog site using Jekyll and host it on GitHub!
