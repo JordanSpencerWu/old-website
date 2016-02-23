@@ -8,44 +8,44 @@ It is common that everyone writes a program called Hello World when learning
 a new programming language. For my first blog post, I will write "Hello World!" 
 in every programming language I know.
 
-Ruby
-----
+#### Ruby
+
 {% highlight ruby %}
   puts "Hello World!"
 {% endhighlight %}
 
-JavaScript
-----------
+#### JavaScript
+
 {% highlight javascript %}
   console.log("Hello World!");
 {% endhighlight %}
 
-C++
----
+#### C++
+
 {% highlight cpp %}
   cout << "Hello World!";
 {% endhighlight %}
 
-Java
-----
+#### Java
+
 {% highlight java %}
   System.out.print("Hello World!");
 {% endhighlight %}
 
-C#
----
+#### C#
+
 {% highlight csharp %}
   System.Console.WriteLine("Hello, World!");
 {% endhighlight %}
 
-Python
-------
+#### Python
+
 {% highlight python %}
   print "Hello World"
 {% endhighlight %}
 
-Matlab
-------
+#### Matlab
+
 {% highlight matlab %}
   Disp("Hello World!")
 {% endhighlight %}

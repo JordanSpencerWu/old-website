@@ -143,6 +143,9 @@
   text-align: center;
 }
 
+.center-text {
+  text-align: center;
+}
 .business-info {
   border-top: 1px solid #fff;
   padding: 0 10px;
@@ -170,30 +173,6 @@
   margin-bottom: 20px;
 }
 
-// .btn {
-//   text-decoration: none;
-//   color: #fff;
-//   background-color: #1976D2;
-//   text-align: center;
-//   letter-spacing: .5px;
-//   border-radius: 2px;
-//   padding: .75rem 1rem;
-//   line-height: 36px;
-//   cursor: pointer;
-//   margin: 0 1em;
-
-//   &:hover {
-//     background-color: #00BCD4;
-//   }
-  
-//   &.disabled {
-//     background-color: #DFDFDF;
-//     box-shadow: none;
-//     color: #9F9F9F;
-//     cursor: default;
-//   }
-// }
-
 .card-body {
   font-size: 1rem;
   padding: 0 10px;
@@ -219,7 +198,7 @@
 }
 
 .post-content {
-      padding: 20px 0;
+  padding: 20px 0;
 }
 
 pre, code { font-family: inherit; }

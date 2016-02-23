@@ -11,7 +11,7 @@ Markdown syntax is very easy to pick up and is commonly used in websites. I rece
 started to use Markdown when writing my blog posts. I will go over some of the 
 basic syntax in this blog.
 
-# Emphasis
+#### Emphasis
 Markdown syntax makes it easy to italics and bold any of your text. 
 Here is some examples:
 
@@ -27,7 +27,7 @@ bold, with **asterisks** or __underscores__.
 
 combine them with **asterisks and _underscores_**.
 
-# Header
+#### Header
 
 There is a HTML element called a heading element, this is used for introductory 
 content. This has a range of sizes from `<h1>` to `<h6>`, `<h1>` being the biggest. 
@@ -57,7 +57,7 @@ The results:
 
 ###### This is a H6
 
-# Blockquotes
+#### Blockquotes
 
 The blockquote is another HTML element used for quotes. This will create a blockquote 
 HTML element which you can style using CSS. Here is the syntax for using blockquotes 
@@ -105,20 +105,20 @@ The results:
 
 > by Charles Baudelaire
 
-# Lists
+#### Lists
 
 Lets say you want to make a list of your favorite artists, there is a Markdown syntax for 
 making a unorder list. What if you want to list all the songs in a album? There is a markdown 
 syntax for a ordered list.
 
-    ## Favorite Artist
+    ##### Favorite Artist
     * Jackie Boyz
     * Claude Kelly
     * Johnta Austin
     * Jack Johnson
     * Secondhand Serenade
     
-    ## X album by Ed Sheeran
+    ##### X album by Ed Sheeran
     1. One
     2. I'm a Mess
     3. Sing
@@ -138,7 +138,7 @@ syntax for a ordered list.
 
 The results:
 
-## Favorite Artist
+##### Favorite Artist
 
 * Jackie Boyz
 * Claude Kelly
@@ -146,7 +146,7 @@ The results:
 * Jack Johnson
 * Secondhand Serenade
 
-## X album by Ed Sheeran
+##### X album by Ed Sheeran
 
 1. One
 2. I'm a Mess
@@ -165,7 +165,7 @@ The results:
 15. Even My Dad Does Sometimes
 16. I See Fire
 
-# Links
+#### Links
 Creating hyperlinks is quick and easy with the help of Markdown syntax. There are many 
 ways you can create a link in Markdown, here are some of the common ways:
 
@@ -187,7 +187,7 @@ The results:
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 
-# Images
+#### Images
 Markdown makes adding images to your web page simple, you can add a image from google by 
 copying and pasting the url or you can add images from your repository folder.
 

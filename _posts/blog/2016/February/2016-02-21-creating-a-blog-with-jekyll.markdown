@@ -11,7 +11,7 @@ using Jekyll you don't have to worry about hosting companies, you can easily
 deploy your site using GitHub for free. In this blog I will cover how to create 
 a blog site with Jekyll.
 
-#  Getting Started
+####  Getting Started
 
 Jekyll is a parsing engine bundled as a ruby gem, the first thing you would need to 
 do is install ruby onto your machine. There are many resources online for installing 
@@ -42,7 +42,7 @@ be served. When you go to `localhost:4000` on any browser, it is getting all the
 HTML, CSS, and Javascript needed to render your web page. The port number is just a TCP port 
 that is available on your machine. To close your server run `ctrl + c`.
 
-# Jekyll Structure
+#### Jekyll Structure
 
 {% highlight markdown %}
   myblog
@@ -81,7 +81,7 @@ click <a href="https://docs.shopify.com/themes/liquid" target="_blank">here</a>.
 What is great about this language is that it allows HTML reuse and has built-in filtering 
 methods which is great for filtering your posts.
 
-## _includes
+#### _includes
 
 This folder is used when you have reuseable html that you might want to include into your 
 HTML page. A great example is having a `navbar.html`, you can include this navbar 
@@ -89,14 +89,14 @@ in all your static websites. In the blog structure, jekyll included a footer, he
 other files like svg. Scalable Vector Graphic (SVG) are very popular in web development when 
 rendering logos in the browser for their scalability in varies device screens.
 
-# _layouts
+#### _layouts
 
 This folder is used for creating HTML for different static pages on your websites. You might 
 want a page to look different depending on the content you want to display. For example if you 
 had a `post.html` used for all your posts, all your posts will look uniform. Jekyll provides 
 you with a few example html files, you can easily customize them to your needs.
 
-# _posts
+#### _posts
 
 This folder is where you create all your posts in a specific format, following this format is 
 important since the jekyll will parse your files in a conventional way. These files can be 
@@ -108,7 +108,7 @@ categories to your post. Using the categories allows you to have different types
 blog, music, anime, etc. You can also add tags your post for different topics like web development, 
 html, css, javascript, etc. Just remember this folder is where you store all your posts.
 
-# _sass
+#### _sass
 This folder is where you store all the styles for your website. Syntactically Awesome Style 
 Sheet (Sass) is a extension of CSS. This extension is a better way of writing CSS and follows 
 the Don't Repeat Yourself (DRY) principle. Sass allows you to write less code by introducing 
@@ -122,13 +122,13 @@ themes sites:
 * <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">wikiThemes</a>
 * <a href="http://jekyllthemes.io/" target="_blank">jekyllthemes.io/</a>
 
-# css
+#### css
 This is the folder that converts all your sass files into css. This folder is important when 
 using the jekyll with sass, you need this `main.scss` for jekyll to convert your sass files to 
 css files. This is where you import all your sass files and jekyll will add them into your 
 static websites.
 
-# .gitignore
+#### .gitignore
 This file is used when using git by excluding any specific files you don't want to save, example will be 
 personal information like key and secret when accessing a API. Git is a version control 
 system which allows you to save coding project on your local machine. The power of git is 
@@ -136,31 +136,31 @@ that you do not need internet to save you projects and allows you to save snapsh
 your project every time you make a commit. Learn more about git by reading this book 
 , <a href="https://git-scm.com/book/en/v2" target="_blank">Pro Git</a>.
 
-# _config.yml
+#### _config.yml
 This is all the configuration for your jekyll website. This file is where you can store 
 global variables which you can use in your static website, some example will be your name, 
 email address, github username, linkedin url, etc. Any plugin you want to use like pagination 
 will also go in this file. If you want more information about configuration for jekyll 
 click <a href="http://jekyllrb.com/docs/configuration/" target="_blank">here</a>.
 
-# about.md and index.html
+#### about.md and index.html
 These are the static website page that jekyll will render. The index.html is where all your 
 posts will be rendered and is the home page. The about page will contain 
 information about yourself in Markdown. **Note these pages must have YAML Front Matter**. You can create 
 more static pages by saving a new html or markdown file at the root of this project. Examples of creating 
 more html file might be a project page, contact page, etc.
 
-# feed.xml
+#### feed.xml
 This is used for a RSS feed which allows users to subscribe to your content. Jekyll already 
 included everything you need for the RSS feed, all you have to do is change the name, description, 
 and url in the `_config.yml` to your own.
 
-# Hosting on GitHub
+#### Hosting on GitHub
 Github will host one site for you and unlimited project sites for free. It is very easy to use and 
 allows you to show off your projects to the world. They provide a quick get started tutorial, 
 check it out by clicking this <a href="https://pages.github.com/" target="_blank">link</a>.
 
-# Conclusion
+#### Conclusion
 
 Jekyll allows you to customize your blog website by allowing you to add more features to 
 your blog site. There are many features you can add to your 
