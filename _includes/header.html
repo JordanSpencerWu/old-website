@@ -1,18 +1,34 @@
 <header>
-  <nav class="nav-fixed shadow">
-    <div class="flexbox-container">
-      <div class="flex-anchor-item">
-        <a href="{{ site.baseurl }}/">Blog</a>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="{{ site.baseurl }}/" class="brand-logo">Jordan Wu</a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="{{ site.baseurl }}/">Blog</a>
+          </li>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              <li>
+                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <ul class="side-nav" id="mobile">
+          <li>
+            <a href="{{ site.baseurl }}/">Blog</a>
+          </li>
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+              <li>
+                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-            <div class="flex-anchor-item">
-              <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </nav>
-  <div class="fix-navbar-margin"></div>
+    </nav>
+  </div>
 </header>

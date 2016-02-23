@@ -124,7 +124,7 @@
   
   .business-card {
     width: 90%;
-    margin: 20px 0;
+    margin: 40px 0;
   }
 }
 
@@ -170,29 +170,29 @@
   margin-bottom: 20px;
 }
 
-.btn {
-  text-decoration: none;
-  color: #fff;
-  background-color: #1976D2;
-  text-align: center;
-  letter-spacing: .5px;
-  border-radius: 2px;
-  padding: .75rem 1rem;
-  line-height: 36px;
-  cursor: pointer;
-  margin: 0 1em;
+// .btn {
+//   text-decoration: none;
+//   color: #fff;
+//   background-color: #1976D2;
+//   text-align: center;
+//   letter-spacing: .5px;
+//   border-radius: 2px;
+//   padding: .75rem 1rem;
+//   line-height: 36px;
+//   cursor: pointer;
+//   margin: 0 1em;
 
-  &:hover {
-    background-color: #00BCD4;
-  }
+//   &:hover {
+//     background-color: #00BCD4;
+//   }
   
-  &.disabled {
-    background-color: #DFDFDF;
-    box-shadow: none;
-    color: #9F9F9F;
-    cursor: default;
-  }
-}
+//   &.disabled {
+//     background-color: #DFDFDF;
+//     box-shadow: none;
+//     color: #9F9F9F;
+//     cursor: default;
+//   }
+// }
 
 .card-body {
   font-size: 1rem;
@@ -255,4 +255,12 @@ pre > code { padding: 0; background-color: #fff; }
 
 .playlist-link {
   margin: 10px 0;
+}
+
+nav {
+  background-color: #1976D2;
+}
+
+.current {
+  margin: 0 10px;
 }

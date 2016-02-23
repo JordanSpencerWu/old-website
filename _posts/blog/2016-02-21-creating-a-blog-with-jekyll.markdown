@@ -33,9 +33,9 @@ the directories and files you will need to get started with jekyll inside a dire
 called myblog. The command `cd myblog` is a built-in CLI that says change directory to 
 myblog, this will enter the directory you just created. The last command is a jekyll CLI 
 that creates a local server on your machine on port 4000, which you can see the website by 
-going to `localhost:4000` on any browser. 
+going to `localhost:4000` on any browser.
  
-It's important to understand what is going on when creating a 
+It's important to understand what's happening when creating a 
 local server on your machine. In web development all the files for a web page is saved on a 
 hosting server, we are doing something similar by creating local server on our machine for all the files to 
 be served. When you go to `localhost:4000` on any browser, it is getting all the files like 
@@ -75,16 +75,16 @@ that is available on your machine. To close your server run `ctrl + c`.
 
 All this was created when you ran the `jekyll new myblog` CLI command in your terminal. 
 This provides you with an example of a blog site using jekyll and understanding all the files 
-is essential to creating your own custom blog site. It's important to know what Jekyl uses the 
+is essential to creating your own custom blog site. It's important to know that Jekyl uses the 
 `Liquid` templating language, for more information 
-click <a href="https://docs.shopify.com/themes/liquid" target="_blank">here</a>). 
+click <a href="https://docs.shopify.com/themes/liquid" target="_blank">here</a>. 
 What is great about this language is that it allows HTML reuse and has built-in filtering 
 methods which is great for filtering your posts.
 
 ## _includes
 
 This folder is used when you have reuseable html that you might want to include into your 
-HTML page. A great examples is having a `navbar.html`, you can include this navbar 
+HTML page. A great example is having a `navbar.html`, you can include this navbar 
 in all your static websites. In the blog structure, jekyll included a footer, head, header, and 
 other files like svg. Scalable Vector Graphic (SVG) are very popular in web development when 
 rendering logos in the browser for their scalability in varies device screens.
@@ -93,9 +93,8 @@ rendering logos in the browser for their scalability in varies device screens.
 
 This folder is used for creating HTML for different static pages on your websites. You might 
 want a page to look different depending on the content you want to display. For example if you 
-had a `post.html` for all your post, this HTML page will be use to display all your posts so that 
-every post looks uniform. Jekyll provides you with some example html files, you can easily 
-customize them to your needs.
+had a `post.html` used for all your posts, all your posts will look uniform. Jekyll provides 
+you with a few example html files, you can easily customize them to your needs.
 
 # _posts
 
