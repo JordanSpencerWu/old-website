@@ -1,12 +1,7 @@
 ---
 layout: post
 title:  "My React Notes"
-<<<<<<< HEAD
 date:   2016-02-25 13:15:00
-=======
-date:   2016-02-21 13:15:00
->>>>>>> 2dedd70cff4e8a54e9c4c07c0ffa36a01fe84292
-categories: [blog]
 ---
 React is a JavaScript library for building user interfaces (UI) by Facebook. 
 Think of React like the View in the Model, View, Controller (MVC) web design 
