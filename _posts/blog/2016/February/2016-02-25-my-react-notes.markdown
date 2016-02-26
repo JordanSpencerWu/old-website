@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My React Notes!"
+title:  "My React Notes"
 date:   2016-02-21 13:15:00
 categories: [blog]
 ---
@@ -13,7 +13,7 @@ my notes on React.
 
 #### Why React?
 The web is becoming more interactive. React makes it easy to display data and 
-will automcatically update when the data changes. After creating a 
+will automatically update when the data changes. After creating a 
 UI component, you are able to reuse it in you web application. One of 
 React's finest features is composability which allows you to use UI 
 components together. React in my words is that it allows you to create custom 
@@ -76,8 +76,8 @@ is essential when creating your own react component.
 #### Conclusion
 React is a powerful Javascript library that makes amazing UI components. Writing React components with JSX 
 produce simple and easy to read code. There are many data fetching libraries that can be used with React like 
-<a href="http://graphql.org/" target="_blank">GraphQL</a> and <a href="http://netflix.github.io/falcor/">Falcor</a>. 
-Start learning React by doing their getting started tutorial <a href="https://facebook.github.io/react/docs/tutorial.html">here</a>. 
+<a href="http://graphql.org/" target="_blank">GraphQL</a> and <a href="http://netflix.github.io/falcor/">Falcor</a>. You can 
+start learning React by doing their getting started tutorial <a href="https://facebook.github.io/react/docs/tutorial.html">here</a>. 
 Once you have a better understand of React, you can create your own React workflow 
 using <a href="https://webpack.github.io/">Webpack</a>.
 
@@ -85,5 +85,5 @@ using <a href="https://webpack.github.io/">Webpack</a>.
 * <a href="https://facebook.github.io/react/docs/top-level-api.html" target="_blank">Top-Level API</a>
 * <a href="https://facebook.github.io/react/docs/component-api.html" target="_blank">Component API</a>
 * <a href="https://facebook.github.io/react/docs/component-specs.html" target="_blank">Component Specs and Lifecycle</a>
-* <a href="https://facebook.github.io/react/docs/tags-and-attributes.html" target="_blank">Suppoerted Tags and Attributes</a>
+* <a href="https://facebook.github.io/react/docs/tags-and-attributes.html" target="_blank">Supported Tags and Attributes</a>
 * <a href="https://facebook.github.io/react/docs/glossary.html" target="_blank">React (Virtual) DOM Terminology</a>
