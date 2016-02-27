@@ -13,7 +13,7 @@ my notes on React.
 #### Why React?
 The web is becoming more interactive. React makes it easy to display data and 
 will automatically update when the data changes. After creating a 
-UI component, you are able to reuse it in you web application. One of 
+UI component, you are able to reuse it in your web application. One of 
 React's finest features is composability which allows you to use UI 
 components together. React in my words is that it allows you to create custom 
 web components that will change dynamically with user interactions. This makes 

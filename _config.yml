@@ -7,6 +7,7 @@ author: Jordan Wu
 
 # Pagination
 permalink: /:year/:month/:day/:title/
+paginate_path: "page:num"
 paginate: 5
 
 # Gems
