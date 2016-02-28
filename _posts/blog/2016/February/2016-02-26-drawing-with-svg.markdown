@@ -76,8 +76,8 @@ That was simple and easy!
 
 #### Draw a Path
 Now that we know how to draw a line, lets draw a path. There is a graphical 
-element called `path` that allows use to draw on the canvas. This `path` element 
-has a attribute `d` which contains a series of path description. The path description 
+element called `path` that allows us to draw on the canvas. This `path` element 
+has an attribute `d` which contains a series of path description. The path description 
 has a few instructions Moveto, Lineto, Curveto, Arcto, and ClosePath. 
 Click <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d" target="_blank">here</a> 
 for more details on the `d` attribute. Lets draw a simple path!
@@ -171,7 +171,7 @@ element that allows you to write text in your canvas.
 
 #### Draw a Polygon
 There is a graphical element called `polygon` that defines a closed shape consisting of a set 
-of connected straight lines segments. The last point is connectd to the first point. This element 
+of connected straight lines segments. The last point is connected to the first point. This element 
 is similar to `polyline` where you only need the `points` attributes.
 
 {% highlight html %}
@@ -355,6 +355,7 @@ define radial gradients to fill or stroke graphical elements.
 
 <div>
   <svg width="300" height="250" style="display: block; margin:auto">
+    <!-- Gradient -->
     <defs>
         <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
             <stop offset="0%" stop-color="#FCC1A7" />
