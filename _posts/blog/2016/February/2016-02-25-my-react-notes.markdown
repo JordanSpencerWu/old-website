@@ -41,7 +41,7 @@ Here is the same example using JSX:
   <a href="https://facebook.github.io/react/">Hello!</a>
 {% endhighlight %}
 
-For you to use JSX you need the tool that transform JSX to JS. Babel is a 
+For you to use JSX you need the tool that transpile JSX to JS. Babel is a 
 Javascript compiler that provides the tools you need to use JSX with React. 
 The npm module you need is `babel-preset-react`, this will transform JSX files to JS files 
 . If you want to learn more about Babel, click 
