@@ -27,7 +27,7 @@ add this JavaScript into your html.
 The first thing to understand is how to select an element in the DOM. D3.js is similar to 
 <a href="https://jquery.com/" target="_blank">jQuery</a> when selecting element using selectors. 
 If there is a class on the DOM element you would use a prefix of `.` then the class attribute 
-value to select it with a selector. Let's see of example of selecting a element with a class selector.
+value to select it with a selector. Let's see a example of selecting a element with a class selector.
 
 {% highlight html %}
   <div class="example">
@@ -53,7 +53,7 @@ we are able to add svg into our html with a few lines of code. The following was
 into our DOM.
 
 {% highlight html %}
-  <div class="example1">
+  <div class="example">
     <svg>
       <rect width="50" height="100" style="fill: steelblue;"></rect>
     </svg>
@@ -63,8 +63,8 @@ into our DOM.
 #### Let's Make a Bar Graph
 Making a `rect` svg element is easy, but it doesn't tell us anything! For 
 the `rect` to be meaningful it has to represent some data or number. Lets learn how to 
-bind data to our `rect` elements. The easiest way to store our data is in a `Array` 
-in JavaScript. Let's bind our `rect` elements to data from a array.
+bind data to our `rect` elements. The easiest way to store our data is in an `Array` 
+in JavaScript. Let's bind our `rect` elements to data from an array.
 
 {% highlight html %}
   <div class="example">
@@ -98,16 +98,16 @@ Result:
 Now that looks like a bar graph! Lets break down the code:
 
 1. The first things we did was create a few variables that will be used in our svg elements. The data variable is a array of 
-numbers that represents the data we want to bind to our svg elements. 
+numbers that represents the data we want to bind to our svg element. 
 2. Everytime you use D3.js you need to select a element in your DOM as the starting point. After selecting a element using D3.js 
 `select` method we can `append` a `svg` element to that selected element. This will create a canvas for our data visualization 
 for our svg elements. 
 3. We then added our `width` and `height` attributes to our `svg` element. 
 4. The `selectAll` method is a bit tricky to understand. This method is used to select all `rect` elements inside our `svg` 
-element. Since we created a new `svg` element with nothing in it, the `selectAll` will know that there isn't any `rect`. 
+element. Since we created a new `svg` element with nothing in it, the `selectAll` will know that there isn't any `rect` element yet. 
 5. The next step is to bind our data to the `rect` elements that we used `selectAll` method to select.
 6. A very important method is `enter` which will append the `rect` into our canvas and will continue appending `rect` elements 
-until all the data in the array is binded to a `rect` element. 
+until every data in the array is binded to a `rect` element. 
 7. Each `rect` element has the following attributes `x`, `y`, `width`, `height` and `style`. The `x` and `y` attributes are for the position of each `rect` element, 
 we don't want all the `rect` to have the same position. Another thing is that we don't want the height of 
 the `rect` to be the same. That's where `function (d,i)` comes in. This function is a built-in function parameter 
@@ -132,8 +132,8 @@ depending on our data.
 This bar graph is missing some number representation! We can see that each `rect` has different 
 height, but we don't know the value of the rect. That's where the `text` svg comes in, we can bind 
 our data to the `text` svg like we did to our `rect`. We have to change some of our code, we need 
-have a reference variable to the svg element. We do this by saving the selected element into a 
-var variable.
+a reference variable to the svg element. We do this by saving the selected element into a 
+variable.
 
 {% highlight html %}
   <div class="example">
@@ -343,7 +343,7 @@ This bar graph is almost done, we have numbers without any description of what t
 represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we 
 want to create a bar graph for the number of customers coming in to our store for this week. 
 Now our data need to include two information, the day of the week and the number of customers. 
-We can use JavaScript object data structure which allows us to store more data in one entry. Let's 
+We can use an array of objects as our data which allows us to store more information in one entry. Let's 
 now create this graph with x-axis and y-axis.
 
 {% highlight javascript %}
@@ -363,27 +363,33 @@ now create this graph with x-axis and y-axis.
   var width = 250 - margin.left - margin.right;
   var height = 300 - margin.top - margin.bottom;
               
+  // y scale for the bar graph
   var yScale = d3.scale.linear()
               .domain([d3.max(data, function(data) { return data.customers; }),0])
               .range([height,0]);
               
+  // y scale for the y-axis
   var y = d3.scale.linear()
           .domain([d3.max(data, function(data) { return data.customers; }),0])
           .range([0,height]);
   
+  // x scale for the x-axis
   var xScale = d3.scale.ordinal()
               .domain(data.map(function(d) { return d.weekday }))
               .rangeBands([0, width]);
   
+  // create x-axis
   var xAxis = d3.svg.axis()
         .scale(xScale)
         .orient("bottom");
   
+  // create y-axis
   var yAxis = d3.svg.axis()
         .scale(y)
         .orient("left");
-
-  var svg = d3.select(".example7")
+ 
+  // reference variable for svg element
+  var svg = d3.select(".example")
           .append("svg")
           .attr("width", width + margin.left + margin.right)
           .attr("height", height + margin.bottom + margin.top)
@@ -437,8 +443,8 @@ Result:
 <div class="example7">
 </div>
 
-Now that looks like a legit bar graph! All you need to know to add a axis to your  
-data visualization is the scale and the orientation. D3.js needs to know how to create the 
+Now that looks like a legit bar graph! All you need to know to add a axis to your data 
+visualization is the scale and the orientation. D3.js needs to know how to create the 
 axis based on a scale and where to put it in the svg canvas.
 
 #### Conculsion
