@@ -1,0 +1,19 @@
+---
+layout: music
+date:   2016-03-05 14:00:00
+categories: [music]
+hidden: true
+---
+1. Tobu - Damn Son
+2. Flume - Never Be Like You feat. Kai
+3. Florence + The Machine - Delilah (Galantis Remix)
+4. Matthew Parker - Gone
+5. Purple Souls - Williamsburg (Urban Contact Remix)
+6. Trutopia - Say You'll Stay
+7. Samantha Jade - Always
+8. Hardwell ft. Jake Reese - Run Wild
+9. Years & Years - Desire ft. Tove Lo
+10. Rain Man - Bring Back The Summer (Ft. Oly)
+11. Janelle Kroll - Sunny Days (BKAYE Remix)
+12. Miguel - Waves ft. Kacey Musgraves
+13. Marian Hill - Down

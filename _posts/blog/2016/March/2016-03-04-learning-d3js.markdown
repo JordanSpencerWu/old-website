@@ -193,7 +193,7 @@ methods that help us create scalable data visualization, the one we are going to
 scale. We all remember learning about domain and range in math class, scale are function that 
 map from an input domain to an output range. The domain in a function usually refers to the independent 
 variable which is the x-axis on a graph. A function needs this independent variable say `x` to determine 
-the dependent variable `y`. The domain is usually the min and max value of your data your will pass 
+the dependent variable `y`. The domain is usually the min and max value of your data you will pass 
 into the function and the range is the max and min of the x or y axis of the canvas. We are basically 
 trying to normalize our data value with the given output range. Let's create a linear scale for our 
 height of the `rect` element.
