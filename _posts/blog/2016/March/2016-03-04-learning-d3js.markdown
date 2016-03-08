@@ -312,22 +312,7 @@ power of scaling!
         width: width / data.length - 1,
         height: function(d) {return y(d);}
       })
-      .style("fill", "steelblue");
-
-    // bind data to text
-    svg.selectAll("text")
-      .data(data)
-      .enter()
-      .append("text")
-      .text(function (d) { return d; })
-      .attr({
-        "text-anchor": "middle",
-        x: function(d, i) {return i * (width / data.length)+(width / data.length - 1) / 2;},
-        y: function(d) { return height - y(d)+14; },
-        "font-family": "sans-serif",
-        "font-size": 12,
-        "fill": "#ffffff"
-      });   
+      .style("fill", "steelblue"); 
   </script>
 {% endhighlight %}
 
@@ -683,7 +668,7 @@ Result:
     .attr("class", "y-axis")
     .call(yAxis);
     
-  // bind data to rect
+  //bind data to rect
   svg4.selectAll("rect")
     .data(data)
     .enter()
@@ -695,21 +680,6 @@ Result:
       height: function(d) {return yScale(d.customers);}
     })
     .style("fill", "steelblue");
-
-  // bind data to text
-  svg4.selectAll("text")
-    .data(data)
-    .enter()
-    .append("text")
-    .text(function (d) { return d.customers; })
-    .attr({
-      "text-anchor": "middle",
-      x: function(d, i) {return i * (width / data.length)+(width / data.length - 1) / 2;},
-      y: function(d) { return height - yScale(d.customers)+14; },
-      "font-family": "sans-serif",
-      "font-size": 12,
-      "fill": "#ffffff"
-    });
     
     // example 8
     var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
