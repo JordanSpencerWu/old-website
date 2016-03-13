@@ -1,0 +1,27 @@
+---
+layout: default
+title: Booklist
+---
+<header class="blog-wrapper">
+  <p class="blog-info">
+    My goal is to read one book every month!
+  </p>
+</header>
+
+<div class="row">
+  {% for post in site.categories.book %}
+    <div class="col s12 m6 offset-m3">
+      <div class="card">
+        <div class="card-image">
+          <img class="responsive-img" src="{{post.img-path}}">
+        </div>
+        <div class="card-content">
+          <p>{{ post.description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ post.url | prepend: site.baseurl }}">My Notes</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
