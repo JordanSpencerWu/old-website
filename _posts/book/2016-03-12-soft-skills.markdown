@@ -45,5 +45,4 @@ I like how the book makes a big emphasis on teaching. I know that the only way t
 What makes this book unique and amazing is that it has a chapter for _Fitness_. I have a gym membership ever since I was in high school. I enjoy going to the gym and working out, it a great way for me to relax and release stress. Over the years I tried my best to go to the gym as least four times a week. There are times where I get lazy and skip going to the gym, then I regret skipping the gym. I noticed that it's hard for me to gain mass and weight. I have the skinny genetics where I can eat anything I want without gaining any weight. Some people might think it's a good thing, but I personally want to gain weight. Fitness has always been important to me to the point of being as strong and fit as I can be. I enjoy reading this chapter that promotes fitness along with being a software developer.
 
 This book was a great read. There are many things in the book that I didn't talk about and only went through some of the topics that I can relate to. This book help me understand how to enjoy life while being a software developer.  
- 
->>>>>>> 3822ca5850bc5fa5fc850aff17ecd3eceedf8bdf
+
