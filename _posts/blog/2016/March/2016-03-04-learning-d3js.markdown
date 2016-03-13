@@ -428,7 +428,7 @@ Result:
 <div class="example7">
 </div>
 
-Now that looks like a legit bar graph! All you need to know to add a axis to your data 
+Now that looks like a bar graph that you see in presentations! All you need to know to add a axis to your data 
 visualization is the scale and the orientation. D3.js needs to know how to create the 
 axis based on a scale and where to put it in the svg canvas.
 
