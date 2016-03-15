@@ -3,7 +3,7 @@ layout: post
 title:  "Learning Rem and Em Length Unit"
 date:   2016-03-04 13:15:00
 ---
-<article class="module" style="font-size:1.5rem;">
+<article class="module" style="font-size:1rem;">
   <p style="font-size:1em;">
     Rem and em are common CSS property values that are used for relative length. 
     The CSS length value come in two different forms, absolute and relative. The 
@@ -29,7 +29,7 @@ date:   2016-03-04 13:15:00
 
 <div class="font-size-control" style="width:300px; margin:0 auto; text-align:center; border: 5px solid #00BCD4; padding: 10px;">
   Change the rem in the text above
-  <input type="range" min="1" max="2.5" step="0.1" value="1.5">
+  <input type="range" min="0.8" max="2.5" step="0.1" value="1">
 </div>
 
 #### Conclusion
