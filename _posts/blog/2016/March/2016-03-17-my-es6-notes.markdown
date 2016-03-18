@@ -262,6 +262,7 @@ the `this` value, arrow function are always anonymous.
   var sum = arr.reduce((a, b) => a + b);  // 66
 {% endhighlight %}
 
+<<<<<<< HEAD
 This will DRY our code and the best part is it will lexically bind the `this` value, this 
 will be useful when creating inner/nested functions.
 
