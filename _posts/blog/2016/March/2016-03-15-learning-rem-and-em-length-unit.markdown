@@ -12,7 +12,7 @@ date:   2016-03-15 13:15:00
     the relative length depends on other factors, a use case would be creating a 
     responsive web layout that depends on other length property. Rem and em are relative 
     length that are used for their responsiveness and scalability. In this blog I will 
-    use rem and em for setting responsive and scalability font-size in this blog.
+    use rem and em for setting responsive and scalable font-size in this blog.
   </p>
 
   <p style="font-size:1em;">
