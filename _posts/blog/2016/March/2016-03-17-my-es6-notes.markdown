@@ -106,7 +106,7 @@ can assign variables by mirroring the pattern of the array or object.
 {% endhighlight %}
 
 Destructuring is a powerful technique that allows you to only get the data you 
-need. You can also you destructuring as a parameter in a function.
+need. You can also use destructuring as a parameter in a function.
 
 #### Default Parameter
 Default parameter are common in programming and now JavaScript supports them. Before this 
@@ -262,7 +262,6 @@ the `this` value, arrow function are always anonymous.
   var sum = arr.reduce((a, b) => a + b);  // 66
 {% endhighlight %}
 
-<<<<<<< HEAD
 This will DRY our code and the best part is it will lexically bind the `this` value, this 
 will be useful when creating inner/nested functions.
 
@@ -291,7 +290,7 @@ of each distinct property.
 
 #### Set
 This is a new data structure for JavaScript that stores __unique__ values of any type, 
-whether primitive nalues or object references. Each element in the set are unique and 
+whether primitive values or object references. Each element in the set are unique and 
 you cannot add values that are already in the set. 
 Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">here</a> for 
 more information.
