@@ -1,0 +1,21 @@
+---
+layout: music
+date:   2016-04-01 14:00:00
+categories: [music]
+hidden: true
+---
+1. Kevin McCall ft. Joelle James - Doormat
+2. Blake Shelton - Came Here To Forget
+3. Jason Derulo - If It Ain't Love
+4. Faydee - If I Didn't Love You
+5. Faydee - Legendary
+6. Faydee - Jealous
+7. Troye Sivan - Youth (Gryffin Remix)
+8. Guy Furious - Enemy (ft. Gia)
+9. Rihanna - Kiss It Better
+10. Tiėsto & Bobby Puma - Making Me Dizzy
+11. CS & Miskeyz ft. Emma Carn - Welcome To Paradise (De Hofnar Remix)
+12. Cash Cash - Aftershock (Justin Caruso Remix)
+13. Tritonal - Blackout
+14. Starlyte ft. Brenton Mattheus - When The Earth Goes Dark
+15. Morgan Page ft. Angelika Vee - Safe Till Tomorrow (Pegboard Nerds Remix)
