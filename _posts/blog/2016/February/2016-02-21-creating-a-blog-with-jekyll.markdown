@@ -120,7 +120,7 @@ themes sites:
 
 * <a href="http://jekyllthemes.org/" target="_blank">jekyllthemes.org</a>
 * <a href="https://github.com/jekyll/jekyll/wiki/Themes" target="_blank">wikiThemes</a>
-* <a href="http://jekyllthemes.io/" target="_blank">jekyllthemes.io/</a>
+* <a href="http://jekyllthemes.io/" target="_blank">jekyllthemes.io</a>
 
 #### css
 This is the folder that converts all your sass files into css. This folder is important when 

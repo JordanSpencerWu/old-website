@@ -4,7 +4,7 @@ title:  "My Node.js Notes"
 date:   2016-04-01 13:15:00
 ---
 Node.js is a server side scripting language that uses Chrome's V8 JavaScript 
-engine. This engine allows Node.js to be cross-platform, it doesn't matter if you're 
+engine. Node.js is cross-platform, it doesn't matter if you're 
 using a Windows, Mac, or Linux!! The best part of Node.js is it makes I/O operations 
 asynchronous and will optimize the throughput in your web applications. Many web 
 applications use Node.js for it's event driven architecture and non-blocking features. 
@@ -16,7 +16,7 @@ The first thing you need is to download Node.js on your machine. You can click t
 <a href="https://nodejs.org/en/download/" target="_blank">link</a> to go to the download 
 page. By downloading Node.js on your machine you can start to use JavaScript in your terminal 
 or command window. Remember that Node.js is a JavaScript runtime built on Chrome's V8 
-JavaScript engine. Now you can use JavaScript not only on your browser but on your machine! Let's 
+JavaScript engine. Now you can use JavaScript not only in your browser but on your machine! Let's 
 quickly test this out, in your terminal or command window type the following.
 
 {% highlight shell %}
@@ -46,7 +46,7 @@ This will produce the same output as the example above.
 What makes Node.js so great is that it supports non-blocking code. This will increase your 
 throughput in your web application, in other words allows more work on a process. There are two 
 ways of running your code in Node.js __synchronous__ or __asynchronous__. A __synchronous__ process 
-is similar to doing something in a sequence and waiting for a task to finish before continuing 
+is similar to doing something in a sequence, waiting for a task to finish before continuing 
 to another task. An example will be reading a file then outputing before starting a new task. 
 
 {% highlight javascript %}
@@ -104,12 +104,12 @@ exports and require methods for distributing JavaScript files! The __require()__
 JavaScript object into your code, this is where modularized code comes in handy. Node makes it easy to 
 share your modularized code using the __module.exports__, this allows you to define what codes you are 
 exporting (Remember in JavaScript, functions are first-class objects). 
-To see all the global variables and methods check out the documentation of the version of Node you are 
+To see all the global variables and methods check out the documentation of the version of Node.js you are 
 using and click on __Globals__.
 
 #### HTTP
 You are able to create servers in Node that listens to client's request and will response to them. In web 
-development the clients will make request to the server then the server will response to the request according to 
+development the clients will make requests to the server then the server will response to the request according to 
 the code you provide. In Node.js there is a module called __HTTP__ which allows you to create a server that will 
 listen to http requests. Here is a simple example of creating a server in node.
 
@@ -127,12 +127,12 @@ listen to http requests. Here is a simple example of creating a server in node.
   });
 {% endhighlight %}
 
-To import the __HTTP__ module into your script you have to use the __require('http')__ which allows you to 
-any of the methods in module's library. The hostname __127.0.0.1__ is the domain name in the URL for example, 
+To import the __HTTP__ module into your script you have to use the __require('http')__ which allows you to use
+any of the methods in the __HTTP__ module. The hostname __127.0.0.1__ is the domain name in the URL for example, 
 you can type __http://127.0.0.1:1337/__ or __http://localhost:1337/__ in a web browser to make a http request 
 to this server. The code above will create a server that is listening on port 1337 on the domain name 
 localhost (this is a local server on your machine), once it receives this http request it will response with a 
-status code of 200, with content-type of text/plain and will output a string 'Hello World' on the webpage.
+status code of 200, with content-type of text/plain and will output a string 'Hello World' to the webpage.
 
 #### Events
 Remember that Node.js is event-driven!! A event is when a action in the DOM is triggered for example 
@@ -152,8 +152,8 @@ is a class of __EventEmitter__ which has a data event. Here is a example of how 
   // ERR: Spilled Milk
 {% endhighlight %}
 
-We have to import the event module from the Node.js library. After we will create a new instance of the 
-EventEmitter class, we can then create a new event call __error__. The __error__ event takes in a message 
+We have to import the __Event__ module from the Node.js library. After we will create a new instance of the 
+EventEmitter class, we can then create a new event called __error__. The __error__ event takes in a message 
 parameter that will be used when this event is emitted. To trigger or call this event we would use the dot 
 notation to invoke the __emit__ method, this will trigger/call the event. This was a simple example of how 
 events are used in Node.js, there are many applications in using events in Node.js.
@@ -169,7 +169,7 @@ writing this blog has ES6 features.
 <a href="https://www.npmjs.com/" target="_blank">NPM.js</a> is known as Node Package Manager, is the package manager for JavaScript. This is where 
 all the JavaScript code are shared between developers. There are tons of packages that can be imported 
 into your program and npm is commonly used when finding these packages. When you downloaded Node.js it comes 
-with __npm__. Note that npm usually have more updates then Node.js!
+with __npm__. Note that npm usually has more updates then Node.js!
  
 {% highlight shell %}
   $ node -v // check node version
@@ -222,5 +222,6 @@ they are __major__, __minor__, and __patch__.
 Node.js is used in many web application and for prototyping new JavaScript libraries. Node.js can be 
 used to create a web application using only JavaScript! This is called the MEAN stack, which stands for 
 __Mongodb__, __Express.js__, __Angular.js__, and __Node.js__. NPM is used to install many of the JavaScript 
-libraries like __Webpack__, __React.js__, __Polymer.js__, and more. NPM is similar to __Bundler__, 
-a manager for ruby gems used for Ruby projects.
+libraries like __Webpack__, __React.js__, __Polymer.js__, and more. You can learn Node.js by going to 
+<a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> and doing the __learnyounode__ workshopper. 
+Note: NPM is similar to __Bundler__, a manager for ruby gems used for Ruby projects.
