@@ -221,7 +221,10 @@ they are __major__, __minor__, and __patch__.
 
 Node.js is used in many web application and for prototyping new JavaScript libraries. Node.js can be 
 used to create a web application using only JavaScript! This is called the MEAN stack, which stands for 
-__Mongodb__, __Express.js__, __Angular.js__, and __Node.js__. NPM is used to install many of the JavaScript 
-libraries like __Webpack__, __React.js__, __Polymer.js__, and more. You can learn Node.js by going to 
+<a href="https://www.mongodb.org/" target="_blank">Mongodb</a>, <a href="http://expressjs.com/" target="_blank">Express.js</a>, 
+<a href="https://angularjs.org/" target="_blank">Angular.js</a>, and <a href="https://nodejs.org/en/" target="_blank">Node.js</a>. 
+NPM is used to install many of the JavaScript libraries like <a href="https://webpack.github.io/" target="_blank">Webpack</a>, 
+<a href="https://facebook.github.io/react/" target="_blank">React.js</a>, <a href="https://www.polymer-project.org/1.0/" target="_blank">Polymer.js</a>, 
+and more. You can learn Node.js by going to 
 <a href="http://nodeschool.io/" target="_blank">nodeschool.io</a> and doing the __learnyounode__ workshopper. 
-Note: NPM is similar to __Bundler__, a manager for ruby gems used for Ruby projects.
+Note: NPM is similar to <a href="http://bundler.io/" target="_blank">Bundler</a>, a manager for ruby gems used for Ruby projects.
