@@ -58,7 +58,9 @@ layout: default
         {% endif %}
         <div class="paragraph">
           {{ post.excerpt }}
-          <span><a href="{{ post.url | prepend: site.baseurl }}">Read More...</a></span>
+        </div>
+        <div style="text-align:center; margin:10px 0;">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-btn">Read More</a>
         </div>
       </div>
     </div>
