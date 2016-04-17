@@ -25,7 +25,7 @@ more control of data flow which lead to predictable results.
 #### Dispatcher
 The __dispatcher__ is where you manages all the data flow in the web application. The goal 
 of the __dispatcher__ is to pass data into a store. The data is called __actions__ which will be 
-used in the __store__ to change the state of the data flow. Each __store__ will register a 
+used in the __store__ to change the state of the data. Each __store__ will register a 
 __dispatcher__ and depending on the __actions__ type will update the data. The __dispatcher__ 
 only has one task of providing stores with __actions__ for the data in the store to change. Flux provides a __dispatcher__ 
 module that you can use with Node.js. Click 

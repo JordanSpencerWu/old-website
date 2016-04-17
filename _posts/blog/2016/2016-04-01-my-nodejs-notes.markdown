@@ -26,7 +26,7 @@ quickly test this out, in your terminal or command window type the following.
 
 The `node` command is a CLI command that will run the JavaScript runtime in your terminal. This 
 allows you to run JavaScript commands in your terminal, this is similar to a JavaScript sandbox. 
-Another way to use Node.js is to create a JavaScript file and then run it using the `node` command. 
+Another way to use Node.js is to create a JavaScript file and then run it using the `node <filename>` command. 
 Here is a quick example, first create a file with a extension `.js`.
 
 {% highlight javascript %}
