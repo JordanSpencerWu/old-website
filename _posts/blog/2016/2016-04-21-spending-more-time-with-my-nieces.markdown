@@ -43,4 +43,4 @@ found out one of my nieces wants to become an author and writes books!! They wil
 on youtube. They love Lindsey Stirling music videos, I was able to listen to them singing. I told them that I will spend more time with them and promised 
 to visit them every weekend!! I plan on learning and growing with my nieces while teaching them how to code.
 
-<img class="responsive-img" src="{{ "/assets/images/niece.jpg" | prepend: site.baseurl }}">
+<img class="responsive-img" src="/assets/images/niece.jpg">
