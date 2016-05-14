@@ -1,0 +1,43 @@
+---
+layout: music
+date:   2016-05-13 14:00:00
+categories: [music]
+hidden: true
+---
+1. Marshmello - Alone
+2. Stephen - Mr. Man
+3. NERVO  feat. Nicky Romero - Let It Go
+4. Elektronomia - Imagination
+5. Radiohead - Daydreaming
+6. Allie X - Too Much To Dream
+7. Ariana Grande Feat Future - Everyday
+8. Flo Rida ft. Liz Elias and Akon - At Night
+9. BUNT. – Coming Home (ft. Sons Of The East)
+10. Chris Brown - Where She Is (Home)
+11. Gemini - Do It For Love
+12. Jordan Fisher - All About Us
+13. Somewhere Else ft. Majid Jordan - Move Together
+14. OneRepublic - Wherever I Go
+15. Ashworth - A Thousand Miles
+16. Bobby Brackins ft. Austin Mahone - Joyride
+17. Krewella - Broken Record
+18. MØ - Final Song
+19. Ella Henderson - Now that you love me again
+
+##### Kygo - Cloud Nine
+
+1. Intro
+2. Stole the Show (feat. Parson James)
+3. Fiction (feat. Tom Odell)
+4. Raging (feat. Kodaline)
+5. Firestone (feat. Conrad Sewell)
+6. Happy Birthday (feat. John Legend)
+7. I'm in Love (feat. James Vincent McMorrow)
+8. Oasis (feat. Foxes)
+9. Not Alone (feat. RHODES)
+10. Serious (feat. Matt Corby)
+11. Stay (feat. Maty Noyes)
+12. Nothing Left (feat. Will Heard)
+13. Fragile
+14. For What It's Worth (feat. Angus & Julia Stone)
+15. Carry Me (feat. Julia Michaels)
