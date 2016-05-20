@@ -32,7 +32,7 @@ in every programming language I know.
   System.out.print("Hello World!");
 {% endhighlight %}
 
-#### C#
+<h4>C#</h4>
 
 {% highlight csharp %}
   System.Console.WriteLine("Hello, World!");
