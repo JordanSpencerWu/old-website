@@ -7,14 +7,6 @@ layout: default
     <div class="card-body">
       <p><i class="fa fa-user"></i> {{ site.author }}</p>
       <p><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</p>
-      {% if site.disqus_shortname %}
-        <i class="fa fa-comment"></i>
-        <a href="{{ site.url }}{{ page.url }}index.html#disqus_thread" data-disqus-identifier="{{ page.url }}"></a>
-        {% if post.update_date %}
-          &middot;
-          Updated {{ post.update_date | date: site.date_format }}
-        {% endif %}
-      {% endif %}
       <div class="post-content">
         {{ content }}
       <div>
