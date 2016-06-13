@@ -44,14 +44,16 @@ layout: default
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <div class="custom-card shadow">
-      <h2 class="card-header">{{ post.title }}</h2>
       <div class="card-body">
-        <p><i class="fa fa-user"></i> {{ site.author }}</p>
-        <p><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</p>
+        <time class="bar-time">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <header class="card-header">{{ post.title }}</header>
+        <div class="author-byline">
+          <span class="author-byline-inside">By {{ site.author }}</span>
+        </div>
         <div class="paragraph">
           {{ post.excerpt }}
         </div>
-        <div style="text-align:center; margin:10px 0;">
+        <div class="read-me-btn">
           <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-btn">Read More</a>
         </div>
       </div>

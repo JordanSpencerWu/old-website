@@ -64,19 +64,15 @@
   background-color: #fff;
   margin: 20px 0;
   border-radius: 2px;
-  padding: 20px 0;
 }
 
 .card-header {
   font-size: 1.75em;
-  padding: 10px;
-  text-align: center;
+  text-align: left;
   margin: 0;
   font-size: 1.5em;
-}
-
-.paragraph {
-  padding: 10px;
+  line-height: 1.1;
+  font-weight: 900;
 }
 
 .card-action {
@@ -116,12 +112,7 @@
 
 .card-body {
   font-size: 1rem;
-  padding: 0 10px;
-  
-  p {
-    margin: 0;
-    padding: 4px 0;
-  }
+  padding: 10%;
 }
 
 .blog-wrapper {
@@ -138,10 +129,6 @@
   text-align: center;
 }
 
-.post-content {
-  padding: 20px 0;
-}
-
 pre, code { font-family: inherit; }
 
 pre { padding: .5rem 1rem; font-size: 0.75rem; line-height: 1.5; border: 1px solid #e6e1dc; background-color: #fff; }
@@ -151,10 +138,9 @@ code { padding: .1rem .25rem; background-color: #f4f4f4; }
 pre > code { padding: 0; background-color: #fff; }
 
 .post p {
-  word-spacing: .5;
-  line-height: 150%;
+  font-weight: 400;
+  line-height: 1.45;
   font-size: 1.25em;
-  margin: 10px 0;
 }
 
 .video-container {
@@ -224,4 +210,27 @@ pre > code { padding: 0; background-color: #fff; }
   border: 1px solid #1976D2;
   padding: 13px 23px;
   color: #1976D2;
+}
+
+.bar-time {
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+  text-transform: uppercase;
+  font-size: 0.8 rem;
+  letter-spacing: 2px;
+  display: block;
+  color: #777;
+}
+
+.author-byline {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin: 16px 0;
+}
+
+.read-me-btn {
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 20px;
 }

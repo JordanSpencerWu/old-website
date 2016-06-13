@@ -2,14 +2,16 @@
 layout: default
 ---
 <article class="post">
-  <div class="card shadow">
-    <h1 class="card-header">{{ page.title }}</h1>
+  <div class="custom-card shadow">
     <div class="card-body">
-      <p><i class="fa fa-user"></i> {{ site.author }}</p>
-      <p><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y" }}</p>
-      <div class="post-content">
+      <time class="bar-time">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <header class="card-header">{{ page.title }}</header>
+      <div class="author-byline">
+        <span class="author-byline-inside">By {{ site.author }}</span>
+      </div>
+      <div class="paragraph">
         {{ content }}
-      <div>
+      </div>
     </div>
   </div>
 </article>

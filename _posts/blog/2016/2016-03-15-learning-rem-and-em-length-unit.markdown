@@ -27,7 +27,7 @@ date:   2016-03-15 13:15:00
   </p>
 </article>
 
-<div class="font-size-control" style="width:300px; margin:0 auto; text-align:center; border: 5px solid #00BCD4; padding: 10px;">
+<div class="font-size-control" style="margin:0 auto; text-align:center; border: 5px solid #00BCD4; padding: 10px;">
   Change the rem in the text above
   <p class="range-field">
     <input type="range" min="0.8" max="2.5" step="0.1" value="1">
