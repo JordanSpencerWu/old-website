@@ -34,28 +34,29 @@ layout: default
   </svg>
 </div>
 
-<header class="blog-wrapper">
-  <p class="blog-info">
-    Welcome to my blog site! I will be blogging about current technologies I am learning 
+<div class="row">
+  <div class="col s12">
+    <div class="card-panel cyan darken-2">
+      <span class="white-text">Welcome to my blog site! I will be blogging about current technologies I am learning 
     in web development.
-  </p>
-</header>
+      </span>
+    </div>
+  </div>
+</div>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <div class="custom-card shadow">
       <div class="card-body">
         <time class="bar-time">{{ post.date | date: "%b %-d, %Y" }}</time>
-        <header class="card-header">{{ post.title }}</header>
+        <a href="{{ post.url | prepend: site.baseurl }}"><header class="card-header">{{ post.title }}</header></a>
         <div class="author-byline">
           <span class="author-byline-inside">By {{ site.author }}</span>
         </div>
         <div class="paragraph">
           {{ post.excerpt }}
         </div>
-        <div class="read-me-btn">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-btn">Read More</a>
-        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read More <i class="fa fa-angle-double-right" aria-hidden="true""></i></a>
       </div>
     </div>
 {% endfor %}
