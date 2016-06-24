@@ -15,12 +15,4 @@ hidden: true
 9. Gazzo - What You Waiting For (ft. Sugar Whiskey)
 10. Jess Glynne - Don't Be So Hard On Yourself (KREAM Remix)
 
-##### Quinn XCII - BLOOM EP
-
-1. Light On
-2. These Days
-3. Bootleggin'
-4. Fight Song
-5. New Wave
-6. Good Friend
-7. Bones
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A7aM6v0GcQ3UXbjg1I6NgyA" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

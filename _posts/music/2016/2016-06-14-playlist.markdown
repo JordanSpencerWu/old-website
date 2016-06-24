@@ -21,17 +21,4 @@ hidden: true
 15. Sam Feldt x Lucas & Steve feat. Wulf - Summer On You
 16. Lost Frequencies ft. Sandro Cavazza - Beautiful Life
 
-##### Netsky - 3
-
-1. Thunder (feat. Emeli Sandé)
-2. Work It Out (feat. Digital Farm Animals)
-3. Rio (feat. Digital Farm Animals)
-4. Leave It Alone (feat. Saint Raymond)
-5. Who Knows (feat. Paije)
-6. Go 2
-7. High Alert (feat. Sara Hartman)
-8. TNT (feat. Dave 1 from Chromeo)
-9. Stay Up with Me (feat. Arlissa)
-10. Forget What You Look Like ft. Lowell
-11. Bird of Paradise
-12. Higher
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5RpkF55XZzzpWO0CnqcWw8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

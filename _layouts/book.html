@@ -5,12 +5,10 @@ layout: default
   <header class="card-header">
     {{ page.title }}
   </header>
-  <header class="card-header">
-    by {{ page.author }}
-  </header>
-  <div class="card-body">
-    <div class="post-content">
-      {{ content }}
-    <div>
+  <div class="author-byline">
+    <span class="author-byline-inside">By {{ page.author }}</span>
   </div>
+  <div class="paragraph">
+    {{ content }}
+  <div>
 </article>

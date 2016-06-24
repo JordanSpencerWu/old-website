@@ -26,15 +26,4 @@ hidden: true
 20. ROOKIES - Believe
 21. RÜFÜS DU SOL - You Were Right (Louis Futon Remix)
 
-##### MAX - Hell's Kitchen Angel
-
-1. Hell's Kitchen Angel
-2. Gibberish (feat. Hoodie Allen)
-3. Wrong (feat. Lil Uzi Vert)
-4. Holla
-5. Lights Down Low
-6. 10 Victoria's Secret Models
-7. Home
-8. Mug Shot (feat. Sirah)
-9. Basement Party
-10. Lost My Way
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1fVVnWHdCvIas2Rdmc25Oc" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

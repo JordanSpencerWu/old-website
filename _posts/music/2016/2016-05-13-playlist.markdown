@@ -24,20 +24,4 @@ hidden: true
 18. MØ - Final Song
 19. Ella Henderson - Now that you love me again
 
-##### Kygo - Cloud Nine
-
-1. Intro
-2. Stole the Show (feat. Parson James)
-3. Fiction (feat. Tom Odell)
-4. Raging (feat. Kodaline)
-5. Firestone (feat. Conrad Sewell)
-6. Happy Birthday (feat. John Legend)
-7. I'm in Love (feat. James Vincent McMorrow)
-8. Oasis (feat. Foxes)
-9. Not Alone (feat. RHODES)
-10. Serious (feat. Matt Corby)
-11. Stay (feat. Maty Noyes)
-12. Nothing Left (feat. Will Heard)
-13. Fragile
-14. For What It's Worth (feat. Angus & Julia Stone)
-15. Carry Me (feat. Julia Michaels)
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0uMIzWh1uEpHEBell4rlF8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

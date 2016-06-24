@@ -25,29 +25,6 @@ hidden: true
 19. Juicy M - Hit The Road feat. Chrom3
 20. Jessie Ware - Till The End
 
-##### Shane Harper - Like I Did
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3l7iY2BGSpAiRPHWycedlq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
-1. Like I Did
-2. See You Around
-3. Anything but Love
-4. P.O.W.E.R
-5. Satellite
-
-##### Flume - Skin
-
-1. Helix
-2. Never Be Like You (feat. Kai)
-3. Lose It (feat. Vic Mensa)
-4. Numb & Getting Colder (feat. Kucka)
-5. Say It (feat. Tove Lo)
-6. Wall F**k
-7. Pika
-8. Smoke And Retribution feat. Vince Staples & Kucka
-9. 3
-10. When Everything Was New
-11. You Know feat. Allan Kingdom & Raekwon
-12. Take a Chance (feat. Little Dragon)
-13. Innocence (feat. AlunaGeorge)
-14. Like Water (feat. MNDR)
-15. Free
-16. Tiny Cities (feat. Beck)
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6VHCF8ykDo3STafE5JfMAs" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

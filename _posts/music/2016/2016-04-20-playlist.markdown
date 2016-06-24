@@ -29,19 +29,4 @@ hidden: true
 23. Martin Garrix feat. Mike Shinoda - Waiting For Tomorrow
 24. Noah Neiman & We Are Rome feat. Corey Ferrugia - Paradise
 
-##### Gareth Emery - 100 Reasons To Live
-
-1. The Story so Far
-2. Cloudline (feat. Joseph)
-3. Far from Home (feat. Gavrielle)
-4. Reckless (feat. Wayward Daughter)
-5. We Were Young (feat. Alex & Sierra)
-6. CVNT5 (feat. Ashley Wallbridge)
-7. Make It Happen (feat. Lawson)
-8. Hands (feat. Alastor & London Thor)
-9. Lost (feat. Janet Devlin)
-10. Save Me (feat. Christina Novelli)
-11. Until We Meet Again (feat. Ben Gold)
-12. I Could Be Stronger (But Only for You) (feat. Corey Sanders)
-13. Sansa
-14. Cruiser (feat. Alex Sonata)
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5HicuC798USMxrV1PP4pxX" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

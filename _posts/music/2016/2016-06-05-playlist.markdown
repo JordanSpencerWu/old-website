@@ -23,13 +23,4 @@ hidden: true
 17. Otto Knows feat. Avicii - Back Where I Belong
 18. Betty Who - I Love You Always Forever
 
-##### Jai Waetford - Heart Miles
-
-1. Waves
-2. Worlds
-3. The Nights We Won't Remember
-4. Heart Miles
-5. Elements
-6. Living Not Dreaming
-7. The Worst Goodbye
-8. Shy (2016 Mix)
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1cAUTH46IrJSTrdu0s7fI8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

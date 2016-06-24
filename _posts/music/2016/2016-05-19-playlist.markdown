@@ -22,15 +22,4 @@ hidden: true
 16. Steve Aoki & Boehm - Back 2 U feat. WALK THE MOON
 17. Miro - Promise (ft. Satellite Empire)
 
-##### Stephen - Sincerely
-
-1. Start a Fire (feat. IN-Q)
-2. Your Life
-3. Remembering Myself
-4. Line It Up
-5. Fly Down
-6. Solid as a Stone
-7. Outro
-8. Mr. Man
-9. Crossfire
-10. Sincerely
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0HOofIzmgO1zaHMsoU475w" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>

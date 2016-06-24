@@ -17,16 +17,4 @@ hidden: true
 11. Paris & Simo - Reunite (Ft. Patrick Moreno & Aloma Steele)
 12. Years feat. Ivar Lisinski - The End
 
-##### Dami Im - Classic Carpenters
-
-1. (They Long to Be) Close to You
-2. There's a Kind of Hush
-3. Yesterday Once More
-4. Superstar
-5. Rainy Days and Mondays
-6. This Masquerade
-7. A Song for You
-8. I Won't Last a Day Without You
-9. I Need to Be in Love
-10. Hurting Each Other
-11. We've Only Just Begun
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0wBP8GaN80GPolmY8M19em" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
