@@ -25,6 +25,9 @@ hidden: true
 19. Juicy M - Hit The Road feat. Chrom3
 20. Jessie Ware - Till The End
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3l7iY2BGSpAiRPHWycedlq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6VHCF8ykDo3STafE5JfMAs" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A3l7iY2BGSpAiRPHWycedlq&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6VHCF8ykDo3STafE5JfMAs&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

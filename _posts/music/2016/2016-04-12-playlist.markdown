@@ -26,4 +26,6 @@ hidden: true
 20. ROOKIES - Believe
 21. RÜFÜS DU SOL - You Were Right (Louis Futon Remix)
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1fVVnWHdCvIas2Rdmc25Oc" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1fVVnWHdCvIas2Rdmc25Oc&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

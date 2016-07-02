@@ -15,4 +15,6 @@ hidden: true
 9. Gazzo - What You Waiting For (ft. Sugar Whiskey)
 10. Jess Glynne - Don't Be So Hard On Yourself (KREAM Remix)
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A7aM6v0GcQ3UXbjg1I6NgyA" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A7aM6v0GcQ3UXbjg1I6NgyA&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

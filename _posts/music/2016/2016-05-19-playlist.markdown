@@ -22,4 +22,6 @@ hidden: true
 16. Steve Aoki & Boehm - Back 2 U feat. WALK THE MOON
 17. Miro - Promise (ft. Satellite Empire)
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0HOofIzmgO1zaHMsoU475w" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A0HOofIzmgO1zaHMsoU475w&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

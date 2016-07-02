@@ -29,4 +29,6 @@ hidden: true
 23. Martin Garrix feat. Mike Shinoda - Waiting For Tomorrow
 24. Noah Neiman & We Are Rome feat. Corey Ferrugia - Paradise
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5HicuC798USMxrV1PP4pxX" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5HicuC798USMxrV1PP4pxX&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

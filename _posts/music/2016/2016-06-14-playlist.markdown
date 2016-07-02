@@ -21,4 +21,6 @@ hidden: true
 15. Sam Feldt x Lucas & Steve feat. Wulf - Summer On You
 16. Lost Frequencies ft. Sandro Cavazza - Beautiful Life
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5RpkF55XZzzpWO0CnqcWw8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5RpkF55XZzzpWO0CnqcWw8&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

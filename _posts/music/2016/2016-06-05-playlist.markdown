@@ -23,4 +23,6 @@ hidden: true
 17. Otto Knows feat. Avicii - Back Where I Belong
 18. Betty Who - I Love You Always Forever
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1cAUTH46IrJSTrdu0s7fI8" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A1cAUTH46IrJSTrdu0s7fI8&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>

@@ -41,4 +41,6 @@ hidden: true
 35. Technimatic - Parallel (ft. Zara Kershaw)
 36. Drake Chisholm - Hometown
 
-<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A152cEY1ruML4NdagKlaFMD" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A152cEY1ruML4NdagKlaFMD&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>  
