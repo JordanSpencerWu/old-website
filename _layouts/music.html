@@ -1,15 +1,11 @@
 ---
 layout: default
 ---
-<article class="post">
-  <div class="card shadow">
-    <header class="music-header">
-      {{ page.date | date: "%b %-d, %Y" }} 
-    </header>
-    <div class="card-body">
-      <div class="post-content">
-        {{ content }}
-      </div>
-    </div>
+<article class="card-body">
+  <header class="music-header">
+    {{ page.date | date: "%b %-d, %Y" }} 
+  </header>
+  <div class="paragraph">
+    {{ content }}
   </div>
 </article>
