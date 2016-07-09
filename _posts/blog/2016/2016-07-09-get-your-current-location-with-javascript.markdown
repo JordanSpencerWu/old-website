@@ -86,6 +86,8 @@ Once we have the geolocation data we can use <a href="https://developers.google.
 
 <div id="map" style="height:50vh;width:100%;"></div>
 
+#### Conclusion
+The Pokémon GO game is watching your position which is similar to the `watchPosition()` method in the Geolocation API. Beware that watching your position using GPS or WiFi consumes your battery power at a faster rate. This bring back memory from when I played Pokémon on my gameboy, I still remember my first lvl 100 pokemon was Nikoking. Lets hope I'm able to find a Nidoran in Pokémon GO!
 
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyAZhjK4Uio-T1ZkADdweo1uxHC9jRUYEM0"></script>
 <script>

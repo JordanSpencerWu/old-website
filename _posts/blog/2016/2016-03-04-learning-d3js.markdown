@@ -3,22 +3,11 @@ layout: post
 title:  "Learning D3.js"
 date:   2016-03-04 13:15:00
 ---
-Data-Driven Documents also known as D3.js is a powerful JavaScript library for 
-adding data visualization to a webpage. D3.js is a data-driven approach to DOM 
-manipulation, this allows you to add svg elements to the DOM that is binded to 
-data. Data visualization help us understand the data by creating graphical 
-representation of data like graphs and charts. Data is everywhere and having 
-these visualization helps us analyze the data. A common data visualization is a 
-bar graph, in this blog I will go over some of the basic of D3.js while creating 
-a bar graph.
+Data-Driven Documents also known as D3.js is a powerful JavaScript library for adding data visualization to a webpage. D3.js is a data-driven approach to DOM manipulation, this allows you to add svg elements to the DOM that is binded to data. Data visualization help us understand the data by creating graphical representation of data like graphs and charts. Data is everywhere and having these visualization helps us analyze the data. A common data visualization is a bar graph, in this blog I will go over some of the basic of D3.js while creating a bar graph.
 
 #### Getting Started
 
-The first thing you need to create cool data visualization is the D3.js JavaScript 
-library. You can download the zip file <a href="https://d3js.org/" target="_blank">here</a>. 
-This library gives you all the built-in methods you need to create svg elements in the 
-DOM using only JavaScript! After downloading this zip file, all you have to unzip and add it to your project. Then 
-add this JavaScript into your html.
+The first thing you need to create cool data visualization is the D3.js JavaScript library. You can download the zip file <a href="https://d3js.org/" target="_blank">here</a>. This library gives you all the built-in methods you need to create svg elements in the DOM using only JavaScript! After downloading this zip file, all you have to unzip and add it to your project. Then add this JavaScript into your html.
 
 {% highlight html %}
   <script src="/relative/path/goes/here/d3.min.js" charset="utf-8"></script>
@@ -26,10 +15,7 @@ add this JavaScript into your html.
 
 #### Selecting an Element
 
-The first thing to understand is how to select an element in the DOM. D3.js is similar to 
-<a href="https://jquery.com/" target="_blank">jQuery</a> when selecting element using selectors. 
-If there is a class on the DOM element you would use a prefix of `.` then the class attribute 
-value to select it with a selector. Let's see a example of selecting a element with a class selector.
+The first thing to understand is how to select an element in the DOM. D3.js is similar to <a href="https://jquery.com/" target="_blank">jQuery</a> when selecting element using selectors. If there is a class on the DOM element you would use a prefix of `.` then the class attribute value to select it with a selector. Let's see a example of selecting a element with a class selector.
 
 {% highlight html %}
   <div class="example">
@@ -50,9 +36,7 @@ Result:
 <div class="example1">
 </div>
 
-The following code will insert elements into our div. With D3.js 
-we are able to add svg into our html with a few lines of code. The following was added 
-into our DOM.
+The following code will insert elements into our div. With D3.js we are able to add svg into our html with a few lines of code. The following was added into our DOM.
 
 {% highlight html %}
   <div class="example">
@@ -64,10 +48,7 @@ into our DOM.
 
 #### Let's Make a Bar Graph
 
-Making a `rect` svg element is easy, but it doesn't tell us anything! For 
-the `rect` to be meaningful it has to represent some data or number. Lets learn how to 
-bind data to our `rect` elements. The easiest way to store our data is in an `Array` 
-in JavaScript. Let's bind our `rect` elements to data from an array.
+Making a `rect` svg element is easy, but it doesn't tell us anything! For the `rect` to be meaningful it has to represent some data or number. Lets learn how to bind data to our `rect` elements. The easiest way to store our data is in an `Array` in JavaScript. Let's bind our `rect` elements to data from an array.
 
 {% highlight html %}
   <div class="example">
@@ -100,25 +81,15 @@ Result:
 
 Now that looks like a bar graph! Lets break down the code:
 
-1. The first things we did was create a few variables that will be used in our svg elements. The data variable is a array of 
-numbers that represents the data we want to bind to our svg element. 
-2. Everytime you use D3.js you need to select a element in your DOM as the starting point. After selecting a element using D3.js 
-`select` method we can `append` a `svg` element to that selected element. This will create a canvas for our data visualization 
-for our svg elements. 
+1. The first things we did was create a few variables that will be used in our svg elements. The data variable is a array of numbers that represents the data we want to bind to our svg element. 
+2. Everytime you use D3.js you need to select a element in your DOM as the starting point. After selecting a element using D3.js `select` method we can `append` a `svg` element to that selected element. This will create a canvas for our data visualization for our svg elements. 
 3. We then added our `width` and `height` attributes to our `svg` element. 
-4. The `selectAll` method is a bit tricky to understand. This method is used to select all `rect` elements inside our `svg` 
-element. Since we created a new `svg` element with nothing in it, the `selectAll` will know that there isn't any `rect` element yet. 
+4. The `selectAll` method is a bit tricky to understand. This method is used to select all `rect` elements inside our `svg` element. Since we created a new `svg` element with nothing in it, the `selectAll` will know that there isn't any `rect` element yet. 
 5. The next step is to bind our data to the `rect` elements that we used `selectAll` method to select.
-6. A very important method is `enter` which will append the `rect` into our canvas and will continue appending `rect` elements 
-until every data in the array is binded to a `rect` element. 
-7. Each `rect` element has the following attributes `x`, `y`, `width`, `height` and `style`. The `x` and `y` attributes are for the position of each `rect` element, 
-we don't want all the `rect` to have the same position. Another thing is that we don't want the height of 
-the `rect` to be the same. That's where `function (d,i)` comes in. This function is a built-in function parameter 
-in D3.js. This function allows us to create different svg elements using data information! The following parameters 
-for this function are `d` (data) and `i` (index).
+6. A very important method is `enter` which will append the `rect` into our canvas and will continue appending `rect` elements until every data in the array is binded to a `rect` element. 
+7. Each `rect` element has the following attributes `x`, `y`, `width`, `height` and `style`. The `x` and `y` attributes are for the position of each `rect` element, we don't want all the `rect` to have the same position. Another thing is that we don't want the height of the `rect` to be the same. That's where `function (d,i)` comes in. This function is a built-in function parameter in D3.js. This function allows us to create different svg elements using data information! The following parameters for this function are `d` (data) and `i` (index).
 
-What makes data binding amazing is that you can dynamically change the data and the bar graph will 
-also change with it. Let's make some changes to our data array.
+What makes data binding amazing is that you can dynamically change the data and the bar graph will also change with it. Let's make some changes to our data array.
 
 {% highlight javascript %}
   data = [23, 30, 11, 1, 4, 15];
@@ -128,16 +99,11 @@ Result:
 <div class="example3">
 </div>
 
-That's cool!! No matter how many data or how little data you have your bar graph will change 
-depending on our data.
+That's cool!! No matter how many data or how little data you have your bar graph will change depending on our data.
 
 #### Adding Text
 
-This bar graph is missing some number representation! We can see that each `rect` has different 
-height, but we don't know the value of the rect. That's where the `text` svg comes in, we can bind 
-our data to the `text` svg like we did to our `rect`. We have to change some of our code, we need 
-a reference variable to the svg element. We do this by saving the selected element into a 
-variable.
+This bar graph is missing some number representation! We can see that each `rect` has different height, but we don't know the value of the rect. That's where the `text` svg comes in, we can bind our data to the `text` svg like we did to our `rect`. We have to change some of our code, we need a reference variable to the svg element. We do this by saving the selected element into a variable.
 
 {% highlight html %}
   <div class="example">
@@ -191,17 +157,7 @@ That looks better, this bar graph is starting to make more sense!
 
 #### Add Scaling
 
-A problem with our current bar graph is that if we have a data value that is higher than the 
-height of our svg element it will not fit in our canvas. That's why we need some scaling factor 
-that will scale our bar graph that has a dependency on the data value. D3.js has a few scaling 
-methods that help us create scalable data visualization, the one we are going to use is the linear 
-scale. We all remember learning about domain and range in math class, scale are function that 
-map from an input domain to an output range. The domain in a function usually refers to the independent 
-variable which is the x-axis on a graph. A function needs this independent variable say `x` to determine 
-the dependent variable `y`. The domain is usually the min and max value of your data you will pass 
-into the function and the range is the max and min of the x or y axis of the canvas. We are basically 
-trying to normalize our data value with the given output range. Let's create a linear scale for our 
-height of the `rect` element.
+A problem with our current bar graph is that if we have a data value that is higher than the height of our svg element it will not fit in our canvas. That's why we need some scaling factor that will scale our bar graph that has a dependency on the data value. D3.js has a few scaling methods that help us create scalable data visualization, the one we are going to use is the linear scale. We all remember learning about domain and range in math class, scale are function that map from an input domain to an output range. The domain in a function usually refers to the independent variable which is the x-axis on a graph. A function needs this independent variable say `x` to determine the dependent variable `y`. The domain is usually the min and max value of your data you will pass into the function and the range is the max and min of the x or y axis of the canvas. We are basically trying to normalize our data value with the given output range. Let's create a linear scale for our height of the `rect` element.
 
 {% highlight javascript %}
   <div class="example">
@@ -254,13 +210,7 @@ Result:
 <div class="example5">
 </div>
 
-We added a scale to our y-axis since we are dealing with height. This is a linear scale with 
-the domain of [d3.max(data), 0], this means that it will scale with our data. The domain of our 
-data is the maximum value in the data array and 0. That means the function is expecting us to 
-pass a number between zero and the max number and will normalize it depending on our range. The 
-range is the output, this output we want should depend on the height of our canvas. In our case 
-the range is [height,0], remember that the y-axis in the svg coordinate system start from zero at the 
-top and increases at we go down. We are basically doing this.
+We added a scale to our y-axis since we are dealing with height. This is a linear scale with the domain of [d3.max(data), 0], this means that it will scale with our data. The domain of our data is the maximum value in the data array and 0. That means the function is expecting us to pass a number between zero and the max number and will normalize it depending on our range. The range is the output, this output we want should depend on the height of our canvas. In our case the range is [height,0], remember that the y-axis in the svg coordinate system start from zero at the top and increases at we go down. We are basically doing this.
 
 <div>
   <svg height="115" width="250" style="display: block; margin:auto">
@@ -283,11 +233,7 @@ top and increases at we go down. We are basically doing this.
   </svg>
 </div>
 
-As you can see if we pass in a value of 30 to the function we will get the value 150. If we 
-pass in a value of 15 to our scale function we will get a value of 75. It's easy to understand 
-this linear scale. Now you can see how scaling works in D3.js and how we use it when scaling our 
-data visualization. Let's now change our data and our height of the canvas to demonstrate the 
-power of scaling!
+As you can see if we pass in a value of 30 to the function we will get the value 150. If we pass in a value of 15 to our scale function we will get a value of 75. It's easy to understand this linear scale. Now you can see how scaling works in D3.js and how we use it when scaling our data visualization. Let's now change our data and our height of the canvas to demonstrate the power of scaling!
 
 {% highlight javascript %}
   <div class="example">
@@ -325,17 +271,11 @@ Result:
 <div class="example6">
 </div>
 
-As you can see the maximum value of the array of 100 takes up all the space of the height of 
-the canvas of 250. This is the power of the scale function in D3.js. 
+As you can see the maximum value of the array of 100 takes up all the space of the height of the canvas of 250. This is the power of the scale function in D3.js. 
 
 #### Adding Axis
 
-This bar graph is almost done, we have numbers without any description of what the number 
-represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we 
-want to create a bar graph for the number of customers coming in to our store for this week. 
-Now our data need to include two information, the day of the week and the number of customers. 
-We can use an array of objects as our data which allows us to store more information in one entry. Let's 
-now create this graph with x-axis and y-axis.
+This bar graph is almost done, we have numbers without any description of what the number represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we want to create a bar graph for the number of customers coming in to our store for this week. Now our data need to include two information, the day of the week and the number of customers. We can use an array of objects as our data which allows us to store more information in one entry. Let's now create this graph with x-axis and y-axis.
 
 {% highlight javascript %}
   <div class="example">
@@ -434,19 +374,11 @@ Result:
 <div class="example7">
 </div>
 
-Now that looks like a bar graph that you see in presentations! All you need to know to add a axis to your data 
-visualization is the scale and the orientation. D3.js needs to know how to create the 
-axis based on a scale and where to put it in the svg canvas.
+Now that looks like a bar graph that you see in presentations! All you need to know to add a axis to your data visualization is the scale and the orientation. D3.js needs to know how to create the axis based on a scale and where to put it in the svg canvas.
 
 #### Conculsion
 
-You can build any data visualization with the help of D3.js! D3.js makes creating 
-graphs and charts simple using JavaScript and the benefit of using JavaScript is it allows 
-you to create dynamic data visualization. There's many tutorials for learning how to use 
-D3.js <a href="https://github.com/mbostock/d3/wiki/Tutorials" target="_blank">here</a>. The 
-best resource is to look through the API <a href="https://github.com/mbostock/d3/wiki/API-Reference" target="_blank">here</a>, 
-this API contains all the methods that you can use with D3.js. Here is a great tutorial 
-for understanding the update pattern of D3.js <a href="http://bl.ocks.org/mbostock/3808218" target="_blank">here</a>
+You can build any data visualization with the help of D3.js! D3.js makes creating graphs and charts simple using JavaScript and the benefit of using JavaScript is it allows you to create dynamic data visualization. There's many tutorials for learning how to use D3.js <a href="https://github.com/mbostock/d3/wiki/Tutorials" target="_blank">here</a>. The best resource is to look through the API <a href="https://github.com/mbostock/d3/wiki/API-Reference" target="_blank">here</a>, this API contains all the methods that you can use with D3.js. Here is a great tutorial for understanding the update pattern of D3.js <a href="http://bl.ocks.org/mbostock/3808218" target="_blank">here</a>
 
 Result:
 <div class="example8">

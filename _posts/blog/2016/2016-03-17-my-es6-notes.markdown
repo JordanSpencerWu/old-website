@@ -3,19 +3,11 @@ layout: post
 title:  "My ES6 Notes"
 date:   2016-03-17 13:15:00
 ---
-ECMAScript 6 is commonly known as JavaScript 2015. Like many programming languages 
-there's always improvements and this is another updated version of JavaScript. The 
-web is now more interactive and involves many JavaScript files. ES6 is the next version 
-of JavaScript that includes many enhancements and new features that will make coding 
-easier and more maintainable. In this blog I will go over some of key features that was 
-introduced in ES6.
+ECMAScript 6 is commonly known as JavaScript 2015. Like many programming languages there's always improvements and this is another updated version of JavaScript. The web is now more interactive and involves many JavaScript files. ES6 is the next version of JavaScript that includes many enhancements and new features that will make coding easier and more maintainable. In this blog I will go over some of key features that was introduced in ES6.
 
 #### Let
 
-ES6 introduced a new variable statement called `let`. This variable statement declares a block 
-scope local variable. This is helps get rid of JavaScript hoisting when using the 
-variable statement `var`. This allow you to declare variable with limited scope to the block 
-statement, this means you only have access to the variable inside the block.
+ES6 introduced a new variable statement called `let`. This variable statement declares a block scope local variable. This is helps get rid of JavaScript hoisting when using the variable statement `var`. This allow you to declare variable with limited scope to the block statement, this means you only have access to the variable inside the block.
 
 {% highlight javascript %}
   function var_for_loop() {
@@ -33,22 +25,11 @@ statement, this means you only have access to the variable inside the block.
   }
 {% endhighlight %}
 
-Looking at the example above, we can see that the `let` variable eliminates
-javascript hoisting of the variable `var`. Using `let` variable allows us to 
-declare local variable which help reduce our global pollution and allows the 
-garbage collection to delete the variable once we are out of the local scope. What I 
-like about `let` is that it allows you to reuse variable names and makes 
-your code easier to understand.
+Looking at the example above, we can see that the `let` variable eliminatesjavascript hoisting of the variable `var`. Using `let` variable allows us to declare local variable which help reduce our global pollution and allows the garbage collection to delete the variable once we are out of the local scope. What I like about `let` is that it allows you to reuse variable names and makes your code easier to understand.
 
 #### Const
 
-Another variable statement introduced in ES6 is the `const` variable. This variable 
-statement creates a read-only reference to a value. This means that the variable used 
-with `const` cannot be reassigned to another value. You should use the `const` statement 
-whenever a variable should have a fixed value and will never change. A good use case for 
-using a `const` is avoiding using magic numbers in JavaScript. Magic numbers are unique 
-numbers with unexplained meaning in a program. A example will be equations that uses 
-a unique number.
+Another variable statement introduced in ES6 is the `const` variable. This variable statement creates a read-only reference to a value. This means that the variable used with `const` cannot be reassigned to another value. You should use the `const` statement whenever a variable should have a fixed value and will never change. A good use case for using a `const` is avoiding using magic numbers in JavaScript. Magic numbers are unique numbers with unexplained meaning in a program. A example will be equations that uses a unique number.
 
 {% highlight javascript %}
   function area_of_circle(radius) {
@@ -56,11 +37,7 @@ a unique number.
   }
 {% endhighlight %}
 
-Looking at the example above you can see that the magic number is `3.14159`. It's hard 
-to tell what the number represents, might take someone a few minutes to realize that 
-the number is pi. In programming unique numbers are used consistently in a program and 
-labeling them correctly will help us understand where the number comes from. We can avoid 
-using magic number with the `const` statement.
+Looking at the example above you can see that the magic number is `3.14159`. It's hard to tell what the number represents, might take someone a few minutes to realize that the number is pi. In programming unique numbers are used consistently in a program and labeling them correctly will help us understand where the number comes from. We can avoid using magic number with the `const` statement.
 
 {% highlight javascript %}
   const PI = 3.14159;
@@ -69,14 +46,11 @@ using magic number with the `const` statement.
   }
 {% endhighlight %}
 
-Note, the common naming convention for a `const` variable is all uppercase. This makes it 
-easier to identify a constant variable in a program.
+Note, the common naming convention for a `const` variable is all uppercase. This makes it easier to identify a constant variable in a program.
 
 #### Destructuring
 
-The destructuring assignment syntax is JavaScript expression that makes extracting data from arrays 
-or objects using a mirror pattern of array and object literals. What this means is that we 
-can assign variables by mirroring the pattern of the array or object.
+The destructuring assignment syntax is JavaScript expression that makes extracting data from arrays or objects using a mirror pattern of array and object literals. What this means is that we can assign variables by mirroring the pattern of the array or object.
 
 {% highlight javascript %}
   // array example
@@ -108,14 +82,11 @@ can assign variables by mirroring the pattern of the array or object.
   var {firstName, info:{github}} = object;
 {% endhighlight %}
 
-Destructuring is a powerful technique that allows you to only get the data you 
-need. You can also use destructuring as a parameter in a function.
+Destructuring is a powerful technique that allows you to only get the data you need. You can also use destructuring as a parameter in a function.
 
 #### Default Parameter
 
-Default parameter are common in programming and now JavaScript supports them. Before this 
-feature many JavaScript programmer would use the || short-circuit operator for setting 
-default values. 
+Default parameter are common in programming and now JavaScript supports them. Before this feature many JavaScript programmer would use the || short-circuit operator for setting default values. 
 
 {% highlight javascript %}
   function getName(name){
@@ -134,11 +105,7 @@ Now with the default parameter feature, we don't have to use this short-circuit 
 
 #### Rest parameter
 
-The rest parameter allow us to represent an indefinite number of arguments as an array. This 
-means we can pass in an array of arguments, we have access to this __array__ of arguments. For 
-this to work you have to define the rest parameter as the 
-last parameter of the function and must have the prefix `...`. Before this feature many programmers 
-would use the `arguments` variable. 
+The rest parameter allow us to represent an indefinite number of arguments as an array. This means we can pass in an array of arguments, we have access to this __array__ of arguments. For this to work you have to define the rest parameter as the last parameter of the function and must have the prefix `...`. Before this feature many programmers would use the `arguments` variable. 
 
 {% highlight javascript %}
   // using the arguments varible
@@ -164,10 +131,7 @@ would use the `arguments` variable.
 
 #### Spread
 
-The spread operator allows an expression to be expanded in places where multiple 
-arguments (for function calls) or multiple element (for array literals) are 
-expected. This means you can pass in this spread operator to a function and each element 
-in the spread will act like a argument passed in, you can also use spread with arrays.
+The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple element (for array literals) are expected. This means you can pass in this spread operator to a function and each element in the spread will act like a argument passed in, you can also use spread with arrays.
 
 {% highlight javascript %}
   // function example
@@ -184,9 +148,7 @@ in the spread will act like a argument passed in, you can also use spread with a
 
 #### Template literals
 
-This feature allows multi-line strings and string interpolations. Before this feature 
-string concatenation was a nightmare. This feature allows us to easily concatenate 
-string with variable.
+This feature allows multi-line strings and string interpolations. Before this feature string concatenation was a nightmare. This feature allows us to easily concatenate string with variable.
 
 {% highlight javascript %}
   // multi-line example
@@ -218,11 +180,7 @@ string with variable.
 
 #### Class
 
-Now with ES6 there are two ways of defining classes, with a class declaration and 
-class expressions. An important difference between __function declartions__ and 
-__class declarctions__ is that function declarations are hoisted and class declarations 
-are not. This means you have to declare your class before accessing it, so the precedence 
-of your code matters. 
+Now with ES6 there are two ways of defining classes, with a class declaration and class expressions. An important difference between __function declartions__ and __class declarctions__ is that function declarations are hoisted and class declarations are not. This means you have to declare your class before accessing it, so the precedence of your code matters. 
 
 {% highlight javascript %}
   // class declartion
@@ -251,13 +209,11 @@ of your code matters.
   };
 {% endhighlight %}
 
-There's many features in Classes that ES6 implemented for dealing with inheritance like 
-constructor, getter and setter, extend, super, static, and override.
+There's many features in Classes that ES6 implemented for dealing with inheritance like constructor, getter and setter, extend, super, static, and override.
 
 #### Arrow Function
 
-This arrow function is a shorter syntax for defining a function expression and lexically binds 
-the `this` value, arrow function are always anonymous.
+This arrow function is a shorter syntax for defining a function expression and lexically binds the `this` value, arrow function are always anonymous.
 
 {% highlight javascript %}
   // without arrow function
@@ -271,8 +227,7 @@ the `this` value, arrow function are always anonymous.
   var sum = arr.reduce((a, b) => a + b);  // 66
 {% endhighlight %}
 
-This will DRY our code and the best part is it will lexically bind the `this` value, this 
-will be useful when creating inner/nested functions.
+This will DRY our code and the best part is it will lexically bind the `this` value, this will be useful when creating inner/nested functions.
 
 #### for...of
 
@@ -300,31 +255,16 @@ of each distinct property.
 
 #### Set
 
-This is a new data structure for JavaScript that stores __unique__ values of any type, 
-whether primitive values or object references. Each element in the set are unique and 
-you cannot add values that are already in the set. 
-Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">here</a> for 
-more information.
+This is a new data structure for JavaScript that stores __unique__ values of any type, whether primitive values or object references. Each element in the set are unique and you cannot add values that are already in the set. Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">here</a> for more information.
 
 #### Map
 
-The other new data structure for JavaScript is the `Map` object which is a key/value pair 
-data structure. Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">here</a> for 
-more information.
+The other new data structure for JavaScript is the `Map` object which is a key/value pair data structure. Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">here</a> for more information.
 
 #### Import
 
-This `import` statement is used to import functions, this allows us to import JavaScript 
-modules. Now JavaScript has its own way of exporting and importing JavaScript libraries. 
-There are many ways to use this `import` statement, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" target="_blank">here</a> 
-to learn more.
+This `import` statement is used to import functions, this allows us to import JavaScript modules. Now JavaScript has its own way of exporting and importing JavaScript libraries. There are many ways to use this `import` statement, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" target="_blank">here</a> to learn more.
 
 #### Conclusion
 
-Most of the web browsers are starting to support ES6, click <a href="https://kangax.github.io/compat-table/es6/" target="_blank">here</a> to 
-see the compatibility table. In the future all JavaScript files will be implementing these features once 
-all the browsers supports ES6. It's common to start writing ES6 JavaScript in development then converting it to 
-ES5 for production using a transpiler. Other alternative of using ES6 in the browsers is using polyfills or 
-ES6-Shim, ES6-Shim is a collection of polyfills and polyfills are a piece of code (or plugin) that 
-provides the technologies you need to use. ES6 introduced many great features to the web and are being used in 
-many JavaScript libraries.
+Most of the web browsers are starting to support ES6, click <a href="https://kangax.github.io/compat-table/es6/" target="_blank">here</a> to see the compatibility table. In the future all JavaScript files will be implementing these features once all the browsers supports ES6. It's common to start writing ES6 JavaScript in development then converting it to ES5 for production using a transpiler. Other alternative of using ES6 in the browsers is using polyfills or ES6-Shim, ES6-Shim is a collection of polyfills and polyfills are a piece of code (or plugin) that provides the technologies you need to use. ES6 introduced many great features to the web and are being used in many JavaScript libraries.
