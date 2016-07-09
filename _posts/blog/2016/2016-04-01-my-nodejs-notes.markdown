@@ -43,6 +43,7 @@ Then run this command in your terminal
 This will produce the same output as the example above.
 
 #### NON-BLOCKING
+
 What makes Node.js so great is that it supports non-blocking code. This will increase your 
 throughput in your web application, in other words allows more work on a process. There are two 
 ways of running your code in Node.js __synchronous__ or __asynchronous__. A __synchronous__ process 
@@ -96,6 +97,7 @@ completion of a given task. Asynchronous process will optimize time complexity o
 increasing throughput!
 
 #### Global Variables
+
 In Node there are global variables you can use in your program. We know that Node.js are best for 
 I/O operations which involves files and directories. If you want to get the name of the current executing 
 script's directory, you are able to use the variable ____dirname__ to accomplish this task. You can also 
@@ -108,6 +110,7 @@ To see all the global variables and methods check out the documentation of the v
 using and click on __Globals__.
 
 #### HTTP
+
 You are able to create servers in Node that listens to client's request and will response to them. In web 
 development the clients will make requests to the server then the server will response to the request according to 
 the code you provide. In Node.js there is a module called __HTTP__ which allows you to create a server that will 
@@ -135,6 +138,7 @@ localhost (this is a local server on your machine), once it receives this http r
 status code of 200, with content-type of text/plain and will output a string 'Hello World' to the webpage.
 
 #### Events
+
 Remember that Node.js is event-driven!! A event is when a action in the DOM is triggered for example 
 when you click on a button on a website. Many of the Node.js objects emit events for example the __readStream__ 
 is a class of __EventEmitter__ which has a data event. Here is a example of how to create a event and how to emit it.
@@ -159,6 +163,7 @@ notation to invoke the __emit__ method, this will trigger/call the event. This w
 events are used in Node.js, there are many applications in using events in Node.js.
 
 #### Node API
+
 There are many modules in Node.js, the Node.js website provides documentations on all them. 
 You can click <a href="https://nodejs.org/en/docs/" target="_blank">here</a> to see the document page. Remember 
 to select the correct Node.js version which you are using, the newer version of Node.js at the time of 
@@ -203,6 +208,7 @@ It's easy to use npm when installing packages to your Node.js project. All the p
 your project is in __package.json__ file!!
 
 #### Version
+
 Each JavaScript package on npm has a version number. This version number will keep track of when 
 updates are made to the package. Version numbers are important, some projects need a specfic version 
 of the package to work while other versions might break the application! There are three version numbers, 

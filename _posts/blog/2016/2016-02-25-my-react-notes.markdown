@@ -11,6 +11,7 @@ allows you to reuse them anywhere in your web application. This blog will be
 my notes on React.
 
 #### Why React?
+
 The web is becoming more interactive. React makes it easy to display data and 
 will automatically update when the data changes. After creating a 
 UI component, you are able to reuse it in your web application. One of 
@@ -21,6 +22,7 @@ DOM manipulation easy and fast by using a virtual DOM. With React you can create
 dynamic UI components that enhance user experience (UX).
 
 #### Getting Started
+
 To get started with React you need the libraries and tools. To get the react 
 libraries you will need to have `npm` installed on your machine. `NPM` is a 
 javascript package manager that allows distribution of javascript modules. The 
@@ -48,6 +50,7 @@ The npm module you need is `babel-preset-react`, this will transform JSX files t
 this <a href="http://babeljs.io/" target="_blank">link</a>.
 
 #### Thinking in React
+
 React uses one-way data flow by introducing `states` and `props`. You have to think 
 differently when creating a react components. Here is the procedures I follow when 
 creating a React component:
@@ -60,6 +63,7 @@ creating a React component:
 6. Add in inverse data flow using event handling and callbacks
 
 #### Understanding States and Properties
+
 React thinks of UI as state machines. UI has various states and depending on thoses 
 states it determines how the UI is rendered. The UI component will change only when a state 
 is changed! The properties also known as `props` are the data that will be displayed. 
@@ -74,6 +78,7 @@ the `props` is updated in the ownee component. Understanding how to use `states`
 is essential when creating your own react component.
 
 #### Conclusion
+
 React is a powerful Javascript library that makes amazing UI components. Writing React components with JSX 
 produce simple and easy to read code. There are many data fetching libraries that can be used with React like 
 <a href="http://graphql.org/" target="_blank">GraphQL</a> and <a href="http://netflix.github.io/falcor/">Falcor</a>. You can 
@@ -82,6 +87,7 @@ Once you have a better understand of React, you can create your own React workfl
 using <a href="https://webpack.github.io/">Webpack</a>.
 
 #### Useful Reference Links
+
 * <a href="https://facebook.github.io/react/docs/top-level-api.html" target="_blank">Top-Level API</a>
 * <a href="https://facebook.github.io/react/docs/component-api.html" target="_blank">Component API</a>
 * <a href="https://facebook.github.io/react/docs/component-specs.html" target="_blank">Component Specs and Lifecycle</a>

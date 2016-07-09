@@ -11,6 +11,7 @@ easier and more maintainable. In this blog I will go over some of key features t
 introduced in ES6.
 
 #### Let
+
 ES6 introduced a new variable statement called `let`. This variable statement declares a block 
 scope local variable. This is helps get rid of JavaScript hoisting when using the 
 variable statement `var`. This allow you to declare variable with limited scope to the block 
@@ -40,6 +41,7 @@ like about `let` is that it allows you to reuse variable names and makes
 your code easier to understand.
 
 #### Const
+
 Another variable statement introduced in ES6 is the `const` variable. This variable 
 statement creates a read-only reference to a value. This means that the variable used 
 with `const` cannot be reassigned to another value. You should use the `const` statement 
@@ -71,6 +73,7 @@ Note, the common naming convention for a `const` variable is all uppercase. This
 easier to identify a constant variable in a program.
 
 #### Destructuring
+
 The destructuring assignment syntax is JavaScript expression that makes extracting data from arrays 
 or objects using a mirror pattern of array and object literals. What this means is that we 
 can assign variables by mirroring the pattern of the array or object.
@@ -109,6 +112,7 @@ Destructuring is a powerful technique that allows you to only get the data you
 need. You can also use destructuring as a parameter in a function.
 
 #### Default Parameter
+
 Default parameter are common in programming and now JavaScript supports them. Before this 
 feature many JavaScript programmer would use the || short-circuit operator for setting 
 default values. 
@@ -129,6 +133,7 @@ Now with the default parameter feature, we don't have to use this short-circuit 
 {% endhighlight %}
 
 #### Rest parameter
+
 The rest parameter allow us to represent an indefinite number of arguments as an array. This 
 means we can pass in an array of arguments, we have access to this __array__ of arguments. For 
 this to work you have to define the rest parameter as the 
@@ -158,6 +163,7 @@ would use the `arguments` variable.
 {% endhighlight %}
 
 #### Spread
+
 The spread operator allows an expression to be expanded in places where multiple 
 arguments (for function calls) or multiple element (for array literals) are 
 expected. This means you can pass in this spread operator to a function and each element 
@@ -177,6 +183,7 @@ in the spread will act like a argument passed in, you can also use spread with a
 {% endhighlight %}
 
 #### Template literals
+
 This feature allows multi-line strings and string interpolations. Before this feature 
 string concatenation was a nightmare. This feature allows us to easily concatenate 
 string with variable.
@@ -210,6 +217,7 @@ string with variable.
 {% endhighlight %}
 
 #### Class
+
 Now with ES6 there are two ways of defining classes, with a class declaration and 
 class expressions. An important difference between __function declartions__ and 
 __class declarctions__ is that function declarations are hoisted and class declarations 
@@ -247,6 +255,7 @@ There's many features in Classes that ES6 implemented for dealing with inheritan
 constructor, getter and setter, extend, super, static, and override.
 
 #### Arrow Function
+
 This arrow function is a shorter syntax for defining a function expression and lexically binds 
 the `this` value, arrow function are always anonymous.
 
@@ -266,6 +275,7 @@ This will DRY our code and the best part is it will lexically bind the `this` va
 will be useful when creating inner/nested functions.
 
 #### for...of
+
 The for...of statement will create a loop iterating over the iterable objects (Array, 
 Map, Set, String, TypedArray, arguments, object and so on), iterating for each value 
 of each distinct property.
@@ -289,6 +299,7 @@ of each distinct property.
 {% endhighlight %}
 
 #### Set
+
 This is a new data structure for JavaScript that stores __unique__ values of any type, 
 whether primitive values or object references. Each element in the set are unique and 
 you cannot add values that are already in the set. 
@@ -296,17 +307,20 @@ Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 more information.
 
 #### Map
+
 The other new data structure for JavaScript is the `Map` object which is a key/value pair 
 data structure. Click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">here</a> for 
 more information.
 
 #### Import
+
 This `import` statement is used to import functions, this allows us to import JavaScript 
 modules. Now JavaScript has its own way of exporting and importing JavaScript libraries. 
 There are many ways to use this `import` statement, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" target="_blank">here</a> 
 to learn more.
 
 #### Conclusion
+
 Most of the web browsers are starting to support ES6, click <a href="https://kangax.github.io/compat-table/es6/" target="_blank">here</a> to 
 see the compatibility table. In the future all JavaScript files will be implementing these features once 
 all the browsers supports ES6. It's common to start writing ES6 JavaScript in development then converting it to 

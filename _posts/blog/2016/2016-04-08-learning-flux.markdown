@@ -13,6 +13,7 @@ __dispatcher__, the __stores__, and the __views__. In this blog I explain each o
 parts in my own words.
 
 #### Why Use Flux?
+
 In a large web application that utilize React components, 
 it's hard to keep track of states and properties of every React component. 
 With the Flux architecture we are able to predict the data of each react component using 
@@ -23,6 +24,7 @@ and cascading updates that leads to unpredictable results. This architecture all
 more control of data flow which lead to predictable results.
 
 #### Dispatcher
+
 The __dispatcher__ is where you manages all the data flow in the web application. The goal 
 of the __dispatcher__ is to pass data into a store. The data is called __actions__ which will be 
 used in the __store__ to change the state of the data. Each __store__ will register a 
@@ -47,6 +49,7 @@ __dispatcher__ into your application using the relative path, you will use this 
 and when you create __actions__.
 
 #### Stores
+
 The __stores__ contains all the states and logic! In React.js the components updates when the 
 state changes, the goal of the __store__ is to keep track of the states. A __store__ is 
 registered to a __dispatcher__, you provide a callback function to the __dispather__ to call 
@@ -57,6 +60,7 @@ __store__ controls how the data are changed!! Remember to import your __store__ 
 to allow the component to update by adding a listener to a event that will run `setState` function with the new data.
 
 #### Views / Controller-Views
+
 Remember that React.js is just the View in the MVC web design pattern. A React component is 
 how your data will interact with the view. This is also known as a controller-view because it will 
 get the data from the stores and pass data down it's descendants components as properties. React component 
@@ -69,6 +73,7 @@ __dispatch__ method to notify our __stores__ that a __action__ was made. The mos
 is that the controller-view doesn't modify the data. this decouples the logic from the view.
 
 #### Actions
+
 We now know that __actions__ are created when the user interacts with the component that will change 
 the state of our component. Actions are passed into the __dispatcher__ to be used in the __stores__. For our 
 store to know what to do we need a create __actionType__ property that will tell the __store__ which 
@@ -77,6 +82,7 @@ create a module that holds all the actions that can be made in your React compon
 constant that holds all the __actionType__ in a separate module.
 
 #### Conclusion
+
 This is my notes on Flux after recreating the to-do list tutorial on the Flux website. You can 
 do the tutorial <a href="https://facebook.github.io/flux/docs/todo-list.html#content" target="_blank">here</a>, 
 it might be better if you look through the github example <a href="https://github.com/facebook/flux/tree/master/examples/flux-todomvc/" target="_blank">here</a>. 

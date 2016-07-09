@@ -12,6 +12,7 @@ started to use Markdown when writing my blog posts. I will go over some of the
 basic syntax in this blog.
 
 #### Emphasis
+
 Markdown syntax makes it easy to italics and bold any of your text. 
 Here is some examples:
 
@@ -166,6 +167,7 @@ The results:
 16. I See Fire
 
 #### Links
+
 Creating hyperlinks is quick and easy with the help of Markdown syntax. There are many 
 ways you can create a link in Markdown, here are some of the common ways:
 
@@ -188,6 +190,7 @@ The results:
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 
 #### Images
+
 Markdown makes adding images to your web page simple, you can add a image from google by 
 copying and pasting the url or you can add images from your repository folder.
 

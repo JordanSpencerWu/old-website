@@ -109,6 +109,7 @@ blog, music, anime, etc. You can also add tags your post for different topics li
 html, css, javascript, etc. Just remember this folder is where you store all your posts.
 
 #### _sass
+
 This folder is where you store all the styles for your website. Syntactically Awesome Style 
 Sheet (Sass) is a extension of CSS. This extension is a better way of writing CSS and follows 
 the Don't Repeat Yourself (DRY) principle. Sass allows you to write less code by introducing 
@@ -123,12 +124,14 @@ themes sites:
 * <a href="http://jekyllthemes.io/" target="_blank">jekyllthemes.io</a>
 
 #### css
+
 This is the folder that converts all your sass files into css. This folder is important when 
 using the jekyll with sass, you need this `main.scss` for jekyll to convert your sass files to 
 css files. This is where you import all your sass files and jekyll will add them into your 
 static websites.
 
 #### .gitignore
+
 This file is used when using git by excluding any specific files you don't want to save, example will be 
 personal information like key and secret when accessing a API. Git is a version control 
 system which allows you to save coding project on your local machine. The power of git is 
@@ -137,6 +140,7 @@ your project every time you make a commit. Learn more about git by reading this 
 , <a href="https://git-scm.com/book/en/v2" target="_blank">Pro Git</a>.
 
 #### _config.yml
+
 This is all the configuration for your jekyll website. This file is where you can store 
 global variables which you can use in your static website, some example will be your name, 
 email address, github username, linkedin url, etc. Any plugin you want to use like pagination 
@@ -144,6 +148,7 @@ will also go in this file. If you want more information about configuration for 
 click <a href="http://jekyllrb.com/docs/configuration/" target="_blank">here</a>.
 
 #### about.md and index.html
+
 These are the static website page that jekyll will render. The index.html is where all your 
 posts will be rendered and is the home page. The about page will contain 
 information about yourself in Markdown. **Note these pages must have YAML Front Matter**. You can create 
@@ -151,11 +156,13 @@ more static pages by saving a new html or markdown file at the root of this proj
 more html file might be a project page, contact page, etc.
 
 #### feed.xml
+
 This is used for a RSS feed which allows users to subscribe to your content. Jekyll already 
 included everything you need for the RSS feed, all you have to do is change the name, description, 
 and url in the `_config.yml` to your own.
 
 #### Hosting on GitHub
+
 Github will host one site for you and unlimited project sites for free. It is very easy to use and 
 allows you to show off your projects to the world. They provide a quick get started tutorial, 
 check it out by clicking this <a href="https://pages.github.com/" target="_blank">link</a>.

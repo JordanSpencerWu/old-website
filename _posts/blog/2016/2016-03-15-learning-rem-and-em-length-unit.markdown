@@ -35,6 +35,7 @@ date:   2016-03-15 13:15:00
 </div>
 
 #### Conclusion
+
 It's fun to play around with the rem and em unit length values to create responsive and scalable text. 
 Using rem for global sizing and em for local sizing makes adjusting your stylesheet easier, all you 
 have to do is change the root length of the html element.

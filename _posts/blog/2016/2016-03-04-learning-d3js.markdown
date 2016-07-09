@@ -13,6 +13,7 @@ bar graph, in this blog I will go over some of the basic of D3.js while creating
 a bar graph.
 
 #### Getting Started
+
 The first thing you need to create cool data visualization is the D3.js JavaScript 
 library. You can download the zip file <a href="https://d3js.org/" target="_blank">here</a>. 
 This library gives you all the built-in methods you need to create svg elements in the 
@@ -24,6 +25,7 @@ add this JavaScript into your html.
 {% endhighlight %}
 
 #### Selecting an Element
+
 The first thing to understand is how to select an element in the DOM. D3.js is similar to 
 <a href="https://jquery.com/" target="_blank">jQuery</a> when selecting element using selectors. 
 If there is a class on the DOM element you would use a prefix of `.` then the class attribute 
@@ -61,6 +63,7 @@ into our DOM.
 {% endhighlight %}
 
 #### Let's Make a Bar Graph
+
 Making a `rect` svg element is easy, but it doesn't tell us anything! For 
 the `rect` to be meaningful it has to represent some data or number. Lets learn how to 
 bind data to our `rect` elements. The easiest way to store our data is in an `Array` 
@@ -129,6 +132,7 @@ That's cool!! No matter how many data or how little data you have your bar graph
 depending on our data.
 
 #### Adding Text
+
 This bar graph is missing some number representation! We can see that each `rect` has different 
 height, but we don't know the value of the rect. That's where the `text` svg comes in, we can bind 
 our data to the `text` svg like we did to our `rect`. We have to change some of our code, we need 
@@ -186,6 +190,7 @@ Result:
 That looks better, this bar graph is starting to make more sense!
 
 #### Add Scaling
+
 A problem with our current bar graph is that if we have a data value that is higher than the 
 height of our svg element it will not fit in our canvas. That's why we need some scaling factor 
 that will scale our bar graph that has a dependency on the data value. D3.js has a few scaling 
@@ -324,6 +329,7 @@ As you can see the maximum value of the array of 100 takes up all the space of t
 the canvas of 250. This is the power of the scale function in D3.js. 
 
 #### Adding Axis
+
 This bar graph is almost done, we have numbers without any description of what the number 
 represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we 
 want to create a bar graph for the number of customers coming in to our store for this week. 
@@ -433,6 +439,7 @@ visualization is the scale and the orientation. D3.js needs to know how to creat
 axis based on a scale and where to put it in the svg canvas.
 
 #### Conculsion
+
 You can build any data visualization with the help of D3.js! D3.js makes creating 
 graphs and charts simple using JavaScript and the benefit of using JavaScript is it allows 
 you to create dynamic data visualization. There's many tutorials for learning how to use 

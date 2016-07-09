@@ -86,6 +86,8 @@ Once we have the geolocation data we can use <a href="https://developers.google.
 
 <div id="map" style="height:50vh;width:100%;"></div>
 
+
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyAZhjK4Uio-T1ZkADdweo1uxHC9jRUYEM0"></script>
 <script>
   function displayLocation(position) {
     var map = new GMaps({
