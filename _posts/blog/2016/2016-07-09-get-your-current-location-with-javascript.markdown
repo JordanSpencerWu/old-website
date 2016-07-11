@@ -80,14 +80,14 @@ Getting geolocation data is personal information and requires permission. When a
 
 #### Using Google Maps API
 
-Once we have the geolocation data we can use <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> to display your current location. When using this api you will need a access key that allows you access to the api, once you get your api key remember to enable the google maps api. I going to be using <a href="https://hpneo.github.io/gmaps/" target="_blank">Gmaps.js</a>, this allows me to use Google Maps with less code. Now for a demonstration click the button below to find your current location!!
+Once we have the geolocation data we can use <a href="https://developers.google.com/maps/" target="_blank">Google Maps API</a> to display your current location. When using this api you will need a access key that allows you access to the api, once you get your api key remember to enable the google maps api. I'm going to be using <a href="https://hpneo.github.io/gmaps/" target="_blank">Gmaps.js</a>, this allows me to use Google Maps with less code. Now for a demonstration click the button below to find your current location!!
 
 <button type="button" class="find-me btn btn-info btn-block" style="margin: 0 auto;">Find My Location</button>
 
 <div id="map" style="height:50vh;width:100%;"></div>
 
 #### Conclusion
-The Pokémon GO game is watching your position which is similar to the `watchPosition()` method in the Geolocation API. Beware that watching your position using GPS or WiFi consumes your battery power at a faster rate. This bring back memory from when I played Pokémon on my gameboy, I still remember my first lvl 100 pokemon was Nikoking. Lets hope I'm able to find a Nidoran in Pokémon GO!
+The Pokémon GO game is watching your position which is similar to the `watchPosition()` method in the Geolocation API. Beware that watching your position using GPS or WiFi consumes your battery power at a faster rate. This bring back memory from when I played Pokémon on my gameboy, I still remember my first lvl 100 pokémon was Nidoking, well time to find a nidoran in Pokémon GO!
 
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyAZhjK4Uio-T1ZkADdweo1uxHC9jRUYEM0"></script>
 <script>
