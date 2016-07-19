@@ -1,0 +1,36 @@
+---
+layout: music
+date: 2016-07-18 12:00:00
+categories: [music]
+hidden: true
+---
+1. Anne-Marie - Alarm (Marshmello Remix)
+2. BLU J - HDLCK
+3. Zeds Dead x Diplo ft Elliphant - Blame
+4. EDEN - drugs
+5. Tiėsto & Jauz - Infected
+6. Steve James - In My Head (feat. RKCB)
+7. Demi Lovato - Body Say
+8. Avicii - Feeling Good
+9. Cade - Make You Feel Loved
+10. Madilyn Bailey - Wiser
+11. Boehm - Future Self feat. Melody Noel
+12. Breathe Carolina & Jay Cosmic ft. Haliene - See The Sky
+13. Snakehips ft. ZAYN - Cruel
+14. Breaking Benjamin - Ashes of Eden
+15. APEK & Carl Nunes feat. Alexx Mack - Stars
+16. Ricky Mears - Galaxies
+17. Elephante - Catching On (feat. Nevve)
+18. Ennex ft. Loch - Fairytales
+19. Yellow Claw & Flux Pavilion - Catch Me feat. Naaz (Candlelight Remix)
+20. Pierce Fulton - Borrowed Lives (feat. NVDES)
+21. Stadiumx, Baha & Markquis feat. Delaney Jane - Another Life
+22. On June - Stuck On You
+23. Thomas Hayes & Nobra ft. Ruby Prophet - We Can Be Beautiful
+24. Bingo Players - Cry (Just A Little) (A-Trak and Phantoms Remix)
+25. John Dahlbäck feat. BullySongs - Walking With Shadows
+26. Mickey Valen - Who Do You Love (ft. LYRE)
+
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6EfnzpMmmCXUcASE77MeVc&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
