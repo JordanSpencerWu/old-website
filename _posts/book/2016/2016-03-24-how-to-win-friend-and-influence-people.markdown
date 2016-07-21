@@ -15,6 +15,7 @@ description: This is a amazing book that shows you how to interact with
              life.
 hidden: true
 ---
+
 ##### Fundamental Techniques in Handling People
 
 <ul class="collapsible popout" data-collapsible="expandable">

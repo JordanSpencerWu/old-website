@@ -5,34 +5,34 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  // If 404 page it will redirect back to homepage after 10 seconds
+  <!-- If 404 page it will redirect back to homepage after 10 seconds -->
   {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="10; url=https://jordanspencerwu.github.io">
   {% endif %}
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  // add favicon
+  <!-- add favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
 
-  // add Google Fonts
+  <!-- add Google Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-  // Font Awesome CDN
+  <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  // add main.css stylesheet
+  <!-- add main.css stylesheet -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  // add all Javascript library from assets/js folder
+  <!-- add all Javascript library from assets/js folder -->
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="{{ "/assets/js/materialize.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/vivus.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/gmaps.min.js" | prepend: site.baseurl }}"></script>
 
-  // add Google Analytics
+  <!-- add Google Analytics  -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -43,7 +43,7 @@
     ga('send', 'pageview');
   </script>
 
-  // add MathJax
+  <!-- add MathJax -->
   <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
