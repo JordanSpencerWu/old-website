@@ -3,11 +3,12 @@ layout: post
 title:  "Learning D3.js"
 date:   2016-03-04 13:15:00
 ---
-Data-Driven Documents also known as D3.js is a powerful JavaScript library for adding data visualization to a webpage. D3.js is a data-driven approach to DOM manipulation, this allows you to add svg elements to the DOM that is binded to data. Data visualization help us understand the data by creating graphical representation of data like graphs and charts. Data is everywhere and having these visualization helps us analyze the data. A common data visualization is a bar graph, in this blog I will go over some of the basic of D3.js while creating a bar graph.
+
+Data-Driven Documents also known as D3.js is a powerful JavaScript library for adding data visualization to a webpage. D3.js is a data-driven approach to DOM manipulation, this allows you to add svg elements to the DOM that is binded to data. Data visualization help us understand the data by creating graphical representation of data like graphs and charts. Data is everywhere and having these visualization helps us analyze them. A common data visualization is a bar graph, in this blog I will go over some of the basic of D3.js while creating a bar graph.
 
 #### Getting Started
 
-The first thing you need to create cool data visualization is the D3.js JavaScript library. You can download the zip file <a href="https://d3js.org/" target="_blank">here</a>. This library gives you all the built-in methods you need to create svg elements in the DOM using only JavaScript! After downloading this zip file, all you have to unzip and add it to your project. Then add this JavaScript into your html.
+The first thing you need to create cool data visualization is the D3.js JavaScript library. You can download the zip file <a href="https://d3js.org/" target="_blank">here</a>. This library gives you all the built-in methods you need to create svg elements in the DOM using only JavaScript! After downloading this zip file, all you have to do is unzip and add it to your project. Then add this JavaScript into your html.
 
 {% highlight html %}
   <script src="/relative/path/goes/here/d3.min.js" charset="utf-8"></script>
@@ -48,7 +49,7 @@ The following code will insert elements into our div. With D3.js we are able to 
 
 #### Let's Make a Bar Graph
 
-Making a `rect` svg element is easy, but it doesn't tell us anything! For the `rect` to be meaningful it has to represent some data or number. Lets learn how to bind data to our `rect` elements. The easiest way to store our data is in an `Array` in JavaScript. Let's bind our `rect` elements to data from an array.
+Making a `rect` svg element is easy, but it doesn't tell us anything! For the `rect` to be meaningful it has to represent some data or number. Let's learn how to bind data to our `rect` elements. The easiest way to store our data is in an `Array` in JavaScript. Let's bind our `rect` elements to data from an array.
 
 {% highlight html %}
   <div class="example">
@@ -275,7 +276,7 @@ As you can see the maximum value of the array of 100 takes up all the space of t
 
 #### Adding Axis
 
-This bar graph is almost done, we have numbers without any description of what the number represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we want to create a bar graph for the number of customers coming in to our store for this week. Now our data need to include two information, the day of the week and the number of customers. We can use an array of objects as our data which allows us to store more information in one entry. Let's now create this graph with x-axis and y-axis.
+This bar graph is almost done, we have numbers without any description of what the number represents. If we add a x-axis to our graph, we can analyze the bar graph. Let's say we want to create a bar graph for the number of customers coming into our store for this week. Now our data need to include two information, the day of the week and the number of customers. We can use an array of objects as our data which allows us to store more information in one entry. Let's now create this graph with x-axis and y-axis.
 
 {% highlight javascript %}
   <div class="example">
@@ -374,7 +375,7 @@ Result:
 <div class="example7">
 </div>
 
-Now that looks like a bar graph that you see in presentations! All you need to know to add a axis to your data visualization is the scale and the orientation. D3.js needs to know how to create the axis based on a scale and where to put it in the svg canvas.
+Now that looks like a bar graph that you see in presentations! All you need to know for adding a axis to your data visualization is the scale and the orientation. D3.js needs to know how to create the axis based on a scale and where to put it in the svg canvas.
 
 #### Conculsion
 

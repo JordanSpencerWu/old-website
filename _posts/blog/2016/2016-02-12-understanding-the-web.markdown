@@ -4,6 +4,7 @@ title:  "Understanding the Web"
 date:   2016-02-11 22:20:00
 categories: [blog]
 ---
+
 These days there are many web browsers available to download for free, some of the popular ones are Chrome, Safari, Firefox, and Internet Explorer. Everyone knows how to use a browser from logging in to a social media to searching through google. As I learn more about web development, I start to understand how the web works.
 
 The internet is just a network of computers that are sending data back and forth to each other. The different between the internet today and when it was created is the advancement of technology, we are able to connect machines all over the world. As a result we need regulations, that is where protocol comes in. One important protocol is Transmission Control Protocol (TCP), all internet-connected devices speak it. To connect to the internet, the device has to listen on port 80 using Hypertext Transfer Protocol also known as HTTP. This allows the machine to request files over the network.

@@ -3,6 +3,7 @@ layout: post
 title:  "Learning Flux"
 date:   2016-04-08 13:15:00
 ---
+
 Flux is an application architecture developed by Facebook for creating client-side web application. The main focus of this architecture is to utilize the unidirectional data flow. Unidirectional data flow will allow more control on how states changes when using React.js. You can implement this architecture into your web application without introducing a lot of new code. The Flux application has three major parts: the __dispatcher__, the __stores__, and the __views__. In this blog I explain each of these parts in my own words.
 
 #### Why Use Flux?
@@ -29,11 +30,11 @@ The __stores__ contains all the states and logic! In React.js the components upd
 
 #### Views / Controller-Views
 
-Remember that React.js is just the View in the MVC web design pattern. A React component is how your data will interact with the view. This is also known as a controller-view because it will get the data from the stores and pass data down it's descendants components as properties. React component allow us to create events and listeners to specific events like on click, on keydown, on change, and more. Whenever a user interact with a component there are events that we need to listen to, these events might change the state of our component. We call this __actions__ that will change the state of the component. The only way to change the state of our data is in our __stores__, we have use a __dispatcher__ to pass the data to the callback function in the __store__ then update our React component. This is where we have to use the __dispatcher__ with the __dispatch__ method to notify our __stores__ that a __action__ was made. The most important part of this is that the controller-view doesn't modify the data. this decouples the logic from the view.
+Remember that React.js is just the View in the MVC web design pattern. A React component is how your data will interact with the view. This is also known as a controller-view because it will get the data from the stores and pass data down it's descendants components as properties. React component allow us to create events and listeners to specific events like on click, on keydown, on change, and more. Whenever a user interact with a component there are events that we need to listen to, these events might change the state of our component. We call this __actions__ that will change the state of the component. The only way to change the state of our data is in our __stores__, we have to use a __dispatcher__ to pass the data to the callback function in the __store__ then update our React component. This is where we have to use the __dispatcher__ with the __dispatch__ method to notify our __stores__ that a __action__ was made. The most important part of this is that the controller-view doesn't modify the data, this decouples the logic from the view.
 
 #### Actions
 
-We now know that __actions__ are created when the user interacts with the component that will change the state of our component. Actions are passed into the __dispatcher__ to be used in the __stores__. For our store to know what to do we need a create __actionType__ property that will tell the __store__ which logics to run, the other arguments pass is the data that we will be modified. It's best practice to create a module that holds all the actions that can be made in your React component. Remember to create a constant that holds all the __actionType__ in a separate module.
+We now know that __actions__ are created when the user interacts with the component that will change the state of our component. Actions are passed into the __dispatcher__ to be used in the __store__. For our store to know what to do we need a create a __actionType__ property that will tell the __store__ which logics to run, the other arguments pass is the data that will be modified. It's best practice to create a module that holds all the actions that can be made in your React component. Remember to create a constant that holds all the __actionType__ in a separate module.
 
 #### Conclusion
 

@@ -4,6 +4,7 @@ title:  "Creating a Blog With Jekyll"
 date:   2016-02-21 13:15:00
 categories: [blog]
 ---
+
 Creating your own blog isn't complicated and is free. Jekyll is great for creating blogs by transforming your plain text into static websites. With Jekyll you have more control over your site from styling to adding more features. When using Jekyll you don't have to worry about hosting companies, you can easily deploy your site using GitHub for free. In this blog I will cover how to create a blog site with Jekyll.
 
 ####  Getting Started
@@ -18,7 +19,7 @@ run the following commands inside your terminal.
   ~ $ jekyll serve
 {% endhighlight %}
  
-The first command `gem install jekyll` will install this gem into your machine, this allow you to use the command line interface (CLI) `jekyll` in your terminal. The command `jekyll new blog` will create the jekyll structure for your blog site. This basically creates all the directories and files you will need to get started with jekyll inside a directory called myblog. The command `cd myblog` is a built-in CLI that says change directory to myblog, this will enter the directory you just created. The last command is a jekyll CLI that creates a local server on your machine on port 4000, which you can see the website by going to `localhost:4000` on any browser.
+The first command `gem install jekyll` will install this gem into your machine, this allow you to use the command line interface (CLI) `jekyll` in your terminal. The command `jekyll new blog` will create the jekyll structure for your blog site. This basically creates all the directories and files you will need to get started with jekyll inside a directory called myblog. The command `cd myblog` is a built-in CLI that changes directory to myblog, this will enter the directory you just created. The last command is a jekyll CLI that creates a local server on your machine on port 4000, which you can see the website by going to `localhost:4000` on any browser.
  
 It's important to understand what's happening when creating a local server on your machine. In web development all the files for a web page is saved on a hosting server, we are doing something similar by creating local server on our machine for all the files to be served. When you go to `localhost:4000` on any browser, it is getting all the files like HTML, CSS, and Javascript needed to render your web page. The port number is just a TCP port that is available on your machine. To close your server run `ctrl + c`.
 

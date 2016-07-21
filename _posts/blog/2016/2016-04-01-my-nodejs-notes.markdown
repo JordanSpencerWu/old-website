@@ -3,6 +3,7 @@ layout: post
 title:  "My Node.js Notes"
 date:   2016-04-01 13:15:00
 ---
+
 Node.js is a server side scripting language that uses Chrome's V8 JavaScript engine. Node.js is cross-platform, it doesn't matter if you're using a Windows, Mac, or Linux!! The best part of Node.js is it makes I/O operations asynchronous and will optimize the throughput in your web applications. Many web applications use Node.js for it's event driven architecture and non-blocking features. This blog post will be my notes on Node.js.
 
 #### Getting Started
@@ -14,7 +15,7 @@ The first thing you need is to download Node.js on your machine. You can click t
   > console.log("Hello World!")
 {% endhighlight %}
 
-The `node` command is a CLI command that will run the JavaScript runtime in your terminal. This allows you to run JavaScript commands in your terminal, this is similar to a JavaScript sandbox. Another way to use Node.js is to create a JavaScript file and then run it using the `node <filename>` command. Here is a quick example, first create a file with a extension `.js`.
+The `node` command is a CLI command that will run the JavaScript runtime in your terminal. This allows you to run JavaScript commands in your terminal, this is similar to a JavaScript sandbox. Another way to use Node.js is to create a JavaScript file and then run it using the `node <filename>` command line. Here is a quick example, first create a file with a extension `.js`.
 
 {% highlight javascript %}
   // helloWorld.js
@@ -47,7 +48,7 @@ What makes Node.js so great is that it supports non-blocking code. This will inc
   // new task
 {% endhighlight %}
 
-The following code will run in a sequence, this means one instruction at a time. The first thing is it will read the file called `helloWorld.txt` and saves all the content into the variable `contents`. Once it finished reading the file it will console log the content to the terminal, note: the __readFileSync__ returns a instance of the __Buffer__ class in node. Buffer are necessary to deal with purely binary streams of data. Remember everything can be represented in a binary form and there are many encoding and decoding techniques used with binary data. Lastly it will start a new task. You might notice that if the file is big it will take a few seconds to read the whole file before continuing. In programming we want to optimize time, that is where __asynchronous__ comes in. In a asynchronous process, we are able to do other tasks while waiting for a task to be done. This is called non-blocking process which is common in Node.js programs.
+The following code will run in a sequence, this means one instruction at a time. The first thing is it will read the file called `helloWorld.txt` and saves all the content into the variable `contents`. Once it finished reading the file it will console log the content to the terminal, note: the __readFileSync__ returns a instance of the __Buffer__ class in Node. Buffer are necessary to deal with purely binary streams of data. Remember everything can be represented in a binary form and there are many encoding and decoding techniques used with binary data. Lastly it will start a new task. You might notice that if the file is big it will take a few seconds to read the whole file before continuing. In programming we want to optimize time, that is where __asynchronous__ comes in. In a asynchronous process, we are able to do other tasks while waiting for a task to be done. This is called non-blocking process which is common in Node.js programs.
 
 {% highlight javascript %}
   // NON-BLOCKING EXAMPLE!!
@@ -88,7 +89,7 @@ You are able to create servers in Node that listens to client's request and will
   });
 {% endhighlight %}
 
-To import the __HTTP__ module into your script you have to use the __require('http')__ which allows you to useany of the methods in the __HTTP__ module. The hostname __127.0.0.1__ is the domain name in the URL for example, you can type __http://127.0.0.1:1337/__ or __http://localhost:1337/__ in a web browser to make a http request to this server. The code above will create a server that is listening on port 1337 on the domain name localhost (this is a local server on your machine), once it receives this http request it will response with a status code of 200, with content-type of text/plain and will output a string 'Hello World' to the webpage.
+To import the __HTTP__ module into your script you have to use the __require('http')__ which allows you to use any of the methods in the __HTTP__ module. The hostname __127.0.0.1__ is the domain name in the URL for example, you can type __http://127.0.0.1:1337/__ or __http://localhost:1337/__ in a web browser to make a http request to this server. The code above will create a server that is listening on port 1337 on the domain name localhost (this is a local server on your machine), once it receives this http request it will response with a status code of 200, with content-type of text/plain and will output a string 'Hello World' to the webpage.
 
 #### Events
 
@@ -107,7 +108,7 @@ Remember that Node.js is event-driven!! A event is when a action in the DOM is t
   // ERR: Spilled Milk
 {% endhighlight %}
 
-We have to import the __Event__ module from the Node.js library. After we will create a new instance of the EventEmitter class, we can then create a new event called __error__. The __error__ event takes in a message parameter that will be used when this event is emitted. To trigger or call this event we would use the dot notation to invoke the __emit__ method, this will trigger/call the event. This was a simple example of how events are used in Node.js, there are many applications in using events in Node.js.
+We have to import the __Event__ module from the Node.js library. After we will create a new instance of the EventEmitter class, we can then create a new event called __error__. The __error__ event takes in a message parameter that will be used when this event is emitted. To trigger or call this event we would use the dot notation to invoke the __emit__ method, this will trigger/call the event. This was a simple example of how events are used in Node.js.
 
 #### Node API
 

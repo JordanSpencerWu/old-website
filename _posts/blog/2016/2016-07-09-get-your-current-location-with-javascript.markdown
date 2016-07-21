@@ -3,6 +3,7 @@ layout: post
 title:  "Get Your Current Location With JavaScript"
 date:   2016-07-09 12:15:00
 ---
+
 The other day I downloaded a android game called Pokémon GO on my phone. I remember playing Pokémon back in the day when there was only 151 pokemons available to catch. I started playing this game and realized it was using my geolocation to find pokemons, gyms, and poke stops. It's crazy how technologies has change over a decade, I went from playing this game on my gameboy in elementary school to now playing it on my phone. The users will need to allow the game to have access to their location data for everything to work. In this blog I will talk about how to use JavaScript to get your current latitude and longitude location.  
 
 Most of the devices that have access to the internet are capable of getting it's location using GPS, WiFi, or IP geolocation. This allows developers to implement all kinds of useful map interactions in apps and websites. JavaScript has a powerful api called <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation" target="_blank">Geolocation API</a>, this api uses the methods above to get your geo data.
@@ -24,7 +25,7 @@ Looking at the Geolocation API, there are a few methods that can be used to get 
 
 `Geolocation.getCurrentPosition()` - Finds the device's current location and gives back a `Position` object with the data.
 
-`Geolocation.watchPosition()` -Listens for changes in the location and invokes a callback on every movement.
+`Geolocation.watchPosition()` - Listens for changes in the location and invokes a callback on every movement.
 
 `Geolocation.clearWatch()` - Removes a `watchPosition` event handler.
 
@@ -87,7 +88,8 @@ Once we have the geolocation data we can use <a href="https://developers.google.
 <div id="map" style="height:50vh;width:100%;"></div>
 
 #### Conclusion
-The Pokémon GO game is watching your position which is similar to the `watchPosition()` method in the Geolocation API. Beware that watching your position using GPS or WiFi consumes your battery power at a faster rate. This bring back memory from when I played Pokémon on my gameboy, I still remember my first lvl 100 pokémon was Nidoking, well time to find a nidoran in Pokémon GO!
+
+The Pokémon GO game is watching your position which is similar to the `watchPosition()` method in the Geolocation API. Beware that watching your position using GPS or WiFi consumes your battery power at a faster rate. This bring back memory from when I played Pokémon on my gameboy, I still remember my first lvl 100 pokémon was Nidoking, well time to find a Nidoran in Pokémon GO!
 
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyAZhjK4Uio-T1ZkADdweo1uxHC9jRUYEM0"></script>
 <script>

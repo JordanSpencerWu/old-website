@@ -3,11 +3,12 @@ layout: post
 title:  "Drawing With SVG"
 date:   2016-02-26 13:15:00
 ---
+
 Scalable Vector Graphics (SVG) is a markup language for describing two-dimensional vector graphics. This allows you to draw images that has the same scaling in any screen size. This is great for creating images that will be used on a moblie, tablet, and desktop screens. This makes SVG very responsive and many images these days are replaced with svg. In this blog I will go over some of the basic shapes you can draw with svg.
 
 #### SVG Elements
 
-HTML5 introduced a new elment called `svg` which allows you to use svg inside your html. This element tells the browser that it is a svg and will act like a canvas for yourtwo-dimensional vectors graphics. This element has a few attributes that we can use, the commonly used attributes are `width` and `height`. Lets start off by creating our svg and defining a width and height for it.
+HTML5 introduced a new elment called `svg` which allows you to use svg inside your html. This element tells the browser that it is a svg and will act like a canvas for your two-dimensional vectors graphics. This element has a few attributes that we can use, the commonly used attributes are `width` and `height`. Lets start off by creating our svg and defining a width and height for it.
 
 {% highlight html %}
   <svg height="250" width="250">
@@ -260,7 +261,7 @@ The `g` element is a container used to group other SVG elements. Transformations
 
 #### Symbol
 
-The symbol element is used to define graphical template objects which can be instantiated by a <use> element. The use of symbol elements for graphics that are used multiple times in the same document adds structure and semantics.
+The symbol element is used to define graphical template objects which can be instantiated by a <use> element. The use of symbol elements for graphics that are used multiple times in the same document.
 
 {% highlight html %}
   <svg width="300" height="300">

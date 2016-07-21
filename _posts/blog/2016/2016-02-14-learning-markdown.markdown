@@ -4,7 +4,8 @@ title:  "Learning Markdown"
 date:   2016-02-14 00:15:00
 categories: [blog]
 ---
-Markdown is a software tool for text-to-HTML conversions, this tool allows you to write plain text then converts it into HTML. Any files with the extension `.md` is a Markdown file, for example a README.md file in a github repository. The Markdown syntax is very easy to pick up and is commonly used in websites. I recentlystarted to use Markdown when writing my blog posts. I will go over some of the basic syntax in this blog.
+
+Markdown is a software tool for text-to-HTML conversions, this tool allows you to write plain text then converts it into HTML. Any files with the extension `.md` is a Markdown file, for example a README.md file in a github repository. The Markdown syntax is very easy to pick up and is commonly used in websites. I recently started to use Markdown when writing my blog posts. I will go over some of the basic syntax in this blog.
 
 #### Emphasis
 
@@ -95,7 +96,7 @@ The results:
 
 #### Lists
 
-Lets say you want to make a list of your favorite artists, there is a Markdown syntax for making a unorder list. What if you want to list all the songs in a album? There is a markdown syntax for a ordered list.
+Let's say you want to make a list of your favorite artists, there is a Markdown syntax for making a unorder list. What if you want to list all the songs in a album? There is a markdown syntax for a ordered list.
 
     ##### Favorite Artist
     * Jackie Boyz
@@ -189,7 +190,7 @@ The results:
 
 [logo]: http://netdna.copyblogger.com/images/google+logo.png "Google Logo 2"
    
-Markdown is amazing and makes you more productive when writing your posts. This is just the basic of using Markdown to write HTML element, if you want to learn more click this <a href="https://daringfireball.net/projects/markdown/" target="_blank">link</a>.My favorite part of Markdown is that you can write HTML in your plain text files and it will stillwork for example adding a youtube video.
+Markdown is amazing and makes you more productive when writing your posts. This is just the basic of using Markdown to write HTML element, if you want to learn more click this <a href="https://daringfireball.net/projects/markdown/" target="_blank">link</a>. My favorite part of Markdown is that you can write HTML in your plain text files and it will still work for example adding a youtube video.
 
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A" frameborder="0" allowfullscreen></iframe>
