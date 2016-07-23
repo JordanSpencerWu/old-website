@@ -20,7 +20,7 @@ MathJax comes with a few pre-defined and pre-compiled configuration files, click
 
 #### Configuring TeX and LaTeX input
 
-We first need to get the `tex2jax` preprocessor, and the `TeX` input processor. The `tex2jax` preprocessor looks for the mathematical equation within the webpage by locating the delimiter, while the TeX processor converts the TeX notation into MathJaX's internal format then uses a MathJax output processor to display it on the page. I will be adding the following configuration above the MathJax CDN script element.
+We first need to get the `tex2jax` preprocessor, and the `TeX` input processor. The `tex2jax` preprocessor looks for the mathematical equation within the webpage by locating the delimiter, while the TeX processor converts the TeX notation into MathJaX's internal format then uses a MathJax output processor to display it on the page. I will be adding the following configuration above the MathJax CDN `script` element.
 
 {% highlight html %}
   <script type="text/x-mathjax-config">
@@ -52,7 +52,7 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 </div>
 
-That's the quadtrtic formula from Algebra!!
+That's the quadratic formula from Algebra!!
 
 #### Conclusion
 
