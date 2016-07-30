@@ -1,0 +1,28 @@
+---
+layout: music
+date: 2016-07-30 12:00:00
+categories: [music]
+hidden: true
+---
+
+1. HUNTAR - Blindspot
+2. Deepend - I’m Intoxicated
+3. Justin Prime & We Are Loud - Drowning
+4. Pierce Fulton - Echo Lake
+5. Zaeden x Nina & Malika - Never Let You Go
+6. Sick Individuals feat. Stevie Appleton - Mrs.
+7. Kennedi - You & I
+8. Don Diablo & Steve Aoki x Lush & Simon - What We Started ft. BullySongs
+9. Crystal Skies - Our Journey ft. Ashley Apollodor
+10. Sandro Silva ft. Rochelle - Breaking Walls
+11. DM Galaxy - Get Here ft. Matthew John Kurz
+12. Lliam + Latroit - Someday
+13. CelDro & Slinz - Hold Me ft. Bjeno
+14. The Chainsmokers - Closer ft. Halsey
+15. Boombox Cartel - Colors ft. Grabbitz
+16. Headhunterz & Conro - Unique ft. Clara Mae
+17. BUNT - Young Hearts ft. BEGINNERS
+
+<div class="center">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A6Xhb46t8f3z8FkuXQAj4UV&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
