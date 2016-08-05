@@ -7,6 +7,7 @@ categories: [book]
 img-path: /assets/images/coders-at-work.jpg
 description: This was an interesting book where the author Peter Seibel interviews top programmers. The book is written like a script where both the author and programmers are having a long conversation about their programming experience. It's interesting to learn how each programmer begin coding and how their views on skills needed to become successful. This book offers a unique glimpse of the past from each programmer's perspective.
 hidden: true
+class: 3
 ---
 
 This is a interesting book where I the reader felt like I was actually talking to each programmer being interviewed. I enjoyed learning about the past when Computer Science wasn't a academic degree. A time when computers were expensive and a limited amount of people had access to them.
@@ -25,4 +26,4 @@ There was a huge emphasis on coding styles! The code should be readable! Creatin
 
 The book mentions ways to recognize talent. I think the best way to recognize talent isn't from doing whiteboard coding interviews. It from how passionate the individual is about programming and learning. Other skills equally important are communication and teamwork!
 
-Peter Seibel asked this question to all the interviewee. __"Do you consider yourself a scientist, an engineer, an artist, or a craftsman?__ The response he got from each programmer varied and was my favorite question he asked.
+Peter Seibel asked this question to all the interviewee. __"Do you consider yourself a scientist, an engineer, an artist, or a craftsman?__ The response he got from each programmer varied and was my favorite question.

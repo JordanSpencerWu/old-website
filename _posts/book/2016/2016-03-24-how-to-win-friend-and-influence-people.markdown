@@ -7,6 +7,7 @@ categories: [book]
 img-path: /assets/images/how-to-win-friends-and-influence-people.jpg
 description: This is a amazing book that shows you how to interact with others in a day to day basis. We are selfish and emotional creatures that only see the world through our own eyes. Only a few are logical and will resolve problems where both parties are winners. This book holds many examples and principles to improve ones human relations skills. This book was life changing and I will be implementing these principles throughout my life.
 hidden: true
+class: 2
 ---
 
 ##### Fundamental Techniques in Handling People
