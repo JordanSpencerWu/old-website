@@ -25,7 +25,7 @@ title: Booklist
           <span class="author-byline-inside">By {{ post.author }}</span>
         </div>
         <p>{{ post.description }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}">My Notes</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">Notes <i class="fa fa-angle-double-right" aria-hidden="true""></i></a>
       </div>
     </div>
   {% endfor %}
