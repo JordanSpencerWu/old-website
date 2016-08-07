@@ -22,12 +22,12 @@
             <h6 class="side-nav-brand-name">jordan.spencer.wu@gmail.com</h6>
           </div>
           <li>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/" class="wave-effect waves-teal">Blog</a>
           </li>
           {% for my_page in site.pages %}
             {% if my_page.title %}
               <li>
-                <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                <a class="wave-effect waves-teal" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
               </li>
             {% endif %}
           {% endfor %}
