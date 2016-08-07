@@ -14,9 +14,11 @@ title: Booklist
 <div class="row">
   {% for post in site.categories.book %}
     <div class="col s6 offset-s3 m6 offset-m3" style="margin-bottom: 15px;">
-      <a href={{ "#" | append: post.class }} class="{{ post.class }}">
-        <img class="responsive-img" src="{{post.img-path}}">
-      </a>
+      <div class="card-image waves-effect waves-block waves-light">
+        <a href={{ "#" | append: post.class }} class="{{ post.class }}">
+          <img class="responsive-img" src="{{post.img-path}}">
+        </a>
+      </div>
       <div id={{ post.class }} style="display:none;">
         <header class="card-header">{{post.title}}</header>
         <div class="author-byline">
