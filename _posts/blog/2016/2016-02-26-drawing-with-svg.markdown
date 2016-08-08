@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Drawing With SVG"
-date:   2016-02-26 13:15:00
+title: "Drawing With SVG"
+date: 2016-02-26 13:15:00
+categories: [blog]
 ---
 
 Scalable Vector Graphics (SVG) is a markup language for describing two-dimensional vector graphics. This allows you to draw images that has the same scaling in any screen size. This is great for creating images that will be used on a moblie, tablet, and desktop screens. This makes SVG very responsive and many images these days are replaced with svg. In this blog I will go over some of the basic shapes you can draw with svg.

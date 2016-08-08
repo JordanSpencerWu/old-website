@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "My Node.js Notes"
-date:   2016-04-01 13:15:00
+title: "My Node.js Notes"
+date: 2016-04-01 13:15:00
+categories: [blog]
 ---
 
 Node.js is a server side scripting language that uses Chrome's V8 JavaScript engine. Node.js is cross-platform, it doesn't matter if you're using a Windows, Mac, or Linux!! The best part of Node.js is it makes I/O operations asynchronous and will optimize the throughput in your web applications. Many web applications use Node.js for it's event driven architecture and non-blocking features. This blog post will be my notes on Node.js.

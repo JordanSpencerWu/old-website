@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Learning Flux"
-date:   2016-04-08 13:15:00
+title: "Learning Flux"
+date: 2016-04-08 13:15:00
+categories: [blog]
 ---
 
 Flux is an application architecture developed by Facebook for creating client-side web application. The main focus of this architecture is to utilize the unidirectional data flow. Unidirectional data flow will allow more control on how states changes when using React.js. You can implement this architecture into your web application without introducing a lot of new code. The Flux application has three major parts: the __dispatcher__, the __stores__, and the __views__. In this blog I explain each of these parts in my own words.

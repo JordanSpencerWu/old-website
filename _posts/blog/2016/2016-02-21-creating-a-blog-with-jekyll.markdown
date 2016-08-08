@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Creating a Blog With Jekyll"
-date:   2016-02-21 13:15:00
+title: "Creating a Blog With Jekyll"
+date: 2016-02-21 13:15:00
 categories: [blog]
 ---
 

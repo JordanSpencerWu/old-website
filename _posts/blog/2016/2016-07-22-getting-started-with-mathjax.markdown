@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Getting Started With MathJax"
-date:   2016-07-22 12:15:00
+title: "Getting Started With MathJax"
+date: 2016-07-22 12:15:00
+categories: [blog]
 ---
 
 The other day I was on the Mozilla Developer Network (MDN) website and saw something interesting on the page, it was MathML. This is a Markup Language for displaying mathematical equations on the browser. I took a quick tour of the MathML webpage in MDN and saw that most browsers don't support this language. I thought about writing mathematical equations on my blogsite, I wanted to create my own mathematical notes. That's where MathJax comes in! This JavaScript library will display beautiful math equation on all browsers! In this blog I will quickly go over how to use MathJax.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Learning Markdown"
-date:   2016-02-14 00:15:00
+title: "Learning Markdown"
+date: 2016-02-14 00:15:00
 categories: [blog]
 ---
 

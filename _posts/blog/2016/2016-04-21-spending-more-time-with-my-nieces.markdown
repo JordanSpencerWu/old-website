@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Spending More Time With My Nieces!!"
-date:   2016-04-21 13:15:00
+title: "Spending More Time With My Nieces!!"
+date:  2016-04-21 13:15:00
+categories: [blog]
 ---
 
 As I continue growing and learning, I realized that I have three amazing nieces. Over the years I spent most of my time in college studying that I forgot about my nieces. The only time I see them is during the holidays, I would play games and watch movies with them. They changed my life ever since junior high school, I still remember the day my first niece was born. I was in the seventh grade when my mom took me to the hospital, I saw something that forever changed my view on life. It was a room full of sleeping babies lined up in rows and columns, that's when I realized life is beautiful. This blog will be about my nieces and how they changed my life!!

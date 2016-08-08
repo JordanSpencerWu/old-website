@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello World!"
-date:   2016-02-10 22:20:00
+title: "Hello World!"
+date: 2016-02-10 22:20:00
 categories: [blog]
 ---
 

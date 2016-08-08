@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Understanding the Web"
-date:   2016-02-11 22:20:00
+title: "Understanding the Web"
+date: 2016-02-11 22:20:00
 categories: [blog]
 ---
 

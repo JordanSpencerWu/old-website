@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Get Your Current Location With JavaScript"
-date:   2016-07-09 12:15:00
+title: "Get Your Current Location With JavaScript"
+date: 2016-07-09 12:15:00
+categories: [blog]
 ---
 
 The other day I downloaded a android game called Pokémon GO on my phone. I remember playing Pokémon back in the day when there was only 151 pokemons available to catch. I started playing this game and realized it was using my geolocation to find pokemons, gyms, and poke stops. It's crazy how technologies has change over a decade, I went from playing this game on my gameboy in elementary school to now playing it on my phone. The users will need to allow the game to have access to their location data for everything to work. In this blog I will talk about how to use JavaScript to get your current latitude and longitude location.  
