@@ -5,11 +5,11 @@ date: 2016-08-08 12:15:00
 categories: [blog]
 ---
 
-React Router is a routing library for React.js! This library is similar to Sinatra and Express.js, both are used to response to HTTP requests. What makes React Router so powerful is it's ability to create a Single Page Application (SPA) using React Components. React.js is a great library for dynamically updating the webpage, now it has a routing framework that makes it easy to change between React components! This will be my notes on React Router after doing the tutorial.
+React Router is a routing library for React.js! This library is similar to Sinatra and Express.js, both are used to response to HTTP requests. What makes React Router so powerful is it's ability to create a Single Page Application (SPA) using react components. React.js is a great library for dynamically updating the webpage, now it has a routing framework that makes it easy to change between react components! This will be my notes on React Router after doing the tutorial.
 
 #### Router & Route
 
-The goal of React Router is to match the URL of the HTTP request and displaying the correct React component! The `Router` component is the main React component from the library that does the job. This component takes in `Route` props as children to configure a URL and a react component. The other common props for this component is the `history` props to keep track of the current URLs and past URLs. The following code below creates a simple `Router` component.
+The goal of React Router is to match the URL of the HTTP request and display the correct react component! The `Router` component is the main React component from the library that does the job. This component takes in `Route` props as children to configure a URL and a react component. The other common props for this component is the `history` props to keep track of the current URLs and past URLs. The following code below creates a simple `Router` component.
 
 {% highlight javascript %}
   import { Router, hashHistory } from 'react-router'
@@ -52,7 +52,7 @@ Let's think about the purpose of a Single Page Application. My definition of a S
   ), document.getElementById('app'));
 {% endhighlight %}
 
-Now that we need where the nested routes goes! Let's add in a Repos and About page like they did in the tutorial!
+Now we know where the nested routes goes! Let's add in a Repos and About page like they did in the tutorial!
 
 {% highlight javascript %}
   import { Router, Route, hashHistory } from 'react-router'
@@ -72,7 +72,7 @@ Now that we need where the nested routes goes! Let's add in a Repos and About pa
 
 #### Links & Active Links
 
-Our goal is to create a SPA, this means we need to have a navbar that holds all the URLs inside our `App` react component. This component will hold all its children `Route` components paths! The react-router library has a `Link` component that will bind the URL path with the `Link` and `Route` component. Here is the ES5 code example.
+Our goal is to create a SPA, we need to have a navbar that holds all the URLs inside our `App` react component. This component will hold all its children `Route` components paths! The react-router library has a `Link` component that will bind the URL path with the `Link` and `Route` component. Here is the ES5 code example.
 
 {% highlight javascript %}
   // modules/App.js
@@ -125,7 +125,7 @@ Like many web frameworks, the routing configuration must be able to take in para
   <Route path="/repos/:userName/:repoName" component={Repo}/>
 {% endhighlight %}
 
-Now both params are available to the Repo component using `this.props.params` inside your react component file. This is a quick and easy way of passing in params in your URL!
+Both params are available to the Repo component using `this.props.params` inside your react component file. This is a quick and easy way of passing in params to your URL!
 
 #### Index Routes & Index Links
 
@@ -152,7 +152,7 @@ We need to have a default page for the home page, so whenever the user goes to t
   ), document.getElementById('app'));
 {% endhighlight %}
 
-Now that we have a `IndexRoute` for our parent `Route` component's path. We need a way to get to this `IndexRoute`, that's where the `IndexLink` comes in! There are two ways to use this component.
+Now we have a `IndexRoute` for our parent `Route` component's path. We need a way to get to this `IndexRoute`, that's where the `IndexLink` comes in! There are two ways to use this component.
 
 {% highlight javascript %}
   // import the IndexLink component
