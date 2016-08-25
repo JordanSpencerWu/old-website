@@ -2,6 +2,7 @@
 categories: [blog]
 date: 2016-07-22 12:15:00
 layout: post
+libraries: [mathjax]
 title: "Getting Started With MathJax"
 ---
 

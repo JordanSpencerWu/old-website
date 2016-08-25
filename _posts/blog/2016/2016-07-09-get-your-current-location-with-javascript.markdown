@@ -2,6 +2,7 @@
 categories: [blog]
 date: 2016-07-09 12:15:00
 layout: post
+libraries: [gmaps]
 title: "Get Your Current Location With JavaScript"
 ---
 
