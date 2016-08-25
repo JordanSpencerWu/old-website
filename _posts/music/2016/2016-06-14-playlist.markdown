@@ -1,8 +1,8 @@
 ---
-layout: music
-date: 2016-06-14 20:50:00
 categories: [music]
+date: 2016-06-14 20:50:00
 hidden: true
+layout: music
 ---
 
 1. SG Lewis - Holding Back (ft. Gallant)

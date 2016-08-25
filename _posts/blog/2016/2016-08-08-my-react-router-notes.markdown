@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-08-08 12:15:00
 layout: post
 title: "My React Router Notes"
-date: 2016-08-08 12:15:00
-categories: [blog]
 ---
 
 React Router is a routing library for React.js! This library is similar to Sinatra and Express.js, both are used to response to HTTP requests. What makes React Router so powerful is it's ability to create a Single Page Application (SPA) using react components. React.js is a great library for dynamically updating the webpage, now it has a routing framework that makes it easy to change between react components! This will be my notes on React Router after doing the tutorial.

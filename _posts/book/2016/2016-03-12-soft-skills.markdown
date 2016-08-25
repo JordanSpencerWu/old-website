@@ -1,13 +1,14 @@
 ---
-layout: book
-date:   2016-03-10 14:00:00
-title: "Soft Skills: The software developer's life manual"
 author: John Sonmez
 categories: [book]
-img-path: /assets/images/soft-skills.jpg
+class: 1
+date: 2016-03-10 14:00:00
 description: This is the life manual that every software developer should reference throughout their professional career. A unique guide that offers techniques and practices for a more fulfilling life as a software developer. What I learned most from this book is to have a business mindset, I must strive to constantly improve and increase the quality of my code. This book provides many life advice from starting a career in the software industry to being a human being.
 hidden: true
-class: 1
+img-path: /assets/images/soft-skills.jpg
+layout: book
+permalink: /soft-skills/
+title: "Soft Skills: The software developer's life manual"
 ---
 
 This book was a eye opener in a way that made me think about being a software developer. Like many software developer, we all strive to improve our software craftsmanship. We should treat our software development careers as a business. The services we provide to a company is our own skills and it belongs to us. Think of the company that your working for as a client and we're selling the service of developing software to them. Just like a company is providing products or services to their customers. The book emphasis on having a business mindset which will in turn makes us better software developers. All businesses have a goal in mind from creating a product to providing services. We as software developers should set goals to reach somewhere in our career. 

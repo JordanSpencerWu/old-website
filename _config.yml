@@ -19,6 +19,9 @@ disqus_shortname: jordanwu
 # Build settings
 markdown: kramdown
 
+#Google services
+google_analytics: UA-80481140-1
+
 # Site map
 sitemap:
     file: "/sitemap.xml"

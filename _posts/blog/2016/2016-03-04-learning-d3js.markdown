@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-03-04 13:15:00
 layout: post
 title: "Learning D3.js"
-date: 2016-03-04 13:15:00
-categories: [blog]
 ---
 
 Data-Driven Documents also known as D3.js is a powerful JavaScript library for adding data visualization to a webpage. D3.js is a data-driven approach to DOM manipulation, this allows you to add svg elements to the DOM that is binded to data. Data visualization help us understand the data by creating graphical representation of data like graphs and charts. Data is everywhere and having these visualization helps us analyze them. A common data visualization is a bar graph, in this blog I will go over some of the basic of D3.js while creating a bar graph.

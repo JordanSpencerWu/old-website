@@ -1,8 +1,8 @@
 ---
-layout: music
-date:   2016-02-19 12:50:00
 categories: [music]
+date: 2016-02-19 12:50:00
 hidden: true
+layout: music
 ---
 
 1. Illenium ft. King Deco - Reverie

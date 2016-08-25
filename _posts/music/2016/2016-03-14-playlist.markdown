@@ -1,8 +1,8 @@
 ---
-layout: music
-date:   2016-03-14 14:00:00
 categories: [music]
+date: 2016-03-14 14:00:00
 hidden: true
+layout: music
 ---
 
 1. Latif - More Than Perfect

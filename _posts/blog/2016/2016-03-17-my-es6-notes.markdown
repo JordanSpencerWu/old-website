@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-03-17 13:15:00
 layout: post
 title: "My ES6 Notes"
-date: 2016-03-17 13:15:00
-categories: [blog]
 ---
 
 ECMAScript 6 is commonly known as JavaScript 2015. Like many programming languages there's always improvements and this is another updated version of JavaScript. The web is now more interactive and involves many JavaScript files. ES6 is the next version of JavaScript that includes many enhancements and new features that will make coding easier and more maintainable. In this blog I will go over some of key features that was introduced in ES6.

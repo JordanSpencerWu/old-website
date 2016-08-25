@@ -1,8 +1,8 @@
 ---
-layout: music
-date:   2016-06-09 14:00:00
 categories: [music]
+date: 2016-06-09 14:00:00
 hidden: true
+layout: music
 ---
 
 1. APEK & Shanahan ft. Andrew Jackson - Broken Souls

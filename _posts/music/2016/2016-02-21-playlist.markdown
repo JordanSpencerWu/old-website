@@ -1,8 +1,8 @@
 ---
-layout: music
-date:   2016-02-21 12:50:00
 categories: [music]
+date: 2016-02-21 12:50:00
 hidden: true
+layout: music
 ---
 
 1. Akon - Good Girls Lie

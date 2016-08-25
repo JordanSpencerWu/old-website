@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-03-15 13:15:00
 layout: post
 title: "Learning rem and em Length Unit"
-date: 2016-03-15 13:15:00
-categories: [blog]
 ---
 <article class="module" style="font-size:1rem;">
   <p style="font-size:1em;">

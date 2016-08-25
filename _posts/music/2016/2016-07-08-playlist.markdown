@@ -1,8 +1,8 @@
 ---
-layout: music
-date: 2016-07-08 01:50:00
 categories: [music]
+date: 2016-07-08 01:50:00
 hidden: true
+layout: music
 ---
 
 1. Misael Gauna - I Miss You (ft. Noctilucent)

@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-02-14 00:15:00
 layout: post
 title: "Learning Markdown"
-date: 2016-02-14 00:15:00
-categories: [blog]
 ---
 
 Markdown is a software tool for text-to-HTML conversions, this tool allows you to write plain text then converts it into HTML. Any files with the extension `.md` is a Markdown file, for example a README.md file in a github repository. The Markdown syntax is very easy to pick up and is commonly used in websites. I recently started to use Markdown when writing my blog posts. I will go over some of the basic syntax in this blog.

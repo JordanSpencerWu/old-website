@@ -1,8 +1,8 @@
 ---
-layout: music
-date:   2016-05-09 14:00:00
 categories: [music]
+date: 2016-05-09 14:00:00
 hidden: true
+layout: music
 ---
 
 1. Jennifer Nettles feat Jennifer Lopez - My House

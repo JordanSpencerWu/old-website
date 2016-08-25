@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-02-21 13:15:00
 layout: post
 title: "Creating a Blog With Jekyll"
-date: 2016-02-21 13:15:00
-categories: [blog]
 ---
 
 Creating your own blog isn't complicated and is free. Jekyll is great for creating blogs by transforming your plain text into static websites. With Jekyll you have more control over your site from styling to adding more features. When using Jekyll you don't have to worry about hosting companies, you can easily deploy your site using GitHub for free. In this blog I will cover how to create a blog site with Jekyll.

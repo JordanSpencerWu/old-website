@@ -1,8 +1,8 @@
 ---
+categories: [blog]
+date: 2016-02-25 13:15:00
 layout: post
 title: "My React Notes"
-date: 2016-02-25 13:15:00
-categories: [blog]
 ---
 
 React is a JavaScript library for building user interfaces (UI) by Facebook. Think of React like the View in the Model, View, Controller (MVC) web design pattern. The power of React is to create reusable components and dynamic UIs. This library allows you to create your own UI components using Javascript and allows you to reuse them anywhere in your web application. This blog will be my notes on React.
