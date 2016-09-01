@@ -13,7 +13,7 @@ title: "Clean Code"
 
 <div class="fixed-action-btn horizontal" style="bottom:10px;right:20px;">
   <a onclick="scroll(0,0)" class="btn-floating btn-large red">
-    <i class="large material-icons">library_books</i>
+    <i class="large material-icons">navigation</i>
   </a>
 </div>
 
@@ -25,6 +25,9 @@ title: "Clean Code"
 * <a href="#objects-and-data-structures">Objects and Data Structures</a>
 * <a href="#error-handling">Error Handling</a>
 * <a href="#boundaries">Boundaries</a>
+* <a href="#unit-tests">Unit Tests</a>
+* <a href="#classes">Classes</a>
+* <a href="#systems">Systems</a>
 
 <span id="clean-code" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
 
@@ -48,11 +51,11 @@ Name is everywhere in software, it's important to pick a intention-revealing nam
 
 #### Functions
 
-The most important rule of functions is that it should be small!! This implies that the function block using if statement, else statements, while statements, and so on should be a function call. This allows you to name a descriptive function name and reduces your function size. Use the Step=down rule, a top-down narrative where every function to be followed by those at the next level of abstraction.
+The most important rule of functions is that it should be small!! This implies that the function block using if statement, else statements, while statements, and so on should be a function call. This allows you to name a descriptive function name and reduces your function size. Use the Step-down rule, a top-down narrative where every function to be followed by those at the next level of abstraction.
 
-The ideal number of arguments for a function is zero (niladic). The more arguments you have, the more complex your function gets. We want simple and short functions! You can create functions with parameters but think carefully! Give parameter meaningful names that goes with the descriptive function name.
+The ideal number of arguments for a function is zero (niladic). The more arguments you have, the more complex your function gets, we want simple and short functions! You can create functions with parameters but think carefully! Give parameter meaningful names that goes with the descriptive function name.
 
-Avoid side effects! Your functions should only do one thing, avoid doing other hidden things. If you do have a side effect, change the function name to include the side effect!
+Avoid side effects! Your functions should only do one thing, avoid doing other hidden things. If you do have a side effect, include the side effect in the function name.
 
 Function should either do something or answer something, but not both. Every function, and every block within a function, should have one entry and one exit. There should only be one return statement in a function, no break or continue statements in a loop.
 
@@ -70,7 +73,7 @@ Comments are evil! They propagates lies and misinformation, code are always evol
 
 #### Formatting
 
-Code formatting is imporatant along with readability of you code! Remember readability comes before functionality, the functionality of the code will always change. Readability helps with modifying to the functionality, your style and discipline survives.
+Code formatting is imporatant along with readability of you code! Remember readability comes before functionality, the functionality of the code will always change. Readability helps with modifying the functionality, your style and discipline survives.
 
 The newspaper metaphor, think of a well-written newspaper article. The top is where to have your high-level abstraction, as you go down there's more details. The end is where you will find the lowest level functions.
 
@@ -176,5 +179,45 @@ Error handling is important, but if it obscures logic, it's wrong. Write Try-Cat
 
 #### Boundaries
 
-Currently reading...
+We want to control all software in our systems. This includes cleanly integrating foreign code like third-party libraries with the help of design patterns. One way can be creating a wrapper class that implements a interface that is tailored and constrained to meet the needs of the application. It's recommend to use learning tests when exploring third-party API. Code at the boundaries needs clear separation and tests that define expectations.
+
+> It's better to depend on something you control than on something you don't control, lest it end up controlling you.
+
+<span id="unit-tests" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
+
+#### Unit Tests
+
+Test Driven Development (TDD) asks us to write unit tests first, before writing any production code. The tests and the production code are written together, with the tests just a few seconds ahead of the production code. Consider the following three laws:
+
+1. You may not write production code until you have written a failing unit test.
+2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+3. You may not write more production code than is sufficient to pass the currently failing test.
+
+Keeping tests clean will allow the production code to evolve. The unit tests gives the ability to make sure that changes to the code base worked as expected. Tests preserve and enhance the flexibility, maintainability, and reusability of the production code. Creating clean tests is the same as creating clean code, it follows the same practices, expect it's in a different environment.
+
+Clearn tests follow __F.I.R.S.T.__ acronym :
+
+__Fast__: Tests should be fast.
+
+__Independent__: Tests should not depend on each other.
+
+__Repeatable__: Test should be repeatable in any environment.
+
+__Self-Validating__: The tests should have a boolean output (pass or fail).
+
+__Timely__: The tests need to be written in a timely fashion.
+
+> Test code is just as important as production code.
+
+<span id="classes" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
+
+#### Classes
+
+The first rule of classes is that they should be small! With classes we count responsibilities. The name of the class should depend on the readability it has. The Single Responsibility Principle (SRP) states that classes should have one responsibility - one reason to change. We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
+
+Classes should have a small number of instance variables. Each of the methods of a class should manipulate one or more of those variables. In general the more variables a method manipulates the more cohesive that method is to its class. When cohesion is high, it means that the methods and variables of the class are co-dependent and hang together as a logical whole. Maintaining cohesion results in many small classes.
+
+<span id="systems" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
+
+#### Systems
 
