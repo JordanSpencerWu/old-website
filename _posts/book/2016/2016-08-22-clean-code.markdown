@@ -195,7 +195,7 @@ Test Driven Development (TDD) asks us to write unit tests first, before writing 
 
 Keeping tests clean will allow the production code to evolve. The unit tests gives the ability to make sure that changes to the code base worked as expected. Tests preserve and enhance the flexibility, maintainability, and reusability of the production code. Creating clean tests is the same as creating clean code, it follows the same practices, expect it's in a different environment.
 
-Clearn tests follow __F.I.R.S.T.__ acronym :
+Clean tests follow __F.I.R.S.T.__ acronym :
 
 __Fast__: Tests should be fast.
 
@@ -213,7 +213,7 @@ __Timely__: The tests need to be written in a timely fashion.
 
 #### Classes
 
-The first rule of classes is that they should be small! With classes we count responsibilities. The name of the class should depend on the readability it has. The Single Responsibility Principle (SRP) states that classes should have one responsibility - one reason to change. We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
+The first rule of classes is that they should be small! With classes we count responsibilities. The name of the class should depend on the responsibility it has. The Single Responsibility Principle (SRP) states that classes should have one responsibility - one reason to change. We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.
 
 Classes should have a small number of instance variables. Each of the methods of a class should manipulate one or more of those variables. In general the more variables a method manipulates the more cohesive that method is to its class. When cohesion is high, it means that the methods and variables of the class are co-dependent and hang together as a logical whole. Maintaining cohesion results in many small classes.
 
