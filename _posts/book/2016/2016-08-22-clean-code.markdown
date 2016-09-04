@@ -3,7 +3,7 @@ author: Robert C. Martin
 categories: [book]
 class: 4
 date: 2016-08-22 14:00:00
-description: Currently reading this book.
+description: There are two reason to read this book. One you are a programmer, second you want to become a better programmer. This book introduces many thought processes that will make you a professional programmer, where clarity is king. This book holds many principles for developing code sense through practice. Creating clean code takes a lot of time and effort, always improving readability and design structure of the code.
 hidden: true
 img-path: /assets/images/clean-code.jpg
 layout: book
@@ -28,6 +28,8 @@ title: "Clean Code"
 * <a href="#unit-tests">Unit Tests</a>
 * <a href="#classes">Classes</a>
 * <a href="#systems">Systems</a>
+* <a href="#emergence">Emergence</a>
+* <a href="#smells-and-heuristics">Smells and Heuristics</a>
 
 <span id="clean-code" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
 
@@ -221,4 +223,171 @@ Classes should have a small number of instance variables. Each of the methods of
 
 #### Systems
 
-Currently reading...
+The code base is similiar to cities, teams of people who manage particular parts of the city. Some of those people are responsible for the big picture, while others focus on the details. Remember that cities works with the help of levels of abstractions and modularity. Construction is a very different process from use. Create clean systems by applying design patterns, never forget to use the simplest thing that can possibly work.
+
+<span id="emergence" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
+
+#### Emergence
+
+Here are four simple rules that will help make applying principles such as Single Responsibility Principle (SRP) and Dependency Injection Principle (DIP) easier. A testable system is important, writing simple and easy tests will make us think about better designs. Following a simple and obvious rule that says we need to have tests and run them continuously impacts our system's adherence to the primary Object Oriented (OO) goals of low coupling and high cohesion. Once we have a testable system, refactor to clean code. The fact that we have these tests eliminates the fear that cleaning up the code will break it.
+
+1. Runs All the Tests
+2. Contains no duplication
+3. Expresses the intent of the programmer
+4. Minimizes the number of classes and methods
+
+Following the practice of simple design can and does encourage and enable developers to adhere to good principles and patterns that otherwise takes years to learn.
+
+<span id="smells-and-heuristics" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
+
+#### Smells and Heuristics
+
+Here are a list of code smells!!
+
+##### Comments
+
+__C1: Inappropriate Comment__
+
+__C2: Obsolete Comment__
+
+__C3: Redundant Comment__
+
+__C4: Poorly Written Comment__
+
+__C5: Commented-Out Code__
+
+##### Environment
+
+__E1: Build Requires More Than One Step__
+
+__E2: Tests Require More Than One Step__
+
+##### Functions
+
+__F1: Too Many Arguments__
+
+__F2: Output Arguments__
+
+__F3: Flag Arguments__
+
+__F4: Dead Function__
+
+##### General
+
+__G1: Multiple Languages in One Source File__
+
+__G2: Obvious Behavior Is Unimplemented__
+
+__G3: Incorrect Behavior at the Boundaries__
+
+__G4: Overridden Safeties__
+
+__G5: Duplication__
+
+__G6: Code at Wrong Level of Abstraction__
+
+__G7: Base Classes Depending on Their Derivatives__
+
+__G8: Too Much Information__
+
+__G9: Dead Code__
+
+__G10: Vertical Separation__
+
+__G11: Inconsistency__
+
+__G12: Clutter__
+
+__G13: Artificial Coupling__
+
+__G14: Feature Envy__
+
+__G15: Selector Arguments__
+
+__G16: Obscured Intent__
+
+__G17: Misplaced Responsibility__
+
+__G18: Inappropriate Static__
+
+__G19: Use Explanatory Variables__
+
+__G20: Function Names Should Say Whay They Do__
+
+__G21: Understand the Algorithm__
+
+__G22: Make Logical Dependencies Physical__
+
+__G23: Prefer Polymorphism to If/Else or Switch/Case__
+
+__G24: Follow Standard Conventions__
+
+__G25: Replace Magic Number with Named Constants__
+
+__G26: Be Precise__
+
+__G27: Structure over Convention__
+
+__G28: Encapsulate Conditionals__
+
+__G29: Avoid Negative Conditionals__
+
+__G30: Functions Should Do One Thing__
+
+__G31: Hidden Temporal Couplings__
+
+__G32: Don't Be Arbitrary__
+
+__G33: Encapsulate Boundary Conditions__
+
+__G34: Functions Should Descend Only One Level of Abstraction__
+
+__G35: Keep Configurable Data at High Levels__
+
+__G36: Avoid Transitive Navigation__
+
+##### Java
+
+__J1: Avoid Long Import Lists by Using Wildcards__
+
+__J2: Don't Inherit Constants__
+
+__J3: Contants versus Enums__
+
+##### Names
+
+__N1: Choose Descriptive Names__
+
+__N2: Choose Names at the Appropriate Level of Abstraction__
+
+__N3: Use Standard Nomenclature Where Possible__
+
+__N4: Unambiguous Names__
+
+__N5: Use Long Names for Long Scopes__
+
+__N6: Avoid Encodings__
+
+__N7: Names Should Describe Side-Effects__
+
+##### Tests
+
+__T1: Insufficient Tests__
+
+__T2: Use a Coverage Tool!__
+
+__T3: Don't Skip Trivial Tests__
+
+__T4: An Ignored Test Is a Question about an Ambiguity__
+
+__T5: Test Boundary Conditions__
+
+__T6: Exhaustively Test Near Bugs__
+
+__T7: Patterns of Failure Are Revealing__
+
+__T8: Test Coverage Patterns Can be Revealing__
+
+__T9: Tests Should be Fast__
+
+> Clean code is not written by following a set of rules. Professionalism and craftmanship come from values that drive disciplines.
