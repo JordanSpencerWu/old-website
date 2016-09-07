@@ -5,7 +5,7 @@ class: 4
 date: 2016-08-22 14:00:00
 description: There are two reason to read this book. One you are a programmer, second you want to become a better programmer. This book introduces many thought processes that will make you a professional programmer, where clarity is king. This book holds many principles for developing code sense through practice. Creating clean code takes a lot of time and effort, always improving readability and design structure of the code.
 hidden: true
-img-path: /assets/images/clean-code.jpg
+img-path: /assets/images/books/clean-code.jpg
 layout: book
 permalink: /clean-code/
 title: "Clean Code"

@@ -6,7 +6,7 @@ class: 3
 date: 2016-07-31 14:00:00
 description: This was an interesting book where the author Peter Seibel interviews top programmers. The book is written like a script where both the author and programmers are having a long conversation about their programming experience. It's interesting to learn how each programmer begin coding and how their views on skills needed to become successful. This book offers a unique glimpse of the past from each programmer's perspective.
 hidden: true
-img-path: /assets/images/coders-at-work.jpg
+img-path: /assets/images/books/coders-at-work.jpg
 permalink: /coder-at-work/
 title: "Coders At Work"
 ---
