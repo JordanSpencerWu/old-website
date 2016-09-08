@@ -452,7 +452,7 @@ There are programs that can create svg for you like <a href="https://inkscape.or
 
 There are many good libraries for creating awesome svg available online. If you want to add more animation to your svg elements, you should take a look at <a href="http://snapsvg.io/" target="_blank">Snap.svg</a>. Snap.svg has a large library of animation you can use to make your svg come to life. If you want your svg to look like it's being drawn then you should use <a href="https://maxwellito.github.io/vivus/" target="_blank">Vivus.js</a>. Lastly, a popular svg library is <a href="https://d3js.org/" target="_blank">D3.js</a> which makes data visualization which helps you create graphs based on your data. You can do anything with svg!!
 
-<div>
+<div class="center">
   <svg version="1.1" width="320" height="320" viewBox="0 0 320 320" fill="none" stroke="#000" stroke-linecap="round"
       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: block; margin:auto">
     <defs>

@@ -107,7 +107,7 @@ Directive can take an argument, denoted by a colon after the directive name:
   <a v-bind:href="url"></a>
 {% endhighlight %}
 
-Modifiers are special postfixes denoted by a dot, which tells that a directive should be cound in some special way:
+Modifiers are special postfixes denoted by a dot, which tells that a directive should be bound in some special way:
 
 {% highlight html %}
   <a v-bind:href.literal="/a/b/c"></a>
@@ -284,4 +284,108 @@ The `v-model` directive is used to create two-way data binding on form input and
 
 #### Components
 
-Coming soon..
+Components are custom elements that extend basic HTML to encapsulate reusable code. When you create a new component constructor using `Vue.exnted()`, remember to __register__ it with `Vue.component(tag, constructor)`:
+
+> Follow the naming convention for custom tag-names, all-lowercase, must contain a hyphen.
+
+{% highlight html %}
+  <div id="example">
+    <my-component></my-component>
+  </div>
+{% endhighlight %}
+
+{% highlight javascript %}
+  // define
+  var myComponent = Vue.extend({
+    template: '<div>A custom component!</div>'
+  })
+  
+  // Globally register the component with tag: my-component
+  Vue.component('my-component', myComponent);
+
+  // create a root instance
+  new Vue({
+    el: '#example'
+  })
+{% endhighlight %}
+
+You can also make a local registration by registering it with the components instance option:
+
+{% highlight javascript %}
+  var Child = Vue.extend({/*...*/})
+  var Parent = Vue.extend({
+    template: '...',
+    components: {
+      // <my-component> will only be available in Parent's template
+      'my-component': Child
+    }
+  })
+{% endhighlight %}
+
+It's recommend to use a function that returns a fresh object as the data option:
+
+{% highlight javascript %}
+  var MyComponent = Vue.extend({
+    data: function () {
+      return { a: 1}
+    }
+  })
+{% endhighlight %}
+
+The Vue.js template engine is DOM-based which have restrictions on what elements can appear inside them:
+
+1. `a` can not contain other interactive elements (e.g. buttons and other links)
+2. `li` should be a direct child `ul` or `ol`, and both `ul` and `ol` can only contain `li`
+3. `option` should be a direct child of `select`, and `select` can only contain `option` (and `optgroup`)
+4. `table` can only contain `thead`, `tbody`, `tfoot` and `tr`, and these elements should be direct children of `table`
+5. `tr` can only contain `th` and `td`, and these elements should be direct children of `tr`
+
+> Don't use special tags like `<component>`, `<template>`, and `<partial>` inside of `ul`, `select`, `table`, etc.
+
+Data can be passed down from the parent component to child components using __props__:
+
+{% highlight javascript %}
+  Vue.component('child', {
+    // declare the props
+    props: ['msg'],
+    // the prop can be used inside templates, and will also
+    // be set as `this.msg`
+    template: '<span>{{ "{{ msg " }}}}</span>'
+  })
+{% endhighlight %}
+
+> When using camelCased prop names as attributes, you need to use their kebab-case (hyphen-delimited) equivalents:
+
+{% highlight javascript %}
+  Vue.component('child', {
+    // camelCase in JavaScript
+    props: ['myMessage'],
+    template: '<span>{{ "{{ myMessage " }}}}</span>'
+  })
+{% endhighlight %}
+
+{% highlight html %}
+  <child my-message="hello!"></child>
+{% endhighlight %}
+
+By default, all props form a __one-way-down__ binding from the parent to the child. However there are also two-way or a one-time binding with the `.sync` and `.once` __binding type modifiers__:
+
+{% highlight html %}
+  <!== default, one-way-down binding -->
+  <child :msg="parentMsg"><child>
+  <!== explicit two-way binding -->
+  <child :msg.sync="parentMsg"><child>
+  <!== explicit one-time binding -->
+  <child :msg.once="parentMsg"><child>
+{% endhighlight %}
+
+> A child component holds access to its parent component as `this.$parent`. A root Vue instance will be available to all of its descendants as `this.$root`. Each parent component has an array, `this.$children`, which contains all its child components.
+
+Each Vue instance is an event emitter that can:
+
+1. Listen to events using `$on()`
+2. Trigger events on self using `$emit()`
+3. Dispatch an event that propagates upward along the parent chain using `$dispatch()`
+4. Broadcast an event that propagates downward to all descendants using `$broadcast()`
+
+> When `v-ref` is used together with `v-for`, that allows you to directly access a child component.
