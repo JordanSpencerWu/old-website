@@ -9,13 +9,13 @@ Vue.js is a upcoming library for building interactive web interfaces. The goal i
 
 #### Reactive Data Binding
 
-Many frameworks those days focus on binding data to the DOM. Vue.js has a reactive data-binding system that keeps the data and the DOM in sync. This library provides you all the tools you need to create interactive web components. It works by connecting the View (DOM) with a Model (Plain JavaScript Object) through a ViewModel (Vue Instance). The Vue instance has a simple api for creating custom web components that interacts with data.
+Many frameworks those days focus on binding data to the DOM. Vue.js has a reactive data-binding system that keeps the data and the DOM in sync. This library provides tools for creating interactive web components. It works by connecting the View (DOM) with a Model (Plain JavaScript Object) through a ViewModel (Vue Instance). Vue instance contains methods for creating custom web components that interacts with data.
 
 > Directive are prefixed with `v-` to indicate that they are special attributes provided by Vue.js, and as you may have guessed, they apply special reactive behavior to the rendered DOM.
 
 #### Component System
 
-Another important concept in Vue.js it's allows us to build small, self-contained, and reusable components. HTML5 introduces ways of creating your own custom html elements, Vue.js is library that builds custom html element called components which are supported on most browsers. Features like cross-component data flow, custom event communication and dynamic component switching with transition effects are available with Vue.js. When building a large-scale application it's important to decouple the system by using a component system.
+Another important concept in Vue.js it's allows us to build small, self-contained, and reusable components. HTML5 introduces ways of creating custom html elements, this is a library that builds custom html element called components that are supported on most browsers. Features like cross-component data flow, custom event communication and dynamic component switching with transition effects are available. When building a large-scale application it's important to decouple the system by using a component system.
 
 #### The Vue Instance
 
@@ -76,9 +76,9 @@ Mustache can be used inside HTML attributes:
 
 > Note that attribute interpolations are disallowed in Vue.js directives and special attributes.
 
-> text inside the mustache tags are called __binding expressions__. In Vue.js a binding expression consists of a single JavaScript expression optionally followed by one more filters.
+> Text inside the mustache tags are called __binding expressions__. In Vue.js a binding expression consists of a single JavaScript expression optionally followed by one more filters.
 
-Here are some of the JavaScript Expressions available:
+Here are examples of the JavaScript Expressions:
 
 {% highlight html %}
   {{ "{{ number + 1 " }}}}
@@ -113,7 +113,7 @@ Modifiers are special postfixes denoted by a dot, which tells that a directive s
   <a v-bind:href.literal="/a/b/c"></a>
 {% endhighlight %}
 
-Here are some shorthands that Vue.js provides
+Here are some shorthands that Vue.js provides:
 
 {% highlight html %}
   <!-- full syntax -->
@@ -235,7 +235,7 @@ We can use `v-for` to iterate through an Array, inside the `v-for` blocks we hav
 
 #### Methods and Event Handling
 
-The `v-on` directive is used to listen to DOM events. We can bind a click event to a method named greet, by defining that method in our Vue instance. When we need to acces the original DOM event pass in `$event` as an argument into the method.
+The `v-on` directive is used to listen to DOM events. We can bind a click event to a method named greet, by defining that method in our Vue instance. When we need to acces the original DOM event, pass in `$event` as an argument into the method.
 
 {% highlight html %}
   <button v-on:click="say('hello!', $event)">Submit</button>
@@ -284,7 +284,7 @@ The `v-model` directive is used to create two-way data binding on form input and
 
 #### Components
 
-Components are custom elements that extend basic HTML to encapsulate reusable code. When you create a new component constructor using `Vue.exnted()`, remember to __register__ it with `Vue.component(tag, constructor)`:
+Components are custom elements that extend basic HTML to encapsulate reusable code. When you create a new component constructor using `Vue.extend()`, remember to __register__ it with `Vue.component(tag, constructor)`:
 
 > Follow the naming convention for custom tag-names, all-lowercase, must contain a hyphen.
 
@@ -389,3 +389,5 @@ Each Vue instance is an event emitter that can:
 4. Broadcast an event that propagates downward to all descendants using `$broadcast()`
 
 > When `v-ref` is used together with `v-for`, that allows you to directly access a child component.
+
+Here is a <a href="https://vuejs.org/api/" target="_blank">link</a> to the API.
