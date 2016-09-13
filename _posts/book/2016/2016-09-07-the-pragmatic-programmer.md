@@ -3,7 +3,7 @@ author: Andrew Hunt & David Thomas
 categories: [book]
 class: 5
 date: 2016-09-07 10:00:00
-description: Currently Reading..
+description: The road to mastering your software craftsmanship is to constantly invest in your learning. This book shows you how a pragmatic programmer create clean, flexible, and adaptable code. Everything you need to know about working on a project and more! 
 hidden: true
 img-path: /assets/images/books/the-pragmatic-programmer.jpg
 layout: book
@@ -43,10 +43,17 @@ Developers who don't actively think about their code or programming by coinciden
 
 > Avoid programming by coincidence - relying on luck and accidental successes - in favoring of programming deliberately.
 
-
 ##### Before the Project
 
-To be continued...
+Requirement gathering rarely lie on the surface. Normally, they're buried deep beneath layers of assumptions, misconceptions, and politics.
+
+> Work with a user to think like a user
+
+##### Pragmatic Projects
+
+The success of a project is measured by how well it meets the expectations of its users.
+
+> The Golden Rule ("Do unto others as you would have them do unto you")
 
 #### Terms
 
@@ -105,3 +112,41 @@ __Refactoring__: rewriting, reworking, and re-architecting code.
 __Unit Testing__: testing done on each module, in isolation, to verify its behavior.
 
 __Testing against contract__ tells us two things: whether the code meets the contract, and whether the contracts means what we think it means.
+
+__Documenting Requirements__, you want to write likely scenarios that describe what the application need to do and publish a document that everyone can use as a basis for discussions - the developers, the end users, and the project sponsors.
+
+__Use cases__: describe a particular use of the system - not in terms of user interface, but in a more abstract fashion.
+
+__Requirements__ are not architecture. Requirements are not designs, nor are they the user interface. Requirements are need.
+
+__Project glossary__ - one place that defines all the specific terms and vocabulary used in a project.
+
+__Project specification__ is the process of taking a requirement and reducing it down to the point where a programmer's skill can take over.
+
+__Seamless approach__: specification and implementation are simply different aspects of the same process - an attempt to capture and codify a requirement.
+
+__Quality officer__ - someone to whom the team delegates the responsibility for the qualiy of the deliverable.
+
+__Chief water tester__: this person check constantly for increased scope, decreased time scales, additional features, new environments - anything that wasn't in the original agreement.
+
+__Project librarian__: responsible for coordinating documentation and code repositories.
+
+__Tool Builders__: to construct and deploy the tools that automate the project drudgery.
+
+A __build__ is a procedure that takes on empty directory and builds the project from scratch, producing whatever you hope to produce as a final deliverable.
+
+__Final builds__: which you intend to ship as products, may have different requirement from the regular nightly build.
+
+__Integration testing__ shows that the major subsystem that make up the project work and play well with each other.
+
+__Real-world conidtions__, in the real world, your programs don't have limitless resources; they run out of things.
+
+__Regression test__ compares the output of the current test with previous (or known) values.
+
+__Test data__: there are only two kinds of data: real-world data and synthetic data.
+
+__Coverage analysis__ tools watch your code during testing and keep track of which lines of code have been executed and which haven't.
+
+__Internal documentation__ includes source code comments, design and test document, and so on.
+
+__External documentation__ is anything shipped or published to the outside world, such as user manuals. 
