@@ -34,9 +34,15 @@ permalink: /booklist/
 </div>
 
 <script type="text/javascript">
-  $('.1').modaal();
-  $('.2').modaal();
-  $('.3').modaal();
-  $('.4').modaal();
-  $('.5').modaal();
+  var numberOfBooks = 6;
+  var booksId = [];
+
+  for (var i = 0; i < numberOfBooks; i++) {
+    var selector = '.' + i;
+    booksId.push(selector);
+  }
+
+  booksId.forEach(function(id){
+    $(id).modaal();
+  });
 </script>
