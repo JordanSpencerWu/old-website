@@ -1,7 +1,7 @@
 ---
 author: Andrew Hunt & David Thomas
 categories: [book]
-class: 5
+class: 4
 date: 2016-09-07 10:00:00
 description: The road to mastering your software craftsmanship is to constantly invest in your learning. This book shows you how a pragmatic programmer create clean, flexible, and adaptable code. Everything you need to know about working on a project and more! 
 hidden: true
