@@ -8,11 +8,13 @@ permalink: /insertion-sort/
 title: "Insertion Sort"
 ---
 
-This is an efficient algorithm for sorting a small number of elements.
+This is an efficient algorithm for sorting a small number of elements, using the __incremental__ approach: having sorted the subarray $A[1..j - 1]$, we inserted the single element $A[j]$ into its proper place, yielding the sorted subarray $A[1..j]$.
 
 __Input__: A sequence of $n$ numbers $<a_1,a_2,\cdots,a_n>$
 
 __Ouput__: A permutation (reordering) $<a'_1,a'_2,\cdots,a'n>$ of the input sequence such that $a'_1 \leq a'_2 \leq \cdots \leq a'_n$.
+
+__Description__: Insertion sort works the way many people sort a hand of playing cards. We start with an empty left hand and the cards face down on the table. We then remove one card at a time from the table and insert it into the correct position in the left hand.To find the correct position for a card, we compare it with each of the cards already in the hand, right to left. At all times, the cards held in the left hand are sorted, and these cards were originally the top cards of the pile on the table.
 
 ##### INSERTION-SORT
 
@@ -33,7 +35,7 @@ The index $j$ indicates the "current card" being inserted into the subarray cons
 
 > Elements $A[1..j - 1]$ are the elements _originally_ in positions $1$ through $j - 1$, but now in sorted order, this is known as __loop invariant__
 
-We use __loop invariants__ to help us understand why an algorithm is correct, must show three things about a __loop invariant__:
+We use __loop invariants__ to help us understand why an algorithm is correct, it must satisfy the following conditions:
 
 __Initialization__: It is true prior to the first iteration of the loop.
 
@@ -41,6 +43,39 @@ __Maintenance__: If it is true before an iteration of the loop, it remains true 
 
 __Termination__: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
 
-The best-case occurs if the array is already sorted and the best-case running time will be a __linear function__ of $n$.
+The best-case occurs if the array is already sorted and the best-case running time will be a __linear function__ of $n$, $\Theta(n)$.
 
-The wrost-case occurs when the array is in reverse sorted order and the wrote-case running time is a __quadratic function__ of $n$.
+The wrost-case occurs when the array is in reverse sorted order and the wrost-case running time is a __quadratic function__ of $n$, $\Theta(n^2)$.
+
+##### Java Implementation
+
+{% highlight java %}
+  public class Example {
+    public static void main(String[] args) {
+        int[] unsortedArray = {5, 2, 4, 6, 1, 3};
+        insertionSort(unsortedArray);
+        printArray(unsortedArray);
+        // returns 1 2 3 4 5 6
+    }
+
+    public static void insertionSort(int[] array) {
+        int key, i;
+
+        for (int j = 1; j < array.length; j++) {
+            key = array[j];
+            i = j - 1;
+            while(i >= 0 && array[i] > key) {
+                array[i + 1] = array[i];
+                i = i - 1;
+            }
+            array[i + 1] = key;
+        }
+    }
+
+    public static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+  }
+{% endhighlight %}

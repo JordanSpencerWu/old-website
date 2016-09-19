@@ -7,6 +7,7 @@ description: Currently Reading...
 hidden: true
 img-path: /assets/images/books/introduction-to-algorithms.jpeg
 layout: book
+libraries: [mathjax]
 permalink: /introduction-to-algorithms/
 title: "Introduction to Algorithms"
 ---
@@ -21,6 +22,6 @@ For the most part of the book, the focus will be on the __worst-case running tim
 
 __rate of growth__ or __order of growth__ of the running time, we consider only the leading term of the running time function and also ignore the leading term's constant coefficient.
 
-{% for post in site.categories.introduction-to-algorithms %}
+{% for post in site.categories.introduction-to-algorithms reversed %}
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 {% endfor %}
