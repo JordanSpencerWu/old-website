@@ -16,7 +16,7 @@ __Ouput__: A permutation (reordering) $<a'_1,a'_2,\cdots,a'n>$ of the input sequ
 
 __Description__: Insertion sort works the way many people sort a hand of playing cards. We start with an empty left hand and the cards face down on the table. We then remove one card at a time from the table and insert it into the correct position in the left hand.To find the correct position for a card, we compare it with each of the cards already in the hand, right to left. At all times, the cards held in the left hand are sorted, and these cards were originally the top cards of the pile on the table.
 
-##### INSERTION-SORT
+##### INSERTION-SORT(A)
 
 This _pseudocode_ takes as a parameter an array $A[1..n]$ containing a sequence of length $n$ that is to be sorted. The algorithm sorts the input numbers __in place__: it rearranges the numbers within the array.
 

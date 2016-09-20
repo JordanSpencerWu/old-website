@@ -22,7 +22,7 @@ __Conquer__: Sort the two subsequences recurseively using merge sort, $\Theta(lg
 
 __Combine__: Merge the two sorted subsequences to produce the sorted answer,  $\Theta(n)$.
 
-The key operation of this algorithm is the combine step, $MERGE(A, p, q, r)$, where $A$ is an array and $p$, $q$, and $r$ are indices into the array such that $p \leq q < r$. This procedure assumes that the subarrays $A[p..q]$ and $A[q+1..r]$ are in sorted order. It __merges__ them to form a single sorted subarray that replaces the current subarray $A[p..r]$.
+The key operation of this algorithm is the combine step, __MERGE(A, p, q, r)__, where $A$ is an array and $p$, $q$, and $r$ are indices into the array such that $p \leq q < r$. This procedure assumes that the subarrays $A[p..q]$ and $A[q+1..r]$ are in sorted order. It __merges__ them to form a single sorted subarray that replaces the current subarray $A[p..r]$.
 
 __Description__: Suppose we have two piles of cards face up on a table. Each pile is sorted, with the smallest cards on top. We wish to merge the two piles into a single sorted output pile, which is to be face down on the table. Our basic step consists of choosing the smaller of the two cards on top of the face-up piles, removing it from its pile (which exposes a new top card), and placing this card face down onto the output file. We repeat this step until one input pile is empty, at which time we just take the remaining input pile and place it face down onto the output pile.
 
@@ -54,7 +54,7 @@ We created two arrays $L$ (left $A[p..q]$) and $R$ (right $A[q + 1..r]$), of len
 
 > Loop invariant: At the start of each iteration of the for loop, the subarray $A[p..k - 1]$ contains the $k - p$ smallest elements of $L[1..n_1 + 1]$ and $R[1..n_2 +1]$, in sorted order. Moreover, $L[i]$ and $R[j]$ are the smallest elements of their arrays that have not been copied back into A.
 
-Now we can use the $MERGE$ procedure as a subroutine in the merge sort algorithm. The procedure $MERGE-SORT(A,p,r)$ sorts the elements in the subarray $A[p..r]$. If $p \geq r$, the subarray has at most one element and is therefore already sorted. Otherwise, the divide step simply computes an index $q$ that partitions $A[p..r]$ into two subarrays: $A[p..q]$, containing $[\frac{n}{2}]$ elements, and $A[q + 1..r]$, containing $[\frac{n}{2}]$ elements.
+Now we can use the __MERGE__ procedure as a subroutine in the merge sort algorithm. The procedure __MERGE-SORT(A,p,r)__ sorts the elements in the subarray $A[p..r]$. If $p \geq r$, the subarray has at most one element and is therefore already sorted. Otherwise, the divide step simply computes an index $q$ that partitions $A[p..r]$ into two subarrays: $A[p..q]$, containing $[\frac{n}{2}]$ elements, and $A[q + 1..r]$, containing $[\frac{n}{2}]$ elements.
 
 ##### MERGE-SORT(A,p,r)
 
