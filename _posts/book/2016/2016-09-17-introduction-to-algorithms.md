@@ -22,6 +22,14 @@ For the most part of the book, the focus will be on the __worst-case running tim
 
 __rate of growth__ or __order of growth__ of the running time, we consider only the leading term of the running time function and also ignore the leading term's constant coefficient.
 
+We use __loop invariants__ to help us understand why an algorithm is correct, it must satisfy the following conditions:
+
+__Initialization__: It is true prior to the first iteration of the loop.
+
+__Maintenance__: If it is true before an iteration of the loop, it remains true before the next iteration.
+
+__Termination__: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
+
 {% for post in site.categories.introduction-to-algorithms reversed %}
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 {% endfor %}

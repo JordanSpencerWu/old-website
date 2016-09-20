@@ -35,17 +35,9 @@ The index $j$ indicates the "current card" being inserted into the subarray cons
 
 > Elements $A[1..j - 1]$ are the elements _originally_ in positions $1$ through $j - 1$, but now in sorted order, this is known as __loop invariant__
 
-We use __loop invariants__ to help us understand why an algorithm is correct, it must satisfy the following conditions:
-
-__Initialization__: It is true prior to the first iteration of the loop.
-
-__Maintenance__: If it is true before an iteration of the loop, it remains true before the next iteration.
-
-__Termination__: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
-
 The best-case occurs if the array is already sorted and the best-case running time will be a __linear function__ of $n$, $\Theta(n)$.
 
-The wrost-case occurs when the array is in reverse sorted order and the wrost-case running time is a __quadratic function__ of $n$, $\Theta(n^2)$.
+The worst-case occurs when the array is in reverse sorted order and the worst-case running time is a __quadratic function__ of $n$, $\Theta(n^2)$.
 
 ##### Java Implementation
 

@@ -26,7 +26,7 @@ The key operation of this algorithm is the combine step, $MERGE(A, p, q, r)$, wh
 
 __Description__: Suppose we have two piles of cards face up on a table. Each pile is sorted, with the smallest cards on top. We wish to merge the two piles into a single sorted output pile, which is to be face down on the table. Our basic step consists of choosing the smaller of the two cards on top of the face-up piles, removing it from its pile (which exposes a new top card), and placing this card face down onto the output file. We repeat this step until one input pile is empty, at which time we just take the remaining input pile and place it face down onto the output pile.
 
-#### MERGE(A,p,q,r)
+##### MERGE(A,p,q,r)
 
 This _pseudocode_ uses __sentinel__ card at the bottom of each pile, this sentinel value helps check for when the pile is empty. In the code it is denoted as $\infty$, once a card with $\infty$ is exposed it cannot be the smaller card unless both piles have their sentinel cards exposed.
 
@@ -56,7 +56,7 @@ We created two arrays $L$ (left $A[p..q]$) and $R$ (right $A[q + 1..r]$), of len
 
 Now we can use the $MERGE$ procedure as a subroutine in the merge sort algorithm. The procedure $MERGE-SORT(A,p,r)$ sorts the elements in the subarray $A[p..r]$. If $p \geq r$, the subarray has at most one element and is therefore already sorted. Otherwise, the divide step simply computes an index $q$ that partitions $A[p..r]$ into two subarrays: $A[p..q]$, containing $[\frac{n}{2}]$ elements, and $A[q + 1..r]$, containing $[\frac{n}{2}]$ elements.
 
-#### MERGE-SORT(A,p,r)
+##### MERGE-SORT(A,p,r)
 
 {% highlight java %}
   if p < r
@@ -66,9 +66,9 @@ Now we can use the $MERGE$ procedure as a subroutine in the merge sort algorithm
     MERGE(A,p,q,r)
 {% endhighlight %}
 
-The wrost-case running time is $\Theta(n lg n)$.
+The worst-case running time is $\Theta(n lg n)$.
 
-##### Java Implementation (took me a long time to get this to work)
+##### Java Implementation
 
 {% highlight java %}
   public class Example {
