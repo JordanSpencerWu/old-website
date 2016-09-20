@@ -18,7 +18,7 @@ Involves the following three steps:
 
 __Divide__: Divide the $n$-element sequence to be sorted into two subsequence of $\frac{n}{2}$ element each, $\Theta(1)$.
 
-__Conquer__: Sort the two subsequences recurseively using merge sort, $\Theta(lg n)$.
+__Conquer__: Sort the two subsequences recurseively using merge sort, $\Theta(lg \\ n)$.
 
 __Combine__: Merge the two sorted subsequences to produce the sorted answer,  $\Theta(n)$.
 
@@ -66,7 +66,7 @@ Now we can use the $MERGE$ procedure as a subroutine in the merge sort algorithm
     MERGE(A,p,q,r)
 {% endhighlight %}
 
-The worst-case running time is $\Theta(n lg n)$.
+The worst-case running time is $\Theta(n \\ lg \\ n)$.
 
 ##### Java Implementation
 
