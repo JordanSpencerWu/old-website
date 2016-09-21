@@ -66,3 +66,103 @@ This procedure is an _insert_ operation, it takes as an input the key of the new
   A[A.heap-size] = -INFTY
   HEAP-INCREASE-KEY(A,A.heap-size,key)
 {% endhighlight %}
+
+##### Java Implementation
+
+{% highlight java %}
+  public class Example {
+
+      private static int heapSizeMaxIndex;
+
+      public static void main(String[] args) {
+          int[] maxHeapArray = {15, 13, 9, 5, 12, 8, 7, 4, 0, 6, 2, 1};
+          heapSizeMaxIndex = maxHeapArray.length - 1;
+          maximum(maxHeapArray);
+          heapExtractMax(maxHeapArray);
+          printHeap(maxHeapArray);
+          heapIncreaseKey(maxHeapArray,8,15);
+          printHeap(maxHeapArray);
+          maxHeapInsert(maxHeapArray,16);
+          printHeap(maxHeapArray);
+
+          // returns 15
+          // removes 15 from heap
+          // 13 12 9 5 6 8 7 4 0 1 2 
+          // 15 13 9 12 6 8 7 4 5 1 2 
+          // 16 13 15 12 6 9 7 4 5 1 2 8 
+      }
+
+      public static void maximum(int[] array) {
+          System.out.println("returns " + array[0]);
+      }
+
+      public static void heapExtractMax(int[] array) {
+          if (heapSizeMaxIndex < 0) {
+              System.out.println("heap underflow");
+              System.exit(1);
+          }
+          int rootIndex = 0;
+          int max = array[0];
+
+          array[rootIndex] = array[heapSizeMaxIndex];
+          heapSizeMaxIndex = heapSizeMaxIndex - 1;
+          maxHeapify(array,rootIndex);
+          System.out.println("removes " + max + " from heap");
+      }
+
+      public static void maxHeapify(int[] array, int parentIndex) {
+          int leftChildIndex = (parentIndex * 2) + 1;
+          int rightChildIndex = (parentIndex * 2) + 2;
+          int indexOfLargestValue = parentIndex;
+
+          if (leftChildIndex <= heapSizeMaxIndex && array[leftChildIndex] > array[indexOfLargestValue]) {
+              indexOfLargestValue = leftChildIndex;
+          }
+          if (rightChildIndex <= heapSizeMaxIndex && array[rightChildIndex] > array[indexOfLargestValue]) {
+              indexOfLargestValue = rightChildIndex;
+          }
+          if (indexOfLargestValue != parentIndex) {
+              swap(array,parentIndex,indexOfLargestValue);
+              maxHeapify(array, indexOfLargestValue);
+          }
+      }
+
+      public static void swap(int[] array, int firstIndex, int secondIndex) {
+          int temp = array[firstIndex];
+          array[firstIndex] = array[secondIndex];
+          array[secondIndex] = temp;
+      }
+
+      public static void heapIncreaseKey(int[] array, int currentKeyIndex, int newKeyIndex) {
+          if (newKeyIndex < array[currentKeyIndex]) {
+              System.out.println("new key is smaller than current key");
+              System.exit(1);
+          }
+          int parentIndex = getParentIndex(currentKeyIndex);
+          array[currentKeyIndex] = newKeyIndex;
+
+          while(currentKeyIndex > 0 && array[parentIndex] < array[currentKeyIndex]) {
+              swap(array,currentKeyIndex,parentIndex);
+              currentKeyIndex = getParentIndex(currentKeyIndex);
+              parentIndex = getParentIndex(currentKeyIndex);
+          }
+      }
+
+      public static int getParentIndex(int index) {
+          return (index - 1) / 2;
+      }
+
+      public static void maxHeapInsert(int[] array, int key) {
+          heapSizeMaxIndex = heapSizeMaxIndex + 1;
+          array[heapSizeMaxIndex] = Integer.MIN_VALUE;
+          heapIncreaseKey(array,heapSizeMaxIndex,key);
+      }
+
+      public static void printHeap(int[] array) {
+          for (int i = 0; i <= heapSizeMaxIndex; i++) {
+              System.out.print(array[i] + " ");
+          }
+          System.out.println("");
+      }
+  }
+{% endhighlight %}

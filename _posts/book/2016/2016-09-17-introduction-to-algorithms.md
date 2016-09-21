@@ -30,6 +30,8 @@ __Maintenance__: If it is true before an iteration of the loop, it remains true 
 
 __Termination__: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
 
+click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see some of the solutions to the book.
+
 {% for post in site.categories.introduction-to-algorithms reversed %}
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 {% endfor %}
