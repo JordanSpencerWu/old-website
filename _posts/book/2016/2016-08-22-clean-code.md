@@ -17,19 +17,21 @@ title: "Clean Code"
   </a>
 </div>
 
-* <a href="#clean-code">Clean Code</a>
-* <a href="#meaningful-names">Meaningful Names</a>
-* <a href="#functions">Functions</a>
-* <a href="#comments">Comments</a>
-* <a href="#formatting">Formatting</a>
-* <a href="#objects-and-data-structures">Objects and Data Structures</a>
-* <a href="#error-handling">Error Handling</a>
-* <a href="#boundaries">Boundaries</a>
-* <a href="#unit-tests">Unit Tests</a>
-* <a href="#classes">Classes</a>
-* <a href="#systems">Systems</a>
-* <a href="#emergence">Emergence</a>
-* <a href="#smells-and-heuristics">Smells and Heuristics</a>
+<div class="collection">
+  <a href="#clean-code" class="collection-item">Clean Code</a>
+  <a href="#meaningful-names" class="collection-item">Meaningful Names</a>
+  <a href="#functions" class="collection-item">Functions</a>
+  <a href="#comments" class="collection-item">Comments</a>
+  <a href="#formatting" class="collection-item">Formatting</a>
+  <a href="#objects-and-data-structures" class="collection-item">Objects and Data Structures</a>
+  <a href="#error-handling" class="collection-item">Error Handling</a>
+  <a href="#boundaries" class="collection-item">Boundaries</a>
+  <a href="#unit-tests" class="collection-item">Unit Tests</a>
+  <a href="#classes" class="collection-item">Classes</a>
+  <a href="#systems" class="collection-item">Systems</a>
+  <a href="#emergence" class="collection-item">Emergence</a>
+  <a href="#smells-and-heuristics" class="collection-item">Smells and Heuristics</a>
+</div>
 
 <span id="clean-code" style="display:block;height:60px;margin-top:-60px;visibility:hidden;"></span>
 
