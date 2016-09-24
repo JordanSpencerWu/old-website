@@ -1,5 +1,5 @@
 ---
-categories: [introduction-to-algorithms]
+categories: [introduction-to-algorithms-comparison-sort]
 date: 2016-09-23 10:00:00
 hidden: true
 layout: book-notes

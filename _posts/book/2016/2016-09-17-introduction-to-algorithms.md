@@ -32,8 +32,20 @@ __Termination__: When the loop terminates, the invariant gives us a useful prope
 
 Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercises answers in the book.
 
+##### Comparison Sorts
+
+> These algorithms share an interesting property: _the sorted order they determine is based only on comparison between the input elements. Any comparison sort much make $\Theta(n \\ lg \\ n)$ comparisons in the worst case to sort $n$ elements._
+
 <div class="collection">
-  {% for post in site.categories.introduction-to-algorithms reversed %}
+  {% for post in site.categories.introduction-to-algorithms-comparison-sort reversed %}
+    <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+
+##### Sort Algorithm (Linear Time)
+
+ <div class="collection">
+  {% for post in site.categories.introduction-to-algorithms-sort-linear-time reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
   {% endfor %}
 </div>
