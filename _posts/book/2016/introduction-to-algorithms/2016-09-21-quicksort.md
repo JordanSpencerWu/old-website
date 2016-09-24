@@ -51,3 +51,51 @@ __PARTITION__ always selects an element $x = A[r]$ as a __pivot__ element around
 > 3. If $k = r, then A[k] = x$.
 
 The quicksort algorithm has a worst-case running time of $\Theta(n^2)$. Despite this slow worst-case running time, it is remarkably efficient on the average: its expected running time is $\Theta(n \\ lg \\ n)$.
+
+##### Java implementation
+
+{% highlight java %}
+  public class Example {
+
+      public static void main(String[] args) {
+          int[] array = {13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11};
+          quickSort(array,0,array.length - 1);
+          printArray(array);
+          // returns 2 4 5 6 7 8 9 11 12 13 19 21
+      }
+
+      public static void quickSort(int[] array, int startIndex, int endIndex) {
+          if (startIndex < endIndex) {
+              int pivot = partition(array,startIndex,endIndex);
+              quickSort(array,startIndex,pivot - 1);
+              quickSort(array,pivot + 1,endIndex);
+          }
+      }
+
+      public static int partition(int[] array,int startIndex,int endIndex) {
+          int pivotValue = array[endIndex];
+          int pivotIndex = startIndex;
+
+          for (int j = startIndex; j < endIndex; j++) {
+              if (array[j] <= pivotValue) {
+                  swap(array,pivotIndex,j);
+                  pivotIndex = pivotIndex + 1;
+              }
+          }
+          swap(array,pivotIndex,endIndex);
+          return pivotIndex;
+      }
+
+      public static void swap(int[] array, int firstIndex, int secondIndex) {
+          int temp = array[firstIndex];
+          array[firstIndex] = array[secondIndex];
+          array[secondIndex] = temp;
+      }
+
+      public static void printArray(int[] array) {
+          for( int i = 0; i < array.length; i++) {
+              System.out.print(array[i] + " ");
+          }
+      }
+  }
+{% endhighlight %}
