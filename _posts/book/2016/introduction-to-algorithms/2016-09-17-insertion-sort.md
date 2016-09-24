@@ -39,7 +39,7 @@ The best-case occurs if the array is already sorted and the best-case running ti
 
 The worst-case occurs when the array is in reverse sorted order and the worst-case running time is a __quadratic function__ of $n$, $\Theta(n^2)$.
 
-##### Java Implementation
+##### Java Implementation Using Figure 2.2 In Book
 
 {% highlight java %}
   public class Example {

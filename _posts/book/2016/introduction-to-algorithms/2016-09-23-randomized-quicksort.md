@@ -31,8 +31,10 @@ The new quicksort calls __RANDOMIZED-PARTITION__ in place of __PARTITION__, note
 
 The worst case running time happens on the worst partitioning case which produces $\Theta(n^2)$. The expected running time of this algorithm is $\Theta(n \\ lg \\ n)$.
 
+##### Java Implementation
+
 {% highlight java %}
-  public class Main {
+  public class Example {
 
       public static void main(String[] args) {
           int[] array = {13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11};

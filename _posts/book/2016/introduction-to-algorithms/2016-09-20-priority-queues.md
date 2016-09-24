@@ -67,7 +67,7 @@ This procedure is an _insert_ operation, it takes as an input the key of the new
   HEAP-INCREASE-KEY(A,A.heap-size,key)
 {% endhighlight %}
 
-##### Java Implementation
+##### Java Implementation Using Figure 6.5 In Book
 
 {% highlight java %}
   public class Example {

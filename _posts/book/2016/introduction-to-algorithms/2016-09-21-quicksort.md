@@ -50,7 +50,7 @@ __PARTITION__ always selects an element $x = A[r]$ as a __pivot__ element around
 
 The quicksort algorithm has a worst-case running time of $\Theta(n^2)$, this occurs when the partitioning produces subproblem with $n - 1$ elements and one with 0 elements. The best-case running time is when the partitioning produces two subproblem, each of size no more than $\frac{n}{2}$ which is $\Theta(n \\ lg \\ n)$. The average-case running time of quicksort is much closer to the best case than to the worst case.
 
-##### Java implementation
+##### Java Implementation Using Figure 7.1 In Book
 
 {% highlight java %}
   public class Example {

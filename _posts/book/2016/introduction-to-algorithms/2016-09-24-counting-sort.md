@@ -29,7 +29,7 @@ We assume that the input is an array $A[1..n]$ and thus $A.length = n $. We requ
     C[A[j]] = C[A[j]] - 1
 {% endhighlight %}
 
-##### Java Implementation Using Figure 8.2
+##### Java Implementation Using Figure 8.2 In Book
 
 {% highlight java %}
   public class Example {

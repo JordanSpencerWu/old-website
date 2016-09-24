@@ -68,7 +68,7 @@ Now we can use the __MERGE__ procedure as a subroutine in the merge sort algorit
 
 The worst-case running time is $\Theta(n \\ lg \\ n)$.
 
-##### Java Implementation
+##### Java Implementation Using Figure 2.3 In Book
 
 {% highlight java %}
   public class Example {
