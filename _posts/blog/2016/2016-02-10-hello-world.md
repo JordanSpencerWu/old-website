@@ -5,7 +5,7 @@ layout: post
 title: "Hello World!"
 ---
 
-It is common that everyone writes a program called Hello World when learning a new programming language. For my first blog post, I will write "Hello World!" in every programming language I know.
+It is common that everyone writes a program called Hello World when learning a new programming language. For my first blog post, I will write "Hello World!" in every programming language I played with.
 
 #### Ruby
 

@@ -25,8 +25,6 @@ __Combine__: Because the subarrays are already sorted, no work is needed to comb
     QUICKSORT(A,q + 1,r)
 {% endhighlight %}
 
-__NOTE__: To sort an entire array $A$, the initial call is __QUICKSORT(A,1,A.length)__.
-
 The key to the algorithm is the __PARTITION__ procedure, which rearranges the subarray $A[p..r]$ in place.
 
 ##### PARTITION(A,p,r)
@@ -50,7 +48,7 @@ __PARTITION__ always selects an element $x = A[r]$ as a __pivot__ element around
 > 2. If $i + 1 \leq k \leq j - 1, then A[k] > x$.
 > 3. If $k = r, then A[k] = x$.
 
-The quicksort algorithm has a worst-case running time of $\Theta(n^2)$. Despite this slow worst-case running time, it is remarkably efficient on the average: its expected running time is $\Theta(n \\ lg \\ n)$.
+The quicksort algorithm has a worst-case running time of $\Theta(n^2)$, this occurs when the partitioning produces subproblem with $n - 1$ elements and one with 0 elements. The best-case running time is when the partitioning produces two subproblem, each of size no more than $\frac{n}{2}$ which is $\Theta(n \\ lg \\ n)$. The average-case running time of quicksort is much closer to the best case than to the worst case.
 
 ##### Java implementation
 
