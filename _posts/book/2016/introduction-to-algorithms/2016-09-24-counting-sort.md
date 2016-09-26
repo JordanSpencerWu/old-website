@@ -4,7 +4,7 @@ date: 2016-09-24 10:00:00
 hidden: true
 layout: book-notes
 libraries: [mathjax]
-permalink: /counting sort/
+permalink: /counting-sort/
 title: "Counting Sort"
 ---
 
@@ -28,6 +28,10 @@ We assume that the input is an array $A[1..n]$ and thus $A.length = n $. We requ
     B[C[A[j]]] = A[j]
     C[A[j]] = C[A[j]] - 1
 {% endhighlight %}
+
+The overall time it takes is $\Theta(k + n)$, in practice, we usually use counting sort when we have $k = O(n)$, in which case the running time is $\Theta(n)$.
+
+> An important property of counting sort is that it is __stable__: numbers with the same value appear in the output array in the same order as they do in the input array. Counting sort is often used as a subroutine in radix sort.
 
 ##### Java Implementation Using Figure 8.2 In Book
 
