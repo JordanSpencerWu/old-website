@@ -30,6 +30,8 @@ __Maintenance__: If it is true before an iteration of the loop, it remains true 
 
 __Termination__: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
 
+A __median__, informally, is the "halfway point" of the set. When $n$ is odd, the median is unique, occuring at $i = (n + 1) / 2$. When $n$ is even, there are two medians, occurring at $i = n / 2$ and $i = n / 2 + 1$.
+
 Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercises answers in the book.
 
 ##### Comparison Sorts
