@@ -44,8 +44,16 @@ Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercise
 
 ##### Sort Algorithm (Linear Time)
 
- <div class="collection">
+<div class="collection">
   {% for post in site.categories.introduction-to-algorithms-sort-linear-time reversed %}
+    <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+
+##### Elementary Data Structures
+
+<div class="collection">
+  {% for post in site.categories.introduction-to-algorithms-elementary-data-structures reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
   {% endfor %}
 </div>

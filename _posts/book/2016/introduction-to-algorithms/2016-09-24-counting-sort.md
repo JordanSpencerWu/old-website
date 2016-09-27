@@ -36,55 +36,56 @@ The overall time it takes is $\Theta(k + n)$, in practice, we usually use counti
 ##### Java Implementation Using Figure 8.2 In Book
 
 {% highlight java %}
-  public class Example {
+    public class Example {
 
-      public static void main(String[] args) {
-          int[] unsortedIntegerArray = {2, 5, 3, 0, 2, 3, 0, 3};
-          int[] sortedArray = new int[unsortedIntegerArray.length];
-          int maxInteger = getMaxIntegerInArray(unsortedIntegerArray);
-          countingSort(unsortedIntegerArray,sortedArray,maxInteger);
-          // return 0 0 2 2 3 3 3 5
-      }
+        public static void main(String[] args) {
+            int[] unsortedIntegerArray = {2, 5, 3, 0, 2, 3, 0, 3};
+            int[] sortedArray = new int[unsortedIntegerArray.length];
+            int maxInteger = getMaxIntegerInArray(unsortedIntegerArray);
+            sortedArray = countingSort(unsortedIntegerArray,sortedArray,maxInteger);
+            printArray(sortedArray);
+            // return 0 0 2 2 3 3 3 5
+        }
 
-      public static int getMaxIntegerInArray(int[] array) {
-          int max = array[0];
+        public static int getMaxIntegerInArray(int[] array) {
+            int max = array[0];
 
-          for (int i = 0; i < array.length; i++) {
-              if (array[i] > max) {
-                  max = array[i];
-              }
-          }
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] > max) {
+                    max = array[i];
+                }
+            }
 
-          return max;
-      }
+            return max;
+        }
 
-      public static void countingSort(int[] unsortedArray, int[] sortedOuput, int maxInteger) {
-          int[] tempArray = new int[maxInteger + 1];
+        public static int[] countingSort(int[] unsortedArray, int[] sortedOuput, int maxInteger) {
+            int[] tempArray = new int[maxInteger + 1];
 
-          for (int i = 0; i <= maxInteger; i++) {
-              tempArray[i] = 0;
-          }
+            for (int i = 0; i <= maxInteger; i++) {
+                tempArray[i] = 0;
+            }
 
-          for (int j = 0; j < unsortedArray.length; j++) {
-              tempArray[unsortedArray[j]] = tempArray[unsortedArray[j]] + 1;
-          }
+            for (int j = 0; j < unsortedArray.length; j++) {
+                tempArray[unsortedArray[j]] = tempArray[unsortedArray[j]] + 1;
+            }
 
-          for (int i = 1; i <= maxInteger; i++) {
-              tempArray[i] = tempArray[i] + tempArray[i - 1];
-          }
+            for (int i = 1; i <= maxInteger; i++) {
+                tempArray[i] = tempArray[i] + tempArray[i - 1];
+            }
 
-          for (int j = unsortedArray.length - 1; j >= 0; j--) {
-              sortedOuput[tempArray[unsortedArray[j]] - 1] = unsortedArray[j];
-              tempArray[unsortedArray[j]] = tempArray[unsortedArray[j]] - 1;
-          }
+            for (int j = unsortedArray.length - 1; j >= 0; j--) {
+                sortedOuput[tempArray[unsortedArray[j]] - 1] = unsortedArray[j];
+                tempArray[unsortedArray[j]] = tempArray[unsortedArray[j]] - 1;
+            }
 
-          printArray(sortedOuput);
-      }
+            return sortedOuput;
+        }
 
-      public static void printArray(int[] array) {
-          for( int i = 0; i < array.length; i++) {
-              System.out.print(array[i] + " ");
-          }
-      }
-  }
+        public static void printArray(int[] array) {
+            for( int i = 0; i < array.length; i++) {
+                System.out.print(array[i] + " ");
+            }
+        }
+    }
 {% endhighlight %}
