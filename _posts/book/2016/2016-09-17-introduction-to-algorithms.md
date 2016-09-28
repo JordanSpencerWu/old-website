@@ -34,7 +34,7 @@ A __median__, informally, is the "halfway point" of the set. When $n$ is odd, th
 
 Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercises answers in the book.
 
-##### Comparison Sorts
+##### Comparison Sorts Algorithms
 
 > These algorithms share an interesting property: _the sorted order they determine is based only on comparison between the input elements. Any comparison sort must make $\Theta(n \\ lg \\ n)$ comparisons in the worst case to sort $n$ elements._
 
@@ -44,10 +44,20 @@ Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercise
   {% endfor %}
 </div>
 
-##### Sort Algorithm (Linear Time)
+##### Sort Algorithms (Linear Time)
 
 <div class="collection">
   {% for post in site.categories.introduction-to-algorithms-sort-linear-time reversed %}
+    <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
+  {% endfor %}
+</div>
+
+##### Sort Algorithms (Quadratic Time)
+
+> The following two algorithms were not in the book, _bubble sort_ and _selection sort_. Both of these algorithms have the same average and worst case running time of $\Theta(n^2)$
+
+<div class="collection">
+  {% for post in site.categories.introduction-to-algorithms-additional-comparison-sort reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
   {% endfor %}
 </div>
