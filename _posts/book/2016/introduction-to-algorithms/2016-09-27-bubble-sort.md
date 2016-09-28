@@ -12,7 +12,7 @@ __Bubble sort__ is a simple sorting algorithm. This sorting algorithm is compari
 
 ##### BUBBLE-SORT(A)
 
- {% highlight java %}
+{% highlight java %}
   for i = 1 to A.length
     for j = 1 to A.length - i
       if A[j] > A[j + 1]
