@@ -54,6 +54,8 @@ Click <a href="http://clrs.skanev.com/" target="_blank">here</a> to see exercise
 
 ##### Elementary Data Structures
 
+> In this chapter, we examine the representation of dynamic sets by simple data structures that use pointers.
+
 <div class="collection">
   {% for post in site.categories.introduction-to-algorithms-elementary-data-structures reversed %}
     <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
