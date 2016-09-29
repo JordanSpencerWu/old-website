@@ -3,7 +3,7 @@ author: Thomas H. Cornmen, Charles E Leiserson, Ronald L. Riverest, & Clifford S
 categories: [book]
 class: 5
 date: 2016-09-17 10:00:00
-description: Currently Reading...
+description: This book does a great job at explaining sorting algorithms and data structures with the help of visual figures. It's very math intensive, going over proofs and concepts of the materials. The main reason I bought the book was to understand the basic sorting algorithms and data structures. It give me a better understanding of the time and space complexity in terms of Big O Notation. I was able to go through some of the chapters.
 hidden: true
 img-path: /assets/images/books/introduction-to-algorithms.jpeg
 layout: book
