@@ -18,7 +18,7 @@ __Singly linked__, we omit the _prev_ pointer in each element.
 
 A __sorted__ list, the linear order of the list corresponds to the linear order of keys stored in elements of the list; the minimum element is then the head of the list, and the maximum element is the tail.
 
-A __unsorted__ list, the elements can apprea in any order.
+A __unsorted__ list, the elements can appear in any order.
 
 In a __circular__ list, the _prev_ pointer of the head of the list points to the tail, and the _next_ pointer of the tail of the list points to the head.
 
