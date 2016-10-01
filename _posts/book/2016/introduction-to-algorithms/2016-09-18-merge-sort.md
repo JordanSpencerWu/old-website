@@ -71,7 +71,7 @@ The worst-case running time is $\Theta(n \\ lg \\ n)$.
 ##### Java Implementation Using Figure 2.3 In Book
 
 {% highlight java %}
-  public class Example {
+  public class Main {
       public static void main(String args[])
       {
           int unsortedArray[] = {5, 2, 4, 7, 1, 3, 2, 6};

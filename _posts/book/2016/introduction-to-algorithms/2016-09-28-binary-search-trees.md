@@ -12,7 +12,7 @@ We can represent such a tree by a linked data structure in which each node is an
 
 The keys in a binary search tree are always stored in such a way as to satisfy the __binary-search-tree property__:
 
-> Let $x$ be a node in a binary search tree. If $y$ is a node in the left subtree of $x$, then $y.key /leq x.key$. If $y$ is a node in the right subtree of $x$, then $y.key \geq x.key$.
+> Let $x$ be a node in a binary search tree. If $y$ is a node in the left subtree of $x$, then $y.key \leq x.key$. If $y$ is a node in the right subtree of $x$, then $y.key \geq x.key$.
 
 The binary-search-tree property allow us to print out all the keys in a binary search tree in sorted order by a simple recursive algorithm, called an __inorder tree walk__.
 

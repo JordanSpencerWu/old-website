@@ -36,7 +36,7 @@ The overall time it takes is $\Theta(k + n)$, in practice, we usually use counti
 ##### Java Implementation Using Figure 8.2 In Book
 
 {% highlight java %}
-    public class Example {
+    public class Main {
 
         public static void main(String[] args) {
             int[] unsortedIntegerArray = {2, 5, 3, 0, 2, 3, 0, 3};

@@ -12,17 +12,17 @@ A __hash table__ is an effective data structure for implementing dictionaries. A
 
 ##### Direct-Address Table
 
-Direct addressing is a simple technique that works well when the universe $U$ of keys is reasonably small. Suppose that an application needs a dynamic set in which each element has a key drawn from the universe $U = {0, 1,..., m - 1}$, where $m$ is not too large. We shall assume that no two elements have the same key. (Use Figure 11.1 in the book for more visualization)
+Direct addressing is a simple technique that works well when the universe $U$ of keys is reasonably small. Suppose that an application needs a dynamic set in which each element has a key drawn from the universe $U = \{0, 1,..., m - 1\}$, where $m$ is not too large. We shall assume that no two elements have the same key. (Use Figure 11.1 in the book for more visualization)
 
-> The downside of direct addressing: if universe $U$ is large, storing a table $T$ of size $|U|$ may be impractical. Furthermore, the set $K$ of keys _actually stored_ may be so small relative to $U$ that most of the space allocated for $T$ would be wasted.
+> The downside of direct addressing: if universe $U$ is large, storing a table $T$ of size $U$ may be impractical. Furthermore, the set $K$ of keys _actually stored_ may be so small relative to $U$ that most of the space allocated for $T$ would be wasted.
 
 ##### Hash Tables
 
-When the set $K$ of keys stored in a dictionary is much smaller than the universe $U$ of all possible keys, a hash table requires much less storage than a direct-address table. With hashing, this element is stored in slot $h(k)$; this is, we use a __hash function__ $h$ to compute the slot from the key $k$. Here, $h$ maps the universe $U$ of keys into the slots of a __hash table__ $T{0..m - 1}$:
+When the set $K$ of keys stored in a dictionary is much smaller than the universe $U$ of all possible keys, a hash table requires much less storage than a direct-address table. With hashing, this element is stored in slot $h(k)$; this is, we use a __hash function__ $h$ to compute the slot from the key $k$. Here, $h$ maps the universe $U$ of keys into the slots of a __hash table__ $T$ $\{0,1,...,m - 1\}$:
 
-$$h: U \to {0,1,...,m - 1}$$
+$$h: U \to \{ 0,1,...,m - 1 \}$$
 
-Where the size $m$ of the hash table is typically much less than $|U|$. We say that an element with key $k$ __hashes__ to slot $h(k)$; we also say that $h(k)$ is the __hash value__ of key $k$. (Use Figure 11.2 in the book for more visualization)
+Where the size $m$ of the hash table is typically much less than $U$. We say that an element with key $k$ __hashes__ to slot $h(k)$; we also say that $h(k)$ is the __hash value__ of key $k$. (Use Figure 11.2 in the book for more visualization)
 
 > The hash function reduces the range of array indices and hence the size of the array. There is one hitch: two key may hash to the same slot. We call this situation a __collision__.
 

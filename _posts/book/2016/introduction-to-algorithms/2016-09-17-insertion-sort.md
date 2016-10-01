@@ -42,7 +42,7 @@ The worst-case occurs when the array is in reverse sorted order and the worst-ca
 ##### Java Implementation Using Figure 2.2 In Book
 
 {% highlight java %}
-  public class Example {
+  public class Main {
     public static void main(String[] args) {
         int[] unsortedArray = {5, 2, 4, 6, 1, 3};
         insertionSort(unsortedArray);

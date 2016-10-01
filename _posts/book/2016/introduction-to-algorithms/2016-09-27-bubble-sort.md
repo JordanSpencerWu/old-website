@@ -22,7 +22,7 @@ __Bubble sort__ is a simple sorting algorithm. This sorting algorithm is compari
 ##### Java Implementation
 
 {% highlight java %}
-  public class Example {
+  public class Main {
 
       public static void main(String[] args) {
           int[] unsortedIntegerArray = {64, 25, 12, 22, 11};

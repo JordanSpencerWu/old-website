@@ -67,4 +67,4 @@ The procedure __LIST-DELETE__ removes an element $x$ from a linked list $L$. It 
     x.next.prev = x.prev
 {% endhighlight %}
 
-LIST-DELETE runs in $\Theta(1)$, but if we wish to delete an element with a given key, $\Theta(n)$ time is required in the worst case because we must first call __LIST-SEARCH__ to find the element.
+__LIST-DELETE__ runs in $\Theta(1)$, but if we wish to delete an element with a given key, $\Theta(n)$ time is required in the worst case because we must first call __LIST-SEARCH__ to find the element.

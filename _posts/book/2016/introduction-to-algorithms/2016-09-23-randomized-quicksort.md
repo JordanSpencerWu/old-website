@@ -34,7 +34,7 @@ The worst case running time happens on the worst partitioning case which produce
 ##### Java Implementation
 
 {% highlight java %}
-  public class Example {
+  public class Main {
 
       public static void main(String[] args) {
           int[] array = {13, 19, 9, 5, 12, 8, 7, 4, 21, 2, 6, 11};

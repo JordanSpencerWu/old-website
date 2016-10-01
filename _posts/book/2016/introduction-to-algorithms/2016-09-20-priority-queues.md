@@ -70,7 +70,7 @@ This procedure is an _insert_ operation, it takes as an input the key of the new
 ##### Java Implementation Using Figure 6.5 In Book
 
 {% highlight java %}
-  public class Example {
+  public class Main {
 
       private static int heapSizeMaxIndex;
 

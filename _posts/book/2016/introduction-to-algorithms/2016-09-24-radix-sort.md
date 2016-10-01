@@ -21,12 +21,12 @@ The following procedure assumes that each element in the $n$-element array $A$ h
 
 __Note__: A example of a stable sort is <a href="{{ "/counting-sort/" | prepend: site.baseurl }}">__Counting Sort__</a>.
 
-> Given $n$ $d$-digit numbers in which each digit can take on up to $k$ possible values, __RADIX-SORT__ correctly sorts these number in $\Theta(d(n + k)$ time if the stable sort it uses take $\Theta(n + k)$ time.
+> Given $n$ $d$-digit numbers in which each digit can take on up to $k$ possible values, __RADIX-SORT__ correctly sorts these number in $\Theta(d(n + k))$ time if the stable sort it uses take $\Theta(n + k)$ time.
 
 ##### Java Implementation Using Figure 8.3 In Book
 
 {% highlight java %}
-  public class Example {
+  public class Main {
 
       public static void main(String[] args) {
           int[] unsortedArray = {329, 457, 657, 839, 436, 720, 355};
