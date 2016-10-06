@@ -16,7 +16,7 @@ permalink: /booklist/
 <div class="row">
   {% for post in site.categories.book %}
     <div class="col s6 offset-s3 m6 offset-m3" style="margin-bottom: 15px;">
-      <div class="card-image waves-effect waves-block waves-light">
+      <div class="card-image waves-effect waves-block waves-light z-depth-5">
         <a href={{ "#" | append: post.class }} class="{{ post.class }}">
           <img class="responsive-img" src="{{post.img-path}}">
         </a>
@@ -34,7 +34,7 @@ permalink: /booklist/
 </div>
 
 <script type="text/javascript">
-  var numberOfBooks = 6;
+  var numberOfBooks = 7;
   var booksId = [];
 
   for (var i = 0; i < numberOfBooks; i++) {
