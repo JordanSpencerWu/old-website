@@ -91,7 +91,6 @@ Spotify provides a RESTful api service that allows developers to access informat
               <label>Search for Artists, Albums, or Tracks</label>
               <input type="text" value={this.props.text} onChange={this.handleChange} placeholder="Search"/>
             </div>
-            <button className="waves-effect waves-light btn">Search</button>
           </form>
         );
       }
