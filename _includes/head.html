@@ -35,9 +35,7 @@
       {% include mathjax.html %}
     {% endif %}
     {% if library == 'react' %}
-      <script src="{{ "/assets/js/react.min.js" | prepend: site.baseurl }}"></script>
-      <script src="{{ "/assets/js/react-dom.min.js" | prepend: site.baseurl }}"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+      {% include react.html %}
     {% endif %}
     {% if library == 'modaal' %}
       <script src="{{ "/assets/js/modaal.min.js" | prepend: site.baseurl }}"></script>

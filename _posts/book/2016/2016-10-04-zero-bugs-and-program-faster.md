@@ -3,7 +3,7 @@ author: Kate Thompson
 categories: [book]
 class: 6
 date: 2016-10-04 10:00:00
-description: Currently Reading
+description: This book provides many real world examples of past mistakes in programming that one can learn from. It is done by telling interesting and humorous stories with amazing illustrations. Learning from our own as well as other's mistakes will improve our software craftsmanship. To create a program with zero bugs, we must remember our past mistakes and mistakes made by others!
 hidden: true
 img-path: /assets/images/books/zero-bugs-and-program-faster.jpg
 layout: book
@@ -48,3 +48,23 @@ title: "Zero Bugs And Program Faster"
 > If something will be easier to do now than later, do it now.
 
 > Fixing mistakes, instead of starting over from scratch, is the way to learn. The first step to perfection is learning how to recover when you aren't perfect.
+
+> By making variables immutable, that is unchangeable. "Control of side effect." When you know that calling a function will have zero side effects, bugs melt away.
+
+> A protected action; if something goes wrong while you are doing the action, it can be reversed. When an action cannot be reversed, it is called a real action.
+
+> Fail fast explained by Jim Shore: "When a problem occurs, the system fails immediately and visibly. Failing fast is a nonintuitive technique; it sounds like it would make your software more fragile, but it actually makes it more robust. Bugs are easier to find and fix, so fewer go into production.
+
+> The most important concept for proving code correctess is the preconditions and postcondition. The preconditions says what can be passed in to a function, and the postconditions describes the state after the function is complete.
+
+> An invariant is always true.
+
+> "Show me your interface and I won't need your code because it'll be redundant and irrelevant," says Guy Steele.
+
+> The lazy method list all edge cases, exceptions, side effects, and errors.
+
+> The key observation of the top down side is that it's helpful to know what you're building before you build it. The key observation of the bottom up side is you need to know what tools you have before you can design it.
+
+> Sometimes in your life you will be called on to judge code. When that happens, these three criteria will help you. Functionality, readability, and flexibility.
+
+> One of the best ways to improve your programming is to look at examples of code written by others.

@@ -3,7 +3,7 @@ author: John Sonmez
 categories: [book]
 class: 0
 date: 2016-03-10 14:00:00
-description: This is the life manual that every software developer should reference throughout their professional career. A unique guide that offers techniques and practices for a more fulfilling life as a software developer. What I learned most from this book is to have a business mindset, I must strive to constantly improve and increase the quality of my code. This book provides many life advice from starting a career in the software industry to being a human being.
+description: This is the life manual that every software developer should reference throughout their professional career. A unique guide that offers techniques and practices for a more fulfilling life as a software developer. What I learned most from this book is to have a business mindset, I must strive to constantly improve and increase the quality of my code. This book provides many life advice from starting a career in the software industry to being a human.
 hidden: true
 img-path: /assets/images/books/soft-skills.jpg
 layout: book
