@@ -1,6 +1,6 @@
 ---
 categories: [code-complete]
-date: 2016-10-11 10:00:00
+date: 2016-10-11 11:00:00
 hidden: true
 layout: book-notes
 permalink: /metaphors-for-a-richer-understanding-of-software-development/

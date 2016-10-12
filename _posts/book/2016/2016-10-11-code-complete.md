@@ -12,7 +12,7 @@ title: "Code Complete"
 ---
 
 <div class="collection">
-  {% for post in site.categories.code-complete %}
-    <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">{{ post.title }}</a>
+  {% for post in site.categories.code-complete reversed %}
+    <a href="{{ post.url | prepend: site.baseurl }}"  class="collection-item">Chapter {{forloop.index}} : {{ post.title }}</a>
   {% endfor %}
 </div>

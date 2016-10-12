@@ -1,6 +1,6 @@
 ---
 categories: [code-complete]
-date: 2016-10-11 10:00:00
+date: 2016-10-11 12:00:00
 hidden: true
 layout: book-notes
 permalink: /upstream-prerequisties/
