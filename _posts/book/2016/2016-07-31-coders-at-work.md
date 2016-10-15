@@ -11,13 +11,13 @@ permalink: /coder-at-work/
 title: "Coders At Work"
 ---
 
-This is a interesting book where I the reader felt like I was actually talking to each programmer being interviewed. I enjoyed learning about the past when Computer Science wasn't a academic degree. A time when computers were expensive and a limited amount of people had access to them.
+This is an interesting book where I the reader felt like I was actually talking to each programmer being interviewed. I enjoyed learning about the past when Computer Science wasn't an academic degree. A time when computers were expensive and a limited amount of people had access to them.
 
-Most if not all of the interviewee started programming at a young age. The languages they learned were low level like BASIC, APL, Fortan, LISP, and Perl to name a few. You had to keep track of memory storage since it was a limiting factor. Thanks to the Moorse's Law, these days we don't have to worry about memory storage!
+Most if not all of the interviewee started programming at a young age. The languages they learned were low level like BASIC, APL, FORTRAN, LISP, and Perl to name a few. You had to keep track of memory storage since it was a limiting factor. Thanks to the Moore’s Law, these days we don't have to worry about memory storage!
 
-I remember learning about transistors in college, a device that represents two states. These devices are semiconductors that can be both a conductor or insulator. The combination of transistors will give us logic gates, which allows computer to perform operations. It's amazing how two states can be used to represent information and perform arithmetic operations!
+I remember learning about transistors in college, a device that represents two states. These devices are semiconductors that can be either a conductor or insulator. The combination of transistors will give us logic gates, which allows computer to perform operations. It's amazing how two states can be used to represent information and perform arithmetic operations!
 
-I noticed that most of the interviewee had access to a computer at a young age. Their parents were skilled professionals or worked at a university. They would read about coding in a magazine or book then applied what they learned. Some would take programming courses at a university, the courses were a part of Mathematics and Phyics.
+I noticed that most of the interviewee had access to a computer at a young age. Their parents were skilled professionals or worked at a university. They would read about coding in a magazine or book then applied what they learned. Some would take programming courses at a university, the courses were a part of Mathematics and Physics.
 
 Something interesting I learn from the book is when picking a languages, you are picking a community. All programming languages has a user base. A community where people help each other learn. That's what makes a program language so great, the community!
 

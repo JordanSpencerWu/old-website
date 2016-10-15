@@ -25,7 +25,7 @@ During development focus on orthogonality by reducing duplication in the system,
 
 ##### The Basic Tools
 
-Every craftsman starts his or her journey with tools, spend time learning to use these tools, and at some point you'll be surprised to discover your fingers moving over the keyboard, manipluating text without conscious thought. The tools well have become extensions of your hands.
+Every craftsman starts his or her journey with tools, spend time learning to use these tools, and at some point you'll be surprised to discover your fingers moving over the keyboard, manipulating text without conscious thought. The tools well have become extensions of your hands.
 
 ##### Pragmatic Paranoia
 
@@ -125,7 +125,7 @@ __Project specification__ is the process of taking a requirement and reducing it
 
 __Seamless approach__: specification and implementation are simply different aspects of the same process - an attempt to capture and codify a requirement.
 
-__Quality officer__ - someone to whom the team delegates the responsibility for the qualiy of the deliverable.
+__Quality officer__ - someone to whom the team delegates the responsibility for the quality of the deliverable.
 
 __Chief water tester__: this person check constantly for increased scope, decreased time scales, additional features, new environments - anything that wasn't in the original agreement.
 
@@ -139,7 +139,7 @@ __Final builds__: which you intend to ship as products, may have different requi
 
 __Integration testing__ shows that the major subsystem that make up the project work and play well with each other.
 
-__Real-world conidtions__, in the real world, your programs don't have limitless resources; they run out of things.
+__Real-world conditions__, in the real world, your programs don't have limitless resources; they run out of things.
 
 __Regression test__ compares the output of the current test with previous (or known) values.
 
@@ -149,4 +149,4 @@ __Coverage analysis__ tools watch your code during testing and keep track of whi
 
 __Internal documentation__ includes source code comments, design and test document, and so on.
 
-__External documentation__ is anything shipped or published to the outside world, such as user manuals. 
+__External documentation__ is anything shipped or published to the outside world, such as user manuals.

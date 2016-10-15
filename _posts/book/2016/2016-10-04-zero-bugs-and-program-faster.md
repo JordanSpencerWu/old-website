@@ -55,7 +55,7 @@ title: "Zero Bugs And Program Faster"
 
 > Fail fast explained by Jim Shore: "When a problem occurs, the system fails immediately and visibly. Failing fast is a nonintuitive technique; it sounds like it would make your software more fragile, but it actually makes it more robust. Bugs are easier to find and fix, so fewer go into production.
 
-> The most important concept for proving code correctess is the preconditions and postcondition. The preconditions says what can be passed in to a function, and the postconditions describes the state after the function is complete.
+> The most important concept for proving code correctness is the preconditions and post condition. The preconditions says what can be passed in to a function, and the post conditions describes the state after the function is complete.
 
 > An invariant is always true.
 

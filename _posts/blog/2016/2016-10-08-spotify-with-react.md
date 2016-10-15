@@ -6,7 +6,7 @@ libraries: [react]
 title: "Spotify With React"
 ---
 
-Spotify provides a RESTful api service that allows developers to access information about artists, albums, and tracks! It's simple to use and most of the time it's not required to have a access token. The only time you need a key and secret is when you access private information like user's profile, playlists, etc. In this blog I created a simple search bar that looks for albums, artists, and tracks with React!
+Spotify provides a RESTful API service that allows developers to access information about artists, albums, and tracks! It's simple to use and most of the time it's not required to have a access token. The only time you need a key and secret is when you access private information like user's profile, playlists, etc. In this blog I created a simple search bar that looks for albums, artists, and tracks with React!
 
 __NOTE__: The search bar below doesn't search as you type, the reason why is there's a API Rate Limits which limits the amount of requests you can make to the API. To use the search bar, type in the album, artist, or track you want to search for then push enter.
 

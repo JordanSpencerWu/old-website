@@ -20,4 +20,3 @@ Requirements describe in detail what a software system is supposed to do, and th
 ##### Architecture
 
 Software architecture is the high-level part of software design, the frame that holds the more detailed parts of the design. The quality of the architecture determines the conceptual integrity of the system, this in turns determines the ultimate quality of the system. Architecture changes are expensive to make, it takes the same time as a needed fix to a requirement error. The cost of architectural changes increases as more code is written for the wrong architecture, so be sure the architecture is right.
-
