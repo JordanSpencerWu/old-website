@@ -1,7 +1,7 @@
 ---
 author: Chad Fowler
 categories: [book]
-class: 7
+class: 8
 date: 2016-10-22 10:00:00
 description: We spend most of our times after college working, it's would be wise to find fulfillment and happiness in your career. Human biggest urge is the "the desire to be important", in other words desire to live a remarkable life! The road to a remarkable life is to constantly strive to be great, making incremental changes, getting closer each day towards your goals. This book shows you ways to create a remarkable life.
 hidden: true
