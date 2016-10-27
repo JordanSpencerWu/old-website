@@ -86,18 +86,6 @@
   font-weight: 900;
 }
 
-@media screen and (min-width: 1200px) { 
-  .card, .blog-wrapper {
-    width: 100%;
-    margin: 20px auto;
-  }
-  
-  .container {
-    margin: 0 auto;
-    width: 50%;
-  }
-}
-
 .center-text {
   text-align: center;
 }
@@ -214,13 +202,13 @@ div.row.valign-wrapper {
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 55px;
+  height: 55px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 55px;
 }
 
 .square:focus {
