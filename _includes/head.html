@@ -43,5 +43,8 @@
     {% if library == 'vivus' %}
       <script src="{{ "/assets/js/vivus.min.js" | prepend: site.baseurl }}"></script>
     {% endif %}
+    {% if library == 'immutable' %}
+      <script src="{{ "/assets/js/immutable.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
   {% endfor %}
 </head>
