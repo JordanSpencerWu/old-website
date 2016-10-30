@@ -28,7 +28,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
     function Board(props) {
       function renderSquare(row,col) {
-        return <Square value={props.squares[row][col]} onClick={() => props.onClick(row,col)}/>;
+        return <Square value={props.squares[row][col].value} onClick={() => props.onClick(row,col)}/>;
       }
 
       function renderSquares (row, col) {
@@ -55,7 +55,9 @@ The react team did a great job in making this tutorial! I remember learning Reac
         super();
         this.state = {
           history: [{
-            squares: this.multiDimensionalArrayOfNull(3,3)
+            squares: this.createSquares(3,3),
+            movedLocation: null,
+            player: null
           }],
           xIsNext: true,
           stepNumber: 0,
@@ -64,16 +66,19 @@ The react team did a great job in making this tutorial! I remember learning Reac
       }
 
       handleClick(row,col) {
-        var history = window.Immutable.fromJS(this.state.history).toJS().slice(0, this.state.stepNumber + 1);
-        var current = history[history.length - 1];
+        let history = window.Immutable.fromJS(this.state.history).toJS().slice(0, this.state.stepNumber + 1);
+        let current = history[history.length - 1];
         const squares = window.Immutable.fromJS(current.squares).toJS();
-        if (calculateWinner(squares) || squares[row][col]) {
+        if (calculateWinner(squares) || squares[row][col].value) {
           return;
         }
-        squares[row][col] = this.state.xIsNext ? 'X' : 'O';
+        squares[row][col].value = this.state.xIsNext ? 'X' : 'O';
+        let location = `(${row},${col})`;
         this.setState({
           history: history.concat([{
-            squares: squares
+            squares: squares,
+            movedLocation: location,
+            player: this.state.xIsNext ? 'X' : 'O'
           }]),
           xIsNext: !this.state.xIsNext,
           stepNumber: history.length
@@ -82,22 +87,28 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
       jumpTo(event,step) {
         event.preventDefault();
-        console.log(step);
         this.setState({
           stepNumber: step,
           xIsNext: (step % 2) ? false : true
         });
       }
 
-      multiDimensionalArrayOfNull(numbersOfRows, numbersOfColumns) {
+      createSquares(numbersOfRows, numbersOfColumns) {
         let array = new Array(numbersOfRows);
 
         for (let i = 0; i < numbersOfRows; i++) {
-          array[i] = new Array(numbersOfColumns).fill(null);
+          array[i] = new Array(numbersOfColumns);
+          for (let j = 0; j < numbersOfColumns; j++) {
+            array[i][j] = {
+                column: j,
+                  row: i,
+                  value: null
+              };
+          }
         }
 
         return array;
-      }
+      };
 
       handleToggle() {
         this.setState({
@@ -118,8 +129,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
         }
 
         const moves = history.map((step, move) => {
-          console.log(step);
-          const text = move ? 'Move #' + move : 'Game start';
+          const text = move ? `Player ${step.player} moved to ${step.movedLocation}` : 'Game start';
           let link = null;
           
           if (move === this.state.stepNumber) {
@@ -174,7 +184,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
       ];
 
       function valueAt(row, col) {
-        return squares[row][col];
+        return squares[row][col].value;
       }
 
       for (let i = 0; i < lines.length; i++) {
