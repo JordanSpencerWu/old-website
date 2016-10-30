@@ -31,23 +31,21 @@ The react team did a great job in making this tutorial! I remember learning Reac
         return <Square value={props.squares[row][col]} onClick={() => props.onClick(row,col)}/>;
       }
 
+      function renderSquares (row, col) {
+        let render = [];
+        for (let i = 0; i < row; i++) {
+          let cells = [];
+          for (let j = 0; j < col; j++) {
+            cells.push(renderSquare(i,j));  
+          }
+          render.push(<div key={i} className="board-row">{ cells }</div>);
+        }
+        return render;
+      }
+
       return (
         <div>
-          <div className="board-row">
-            {renderSquare(0,0)}
-            {renderSquare(0,1)}
-            {renderSquare(0,2)}
-          </div>
-          <div className="board-row">
-            {renderSquare(1,0)}
-            {renderSquare(1,1)}
-            {renderSquare(1,2)}
-          </div>
-          <div className="board-row">
-            {renderSquare(2,0)}
-            {renderSquare(2,1)}
-            {renderSquare(2,2)}
-          </div>
+          {renderSquares(3,3)}
         </div>
       );
     }
@@ -60,7 +58,8 @@ The react team did a great job in making this tutorial! I remember learning Reac
             squares: this.multiDimensionalArrayOfNull(3,3)
           }],
           xIsNext: true,
-          stepNumber: 0
+          stepNumber: 0,
+          isAscend: true
         }
       }
 
@@ -100,6 +99,12 @@ The react team did a great job in making this tutorial! I remember learning Reac
         return array;
       }
 
+      handleToggle() {
+        this.setState({
+          isAscend: !this.state.isAscend
+        });
+      }
+
       render() {
         const history = this.state.history;
         const current = history[this.state.stepNumber];
@@ -113,13 +118,14 @@ The react team did a great job in making this tutorial! I remember learning Reac
         }
 
         const moves = history.map((step, move) => {
-          const desc = move ? 'Move #' + move : 'Game start';
+          console.log(step);
+          const text = move ? 'Move #' + move : 'Game start';
           let link = null;
           
           if (move === this.state.stepNumber) {
-            link = <p>{desc}</p>;
+            link = <p>{text}</p>;
           } else {
-            link = <a href="#" onClick={(event) => this.jumpTo(event,move)}>{desc}</a>
+            link = <a href="#" onClick={(event) => this.jumpTo(event,move)}>{text}</a>
           }
           return (
             <li key={move}>
@@ -139,8 +145,11 @@ The react team did a great job in making this tutorial! I remember learning Reac
               </div>
             </div>
             <div className="game-info">
+              <button className="btn" onClick={() => this.handleToggle()}>
+                { this.state.isAscend ? 'ASCEND' : 'DESCEND' }
+              </button>
               <p>{status}</p>
-              <ol>{moves}</ol>
+              <ol>{ this.state.isAscend ? moves : moves.reverse() }</ol>
             </div>
           </div>
         );
