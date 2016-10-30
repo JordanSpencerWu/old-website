@@ -83,6 +83,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
       jumpTo(event,step) {
         event.preventDefault();
+        console.log(step);
         this.setState({
           stepNumber: step,
           xIsNext: (step % 2) ? false : true
@@ -113,12 +114,19 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
         const moves = history.map((step, move) => {
           const desc = move ? 'Move #' + move : 'Game start';
+          let link = null;
+          
+          if (move === this.state.stepNumber) {
+            link = <p>{desc}</p>;
+          } else {
+            link = <a href="#" onClick={(event) => this.jumpTo(event,move)}>{desc}</a>
+          }
           return (
             <li key={move}>
-              <a href="#" onClick={(event) => this.jumpTo(event,move)}>{desc}</a>
+              {link}
             </li>
           );
-        });
+        }, this);
 
         return (
           <div>
