@@ -4,6 +4,11 @@ email: jordan.spencer.wu@gmail.com
 description: JordanSpencerWu Personal Blog
 url: "https://JordanSpencerWu.github.io" # the base hostname & protocol for your site
 author: Jordan Wu
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Pagination
 permalink: /:year/:month/:day/:title/
