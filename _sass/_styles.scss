@@ -221,6 +221,10 @@ div.row.valign-wrapper {
   padding: 0;
   text-align: center;
   width: 55px;
+
+  &:hover {
+    background-color: orange;
+  }
 }
 
 .square:focus {
@@ -239,7 +243,7 @@ div.row.valign-wrapper {
 .game-info {
   margin: 15px auto 0 auto;
   text-align: center;
-  width: 150px;
+  width: 162px;
 
   ol {
     margin: 5px 0;
