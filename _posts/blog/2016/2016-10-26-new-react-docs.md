@@ -28,7 +28,9 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
 5. When someone wins, highlight the three squares that caused the win.
 
-##### My Code
+My code implementation of the tic tac toe is a bit different from the one in the tutorial. I used a two dimensional array instead of a single array to represent the state of the board. In my option it's more readable and acts like matrices in math.
+
+##### Code
 
 {% highlight javascript %}
   function Square(props) {
