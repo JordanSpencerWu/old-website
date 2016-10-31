@@ -57,7 +57,8 @@ The react team did a great job in making this tutorial! I remember learning Reac
           history: [{
             squares: this.createSquares(3,3),
             movedLocation: null,
-            player: null
+            player: null,
+            isGameOver: false
           }],
           xIsNext: true,
           stepNumber: 0,
@@ -68,17 +69,29 @@ The react team did a great job in making this tutorial! I remember learning Reac
       handleClick(row,col) {
         let history = window.Immutable.fromJS(this.state.history).toJS().slice(0, this.state.stepNumber + 1);
         let current = history[history.length - 1];
+        let isGameOver = current.isGameOver;
         const squares = window.Immutable.fromJS(current.squares).toJS();
-        if (calculateWinner(squares) || squares[row][col].value) {
+
+        if (squares[row][col].value || isGameOver) {
           return;
         }
+
         squares[row][col].value = this.state.xIsNext ? 'X' : 'O';
+        const winningSquares = calculateWinner(squares);
         let location = `(${row},${col})`;
+
+        if (winningSquares) {
+          for (let i = 0; i < winningSquares.length; i++) {
+            squares[winningSquares[i][0]][winningSquares[i][1]].winner = true;
+          }
+          isGameOver = true;
+        }
         this.setState({
           history: history.concat([{
             squares: squares,
             movedLocation: location,
-            player: this.state.xIsNext ? 'X' : 'O'
+            player: this.state.xIsNext ? 'X' : 'O',
+            isGameOver: isGameOver
           }]),
           xIsNext: !this.state.xIsNext,
           stepNumber: history.length
@@ -89,7 +102,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
         event.preventDefault();
         this.setState({
           stepNumber: step,
-          xIsNext: (step % 2) ? false : true
+          xIsNext: (step % 2) ? false : true,
         });
       }
 
@@ -102,7 +115,8 @@ The react team did a great job in making this tutorial! I remember learning Reac
             array[i][j] = {
                 column: j,
                   row: i,
-                  value: null
+                  value: null,
+                  winner: false
               };
           }
         }
@@ -119,10 +133,11 @@ The react team did a great job in making this tutorial! I remember learning Reac
       render() {
         const history = this.state.history;
         const current = history[this.state.stepNumber];
-        const winner = calculateWinner(current.squares);
+        const winningSquares = calculateWinner(current.squares);
+        const winner = this.state.xIsNext ? 'O' : 'X';
 
         let status;
-        if (winner) {
+        if (winningSquares) {
           status = 'Winner: ' + winner;
         } else {
           status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
@@ -190,7 +205,7 @@ The react team did a great job in making this tutorial! I remember learning Reac
       for (let i = 0; i < lines.length; i++) {
         const [a, b, c] = lines[i];
         if (valueAt(a[0],a[1]) && valueAt(a[0],a[1]) === valueAt(b[0],b[1]) && valueAt(a[0],a[1]) === valueAt(c[0],c[1])) {
-          return valueAt(a[0],a[1]);
+          return lines[i];
         }
       }
       return null;
