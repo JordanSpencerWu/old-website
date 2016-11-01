@@ -14,7 +14,7 @@ You can find the tutorial <a href="https://facebook.github.io/react/tutorial/tut
 
 <div id="root"></div>
 
-The react team did a great job in making this tutorial! I remember learning React.js a year ago and it took me awhile to learn about lifting states up. We lift states up so only one component stores the states, so there is only one source of truth. This will make it easier to understand how everything works and how we pass props into dumb components. The dumb components are __stateless functional components__! A lot has changed over a year, the most significant changed is ES6 has made using React a lot easier and more readable!
+The react team did a great job in making this tutorial! I remember learning React.js a year ago and it took me awhile to learn about lifting states up. We lift states up so only one component stores the states, so there is only one source of truth. This will make it easier to understand how everything works and how we pass props into dumb components. The dumb components are __stateless functional components__! A lot has changed over a year, the most significant changed is ES6 has made using React more readable and maintainable!
 
 ##### Bonus!!
 
@@ -28,7 +28,39 @@ The react team did a great job in making this tutorial! I remember learning Reac
 
 5. When someone wins, highlight the three squares that caused the win.
 
-My code implementation of the tic tac toe is a bit different from the one in the tutorial. I used a two dimensional array instead of a single array to represent the state of the board. In my option it's more readable and acts like matrices in math.
+My code implementation of the tic tac toe is a bit different from the one in the tutorial. I used a two dimensional array instead of a single array to represent the state of the board. In my opinion it's more readable and easier to understand, just think of a matrix in math. For the location (1, 3), I kept it as a index base of 0, so it is (0, 2). Lastly I add a few more states to the stateful component.
+
+Each object in our history state must have the following states below to work, these states represents our Board props. This allows us to time travel, by saving the specific player moved location along with the boxes state. Think of this as all the props needed to be passed down into our stateless functional component called `Board` which in turn passes props into another stateless functional component called `Square`.
+
+{% highlight javascript %}
+  {
+    squares: this.createSquares(3,3),
+    movedLocation: null,
+    player: null,
+    isGameOver: false
+  }
+{% endhighlight %}
+
+To find out which boxes to highlight after a winner has been a announced, I figured that each box on the tic tac toe board should have their own states. Each box has their own column, row, value, and winner states. All we need to know is which three boxes are the winners and to change the state winner to true.
+
+{% highlight javascript %}
+  createSquares(numbersOfRows, numbersOfColumns) {
+    let array = new Array(numbersOfRows);
+
+    for (let i = 0; i < numbersOfRows; i++) {
+      array[i] = new Array(numbersOfColumns);
+      for (let j = 0; j < numbersOfColumns; j++) {
+        array[i][j] = {
+            column: j,
+              row: i,
+              value: null,
+              winner: false
+          };
+      }
+    }
+{% endhighlight %}
+
+Overall this tutorial was fun and interesting! The most important thing I learned from this was that the __slice()__ method returns a __shallow__ copy of a portion of an array into a new array object selected from begin to end (end not included). We cannot use this method on a multidimensional array, instead I choose to use the <a href="https://facebook.github.io/immutable-js/" target="_blank">Immutable.js</a> library to create an immutable multidimensional array.
 
 ##### Code
 
