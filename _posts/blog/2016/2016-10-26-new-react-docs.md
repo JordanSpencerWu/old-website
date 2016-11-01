@@ -41,7 +41,7 @@ Each object in our history state must have the following states below to work, t
   }
 {% endhighlight %}
 
-To find out which boxes to highlight after a winner has been a announced, I figured that each box on the tic tac toe board should have their own states. Each box has their own column, row, value, and winner states. All we need to know is which three boxes are the winners and to change the state winner to true.
+To find out which boxes to highlight after a winner has been announced, I figured that each box on the tic tac toe board should have their own states. Each box has their own column, row, value, and winner states. All we need to know is which three boxes are the winners and to change the state winner to true.
 
 {% highlight javascript %}
   createSquares(numbersOfRows, numbersOfColumns) {
