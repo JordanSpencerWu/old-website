@@ -2,7 +2,7 @@
 categories: [blog]
 date: 2016-09-16 10:15:00
 layout: post
-title: "Relearning Object-oriented Programming"
+title: "Object-oriented Programming Notes"
 ---
 
 __Object-oriented programming__ (OOP) involves programming using object, the object represents an entity in the real world. A class is a template, blue-print, or _contract_ that defines the _properties_ and _behaviors_ for objects. An object has a unique identity, state, and behavior. The _state_ of an object is defined as the _properties_ or _attributes_ of the class template, while the _behavior_ also known as its _actions_ is defined by methods.

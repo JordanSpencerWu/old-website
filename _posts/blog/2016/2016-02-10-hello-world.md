@@ -34,7 +34,7 @@ It is common that everyone writes a program called Hello World when learning a n
 <h4>C#</h4>
 
 {% highlight csharp %}
-  System.Console.WriteLine("Hello, World!");
+  System.Console.WriteLine("Hello World!");
 {% endhighlight %}
 
 #### Python

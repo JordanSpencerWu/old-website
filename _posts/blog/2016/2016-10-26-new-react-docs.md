@@ -58,6 +58,7 @@ To find out which boxes to highlight after a winner has been announced, I figure
           };
       }
     }
+  }
 {% endhighlight %}
 
 Overall this tutorial was fun and interesting! The most important thing I learned from this was that the __slice()__ method returns a __shallow__ copy of a portion of an array into a new array object selected from begin to end (end not included). We cannot use this method on a multidimensional array, instead I choose to use the <a href="https://facebook.github.io/immutable-js/" target="_blank">Immutable.js</a> library to create an immutable multidimensional array.
