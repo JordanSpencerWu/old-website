@@ -110,7 +110,7 @@ Here's an example from the book:
 
 ##### Don't Have Tests Depend on Previous Tests
 
-Looking above at the test case `test_an_empty_world_stays_empty_after_a_tick`, the test name indicates we are starting with an empty world, but the test code does not specify this explicitly. There is an assumption here that new worlds are empty, what if we don't start with an empty world?
+Looking above at the test case test_an_empty_world_stays_empty_after_a_tick, the test name indicates we are starting with an empty world, but the test code does not specify this explicitly. There is an assumption here that new worlds are empty, what if we don't start with an empty world?
 
 The idea of letting the test name influence the test code and use that to make the test code a bit more explicit, let's explicitly ask for an empty world.
 
