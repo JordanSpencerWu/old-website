@@ -7,8 +7,8 @@ description: This book talks about usability in web development. Having better u
 hidden: true
 img-path: /assets/images/books/dont-make-me-think.jpg
 layout: book
-permalink: /dont-make-me-think/
-title: "DON'T MAKE ME THINK"
+permalink: /dont-make-me-think-revisited/
+title: "Don't Make Me Think Revisited"
 ---
 
 The worlds has changed at a rapid rate after the invention of transistors, a device that can hold one of two states. This technology has brought many changes to industries over the years. One of the biggest trends involves the web, many advancements has made the web a place for business. Investing in a website will drastically increase the value of any company, this is the best medium where customers purchase products and services. The book talks about creating better user experience (UX) by focusing on usability.
