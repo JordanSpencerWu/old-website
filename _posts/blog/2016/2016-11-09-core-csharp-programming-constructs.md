@@ -2,7 +2,7 @@
 categories: [blog]
 date: 2016-11-09 10:00:00
 layout: post
-title: "Core C# Programming Constructs"
+title: "Core C# Programming Constructs Notes"
 ---
 
 The .NET Platform is made up of three key building blocks. The __Common Language Runtime (CLR)__ primary role is to locate, load, and manage .NET objects. The __Common Type System (CTS)__ specification fully describes all possible data types and all programming constructs supported by the runtime. Lastly, the __Common Language Specification (CLS)__ is related specification that defines a subset common types and programming constructs that all .NET programming languages can agree on.
