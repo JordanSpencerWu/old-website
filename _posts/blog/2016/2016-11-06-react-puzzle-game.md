@@ -10,7 +10,7 @@ The react Tic-Tac-Toe board game reminded me of a puzzle game that I helped buil
 
 ##### Here Are The Rules
 
-1. Whenever you click on a tiles, the four adjacent tiles change color. (Diagonal titles are not considered adjacent)
+1. Whenever you click on a tile, the four adjacent tiles change color. (Diagonal titles are not considered adjacent)
 
 2. Colors change in this order: BLUE -> BLUE_PURPLE -> BLUE_GREEN -> back to BLUE.
 
