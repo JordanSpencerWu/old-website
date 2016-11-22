@@ -17,7 +17,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/modaal.min.css" | prepend: site.baseurl }}">
 
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
@@ -38,6 +37,7 @@
       {% include react.html %}
     {% endif %}
     {% if library == 'modaal' %}
+      <link rel="stylesheet" href="{{ "/css/modaal.min.css" | prepend: site.baseurl }}">
       <script src="{{ "/assets/js/modaal.min.js" | prepend: site.baseurl }}"></script>
     {% endif %}
     {% if library == 'vivus' %}
@@ -45,6 +45,14 @@
     {% endif %}
     {% if library == 'immutable' %}
       <script src="{{ "/assets/js/immutable.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+    {% if library == 'moment' %}
+      <script src="{{ "/assets/js/moment.min.js" | prepend: site.baseurl }}"></script>
+      <script src="{{ "/assets/js/moment-timezone.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+    {% if library == 'flipclock' %}
+      <link rel="stylesheet" href="{{ "/css/flipclock.css" | prepend: site.baseurl }}">
+      <script src="{{ "/assets/js/flipclock.min.js" | prepend: site.baseurl }}"></script>
     {% endif %}
   {% endfor %}
 </head>
