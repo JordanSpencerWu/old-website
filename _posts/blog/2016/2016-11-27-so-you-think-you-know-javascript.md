@@ -32,7 +32,7 @@ Notice that the function expressions requires the semi-colon at the end while th
 
 {% highlight javascript %}
   (function(global) {
-    console.log("THIS IS IN AN IIFE);
+    console.log("THIS IS IN AN IIFE");
 
     function privateFunction() {
       console.log("I am private");
@@ -165,7 +165,7 @@ The `this` keyword is binded at runtime and depends on how it is invoked. When a
 
 ##### Prototypes
 
-JavaScript uses the prototypal inheritance and that everything in JavaScript is an object. Each object has its own property, you can use `hasOwnProperty()` to check if that object has a specific property. If that object doesn't have that specific property, you can check to see if it's prototype has that property using `object.__proto__.hasOwnProperty("someProperty")`, don't forget to use the `call` method to bind `this` to the function call if you want to invoked a function that is in the prototype chain. You can create objects using functions, this is called function prototype. To do this you use the `new` keyword on a function constructor, a function constructor uses the `this` keyword to define properties and should not return anything. In ES6 the `class` feature makes creating object inheritance a lot easier.
+JavaScript uses the prototypal inheritance and that everything in JavaScript is an object. Each object has its own property, you can use `hasOwnProperty()` to check if that object has a specific property. If that object doesn't have that specific property, you can check to see if it's prototype has that property using `__proto__.hasOwnProperty()`, don't forget to use the `call` method to bind `this` to the function call if you want to invoked a function that is in the prototype chain. You can create objects using functions, this is called function prototype. To do this you use the `new` keyword on a function constructor, a function constructor uses the `this` keyword to define properties and should not return anything. In ES6 the `class` feature makes creating object inheritance a lot easier.
 
 {% highlight javascript %}
   // --------------------------
