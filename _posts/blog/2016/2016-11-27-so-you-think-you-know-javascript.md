@@ -9,7 +9,7 @@ JavaScript is used intensively in web development and is starting to branch out 
 
 ##### Scopes, Callbacks and Closures
 
-In JavaScript functions are the first class citizen and are the only way to create a scope. Whenever you declare a `var` variable, it is scope to the closest function scope, otherwise it will be scope to the global scope. Additional the arguments passed into the functions are scope to the function. There are a few ways to create functions in JavaScript:
+In JavaScript functions are the first class citizen and are the only way to create a new scope. Whenever you declare a `var` variable, it is scope to the closest function scope, otherwise it will be scoped to the global scope. Additionally the arguments passed into the functions are scoped to the function. There are a few ways to create functions in JavaScript:
 
 {% highlight javascript %}
   // function declaration
@@ -28,7 +28,7 @@ In JavaScript functions are the first class citizen and are the only way to crea
   };
 {% endhighlight %}
 
-Notice that the function expressions requires the semi-colon at the end while the function delaration don't. The following functions are scope to the global scope which will pollute the global scope. To create a namespace in JavaScript we use immediately-invoked function expression (IIFE), it’s important that this function cannot be invoked again and executes once. It’s used for creating a namespace that doesn't affect the global scope and encapsulate public/private members.
+Notice that the function expressions requires the semi-colon at the end while the function delaration don't. The following functions are scoped to the global scope which will pollute the global scope. To create a namespace in JavaScript we use immediately-invoked function expression (IIFE), it’s important that this function cannot be invoked again and executes once. It’s used for creating a namespace that doesn't affect the global scope and encapsulate public/private members.
 
 {% highlight javascript %}
   (function(global) {
@@ -45,9 +45,9 @@ Notice that the function expressions requires the semi-colon at the end while th
   })(jQuery);
 {% endhighlight %}
 
-An important topic in JavaScript is hoisting, JavaScript is compiled and executed by the browser. During the compile time the left hand side `var` variable are hoisted to the closest function scope while the right hand side expression stays. The hoisting will assign the hoisted `var` variable the value of `undefined` until it is assigned a value. Function declaration are also hoisted to the closest function scope while the function expression acts like the hoisting of the `var` variable. JavaScript uses Static/Lexical scope which will bind values to a variable during compile time.
+An important topic in JavaScript is hoisting, JavaScript is compiled and executed by the browser. During the compile time the left hand side `var` variable are hoisted to the closest function scope while the right hand side expression stays. The hoisting will assign the hoisted `var` variable the value of `undefined` until it is assigned a value. Function declaration are also hoisted to the closest function scope while the function expression acts like the hoisting of the `var` variable. Note that JavaScript uses static/lexical scope which will bind values to a variable during compile time.
 
-A Closure is a function that uses variables from its parent scope. Remember that functions creates a new scope and can be used to store variables for other functions to use, this allows us to use higher order functions. We are able to pass in function as arguments to a function and also return a function in JavaScript. The power of Closures is being able to reuse functions that have different closure scopes.
+A closure is a function that uses variables from its parent scope. Remember that functions creates a new scope and can be used to store variables for other functions to use, this allows us to use higher order functions. We are able to pass in function as arguments to a function and also return a function in JavaScript. The power of closures is being able to reuse functions that have different closure scopes.
 
 The example below is a common issue that appears in JavaScript and understanding the languages will help you debug your programs. 
 
@@ -134,7 +134,7 @@ The example below is a common issue that appears in JavaScript and understanding
 
 ##### What Is This?
 
-The `this` keyword is binded at runtime and depends on how it is invoked. When an object invokes a function with the keyword `this`, the `this` will be the object that invoked the function. It is common to use `call`, `apply` and `bind` to bind the `this` variable to the correct scope. The `call` and `apply` are similar, the only difference is that one takes in arguments parameter list and the other takes in an array of arguments, they can be used to borrow functions. The `bind` function can be used to currying or part application which allows constructing functions that allows partial application of a function's arguments. In ES6 the arrow function feature will lexical scope the `this` keyword for you.
+The `this` keyword is binded at runtime and depends on how it is invoked. Every time you create a function, JavaScript will create a `this` context and the global `this` context is the window object. When an object invokes a function with the keyword `this`, the `this` will be the object that invoked the function. It is common to use `call`, `apply` and `bind` to bind the `this` variable to the correct context. The `call` and `apply` are similar, the only difference is that one takes in arguments parameter list and the other takes in an array of arguments, they can be used to invoke borrowed functions. The `bind` function can be used to currying or part application which allows constructing functions that allows partial application of a function's arguments and to bind the `this` to the correct context. In ES6 the arrow function feature will lexical scope the `this` keyword for you.
 
 {% highlight javascript %}
   // -----------------------
@@ -165,11 +165,11 @@ The `this` keyword is binded at runtime and depends on how it is invoked. When a
 
 ##### Prototypes
 
-JavaScript uses the prototypal inheritance and that everything in JavaScript is an object. Each object has its own property, you can use `hasOwnProperty()` to check if that object has a specific property. If that object doesn't have that specific property, you can check to see if it's prototype has that property using `__proto__.hasOwnProperty()`, don't forget to use the `call` method to bind `this` to the function call if you want to invoked a function that is in the prototype chain. You can create objects using functions, this is called function prototype. To do this you use the `new` keyword on a function constructor, a function constructor uses the `this` keyword to define properties and should not return anything. In ES6 the `class` feature makes creating object inheritance a lot easier.
+JavaScript uses the prototypal inheritance and that everything in JavaScript is an object that has a `__proto__` property. Each object has its own property, you can use `hasOwnProperty()` to check if that object has a specific property. If that object doesn't have that specific property, you can check to see if it's prototype has that property using `__proto__.hasOwnProperty()`, don't forget to use the `call` method to bind `this` to the function call if you want to invoke a function that is in the prototype chain. You can create objects using functions, this is called function prototype. To do this you use the `new` keyword on a function constructor, a function constructor uses the `this` keyword to define properties and should not return a value. When you use function prototype, the `new` keyword will create an object that has a prototype property pointing to the function constructor `prototype` property. In ES6 the `class` feature makes creating prototypal inheritance a lot easier.
 
 {% highlight javascript %}
   // --------------------------
-  // ES5 object inheritance
+  // ES5 prototypal inheritance
   function Person(name, rank) {
     this.name = name;
     this.rank = rank;
@@ -206,7 +206,7 @@ JavaScript uses the prototypal inheritance and that everything in JavaScript is 
   };
 
   // --------------------------
-  // ES6 object inheritance
+  // ES6 prototypal inheritance
   class Person (
     constructor(name, rank) {
       this.name = name;
