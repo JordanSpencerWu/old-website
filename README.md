@@ -8,4 +8,4 @@ Currently thinking about a custom domain name to use for this website.
 
 run `bundle install`
 
-run `jekyll serve` to start the server on port 4000
+run `bundle exec jekyll serve` to start the server on port 4000
