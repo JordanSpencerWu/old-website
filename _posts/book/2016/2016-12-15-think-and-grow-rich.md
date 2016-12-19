@@ -155,8 +155,9 @@ title: "Think And Grow Rich"
 
         <blockquote>
           This Earth, every one of the billions of individual cells of your body, and every atom of matter, <i>began as an intangible form of energy</i>.<br>
-          where there's a will, there's a way
         </blockquote>
+
+        <p>Where there's a will, there's a way</p>
       </div>
     </li>
     <li>
@@ -389,7 +390,7 @@ title: "Think And Grow Rich"
           <li>4. <b>A FRIENDLY ALLIANCE WITH ONE OR MORE PERSONS WHO WILL ENCOURAGE ONE TO FOLLOW THROUGH WITH BOTH PLAN AND PURPOSE.</b></li>
         </ol>
 
-        <p>These four steps are essential for success in all walks of life. The entire purpose of the thirtee principles of this philosophy is to enable one to take these four steps as a matter of <i>habit</i>.</p>
+        <p>These four steps are essential for success in all walks of life. The entire purpose of the thirteen principles of this philosophy is to enable one to take these four steps as a matter of <i>habit</i>.</p>
       </div>
     </li>
     <li>
@@ -409,7 +410,7 @@ title: "Think And Grow Rich"
 
         <p>When two or more people coordinate in a spirit of <b>HARMONY</b>, and work toward a definite objective, they place themselves in position, through that alliance, to absorb power directly from the great universal storehouse of Infinite Intelligence.</p>
 
-        <p>When riches take the place of poverty, the change is usually brought about t hrough well conceived and carefully executed <b>PLANS</b>. Poverty needs no plan. It needs no one to aid it, because it is bold and ruthless. Riches are shy and timid. They have to be "attracted."</p>
+        <p>When riches take the place of poverty, the change is usually brought about through well conceived and carefully executed <b>PLANS</b>. Poverty needs no plan. It needs no one to aid it, because it is bold and ruthless. Riches are shy and timid. They have to be "attracted."</p>
 
         <blockquote>
           Anybody can wish for riches,<br>
@@ -477,6 +478,7 @@ title: "Think And Grow Rich"
         <p>Man's greatest motivating force is his desire to please woman! Take women out of their lives, and great wealth would be useless to most men. It is this inherent desire of man to please woman, which gives woman the power to make or break a man.</p>
 
         <p><b>NO MAN IS HAPPY OR COMPLETE WITHOUT THE MODIFYING INFLUENCE OF THE RIGHT WOMAN.</b></p>
+      </div>
     </li>
     <li>
       <div class="collapsible-header"><i class="fa fa-book" style="margin-top: 10px;"></i><p style="margin: 0; overflow: auto; overflow: auto; padding: 10px 0;">THE SUBCONSIOUS MIND - THE CONNECTING LINK</p></div>
@@ -542,7 +544,7 @@ title: "Think And Grow Rich"
 
         <p>The subconscious mind is the "sending station" of the brain, through which vibrations of thought are broadcast. The Creative Imagination is the "receiving set," through which the vibrations of thought are picked up from the ether.</p>
 
-        <p><b>THE GREATEST FORCES ARE "INTANGIBLE".</b> Through the ags which have passed, man has depended too much upon his physical senses, and has limited his knowledge to physical things, which he could see, touch, weigh, and measure. We shall learn, as we pass through this age, that the "other self" is more powerful than the physical self we see when we look into a mirror.</p>
+        <p><b>THE GREATEST FORCES ARE "INTANGIBLE".</b> Through the ages which have passed, man has depended too much upon his physical senses, and has limited his knowledge to physical things, which he could see, touch, weigh, and measure. We shall learn, as we pass through this age, that the "other self" is more powerful than the physical self we see when we look into a mirror.</p>
 
         <p>The things men cannot perceive through any of their five senses, and when we hear them, it should remind us that <i>all of us are controlled by forces which are unseen and intangible</i>.</p>
       </div>
@@ -569,13 +571,13 @@ title: "Think And Grow Rich"
     <li>
       <div class="collapsible-header"><i class="fa fa-book" style="margin-top: 10px;"></i><p style="margin: 0; overflow: auto; overflow: auto; padding: 10px 0;">HOW TO OUTWIT THE SIX GHOSTS OF FEAR</p></div>
       <div class="collapsible-body" style="padding: 0 10px;">
-        <p>It begins with study, analysis, and understanding of three enemies which you shall have to clear out. There are <b>INDECISION, DOUBT</b>, and <b>FEAR!</b> The Sixth Sense will never function while these three negatives, or any of them remain in your mind.</p>
+        <p>It begins with study, analysis, and understanding of three enemies which you shall have to clear out. They are <b>INDECISION, DOUBT</b>, and <b>FEAR!</b> The Sixth Sense will never function while these three negatives, or any of them remain in your mind.</p>
 
         <p><b>INDECISION</b> is the seedling of <b>FEAR!</b> Indecision crystalizes into <b>DOUBT</b>, the two blend and become <b>FEAR!</b></p>
 
         <p>There are six basic fears they are <b>POVERTY, CRITICISM, ILL HEALTH, LOSS OF LOVE OF SOMEONE, OLD AGE,</b> and <b>DEATH</b>.</p>
 
-        <p><i>Fears are nothing more than states of mind.</i> This fear paralyzes the faculty of reason, destroys the faculty of imagination, kills off self-reliance, undermines enthusiasm, discourages initiative, leads to uncertainty of purpose, encourages procrastination, wipes out enthusiasm, and makes self-control an impossibility.</p>
+        <p><i>Fears are nothing more than states of mind.</i> Fears paralyzes the faculty of reason, destroys the faculty of imagination, kills off self-reliance, undermines enthusiasm, discourages initiative, leads to uncertainty of purpose, encourages procrastination, wipes out enthusiasm, and makes self-control an impossibility.</p>
 
         <p><b>MAN'S THOUGHT IMPULSES BEGIN IMMEDIATELY TO TRANSLATE THEMSELVES INTO THEIR PHYSICAL EQUIVALENT, WHETHER THOSE THOUGHTS ARE VOLUNTARY OR INVOLUNTARY.</b></p>
 
@@ -587,7 +589,7 @@ title: "Think And Grow Rich"
 
         <p>The entire world is made up of only two things, <b>ENERGY</b> and <b>MATTER</b>. In elementary physics we learn that neither matter nor energy can be created nor destroyed, and both can be transformed. Life is energy, like other forms of energy, may be passed through various processes of transition, or change, but it cannot be destroyed.</p>
 
-        <p>The six basic fears become translated into a state of worry, through indecision. Relieve yourself, forever of the fear of death, by reaching a decision to accept death as a inescapable event. Whip the fear of poverty by reaching a decision to get along with whatever wealth you can accumulate <b>WITHOUT WORRY</b>. Put your foot upon the neck of the fear of criticism by reaching a decision <b>NOT TO WORR</b> about what other people think, do, or say. Eliminate the fear of old age by reaching a decision to accept it, not as a handicap, but as a great blessing which carries with it wisdom, self-control, and understanding not known to youth. Acquit yourself of the fear of ill health by the decision to forget symptoms. Master the fear of loss of love by reaching a decision to get along without love, if that is necessary. Kill the habit of worry, in all its form, by reaching a general, blanket decision that nothing which life has to offer is worth the price of worry. With this decision will come poise, peace of mind, and calmness of thought which will bring happiness.</p>
+        <p>The six basic fears become translated into a state of worry, through indecision. Relieve yourself, forever of the fear of death, by reaching a decision to accept death as a inescapable event. Whip the fear of poverty by reaching a decision to get along with whatever wealth you can accumulate <b>WITHOUT WORRY</b>. Put your foot upon the neck of the fear of criticism by reaching a decision <b>NOT TO WORRY</b> about what other people think, do, or say. Eliminate the fear of old age by reaching a decision to accept it, not as a handicap, but as a great blessing which carries with it wisdom, self-control, and understanding not known to youth. Acquit yourself of the fear of ill health by the decision to forget symptoms. Master the fear of loss of love by reaching a decision to get along without love, if that is necessary. Kill the habit of worry, in all its form, by reaching a general, blanket decision that nothing which life has to offer is worth the price of worry. With this decision will come poise, peace of mind, and calmness of thought which will bring happiness.</p>
 
         <p>A man whose mind is filled with fear not only destroys his own chances of intelligent action, but, he transmits these destructive vibrations to the minds of all who come into contact with him, and destroys, also their chances.</p>
 
@@ -667,23 +669,23 @@ title: "Think And Grow Rich"
           <li class="collection-item">By what rules do you judge who is helpful and who is damaging to you?</li>
           <li class="collection-item">Are your intimate associates mentally superior or inferior to you?</li>
           <li class="collection-item">
-            <ul>
+            <ol>
               <li>How much time out of every 24 hours do you devote to:</li>
               <li>a. your occupation</li>
               <li>b. sleep</li>
               <li>play and relaxation</li>
               <li>acquiring useful knowledge</li>
               <li>plain waste</li>
-            </ul>
+            </ol>
           </li>
           <li class="collection-item">
-            <ul>
+            <ol>
               <li>Who among your acquaintances,</li>
               <li>a. encourages you most</li>
               <li>b. cautions you most</li>
               <li>c. discourages you most</li>
               <li>d. help you most in other ways</li>
-            </ul>
+            </ol>
           </li>
           <li class="collection-item">What is your greatest worry? Why do you tolerate it?</li>
           <li class="collection-item">When others offer you free, unsolicited advice, do you accept it without question, or analyze their motive?</li>
