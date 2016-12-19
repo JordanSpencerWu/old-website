@@ -477,6 +477,7 @@ title: "Think And Grow Rich"
         <p>Man's greatest motivating force is his desire to please woman! Take women out of their lives, and great wealth would be useless to most men. It is this inherent desire of man to please woman, which gives woman the power to make or break a man.</p>
 
         <p><b>NO MAN IS HAPPY OR COMPLETE WITHOUT THE MODIFYING INFLUENCE OF THE RIGHT WOMAN.</b></p>
+      </div>
     </li>
     <li>
       <div class="collapsible-header"><i class="fa fa-book" style="margin-top: 10px;"></i><p style="margin: 0; overflow: auto; overflow: auto; padding: 10px 0;">THE SUBCONSIOUS MIND - THE CONNECTING LINK</p></div>
@@ -667,23 +668,23 @@ title: "Think And Grow Rich"
           <li class="collection-item">By what rules do you judge who is helpful and who is damaging to you?</li>
           <li class="collection-item">Are your intimate associates mentally superior or inferior to you?</li>
           <li class="collection-item">
-            <ul>
+            <ol>
               <li>How much time out of every 24 hours do you devote to:</li>
               <li>a. your occupation</li>
               <li>b. sleep</li>
               <li>play and relaxation</li>
               <li>acquiring useful knowledge</li>
               <li>plain waste</li>
-            </ul>
+            </ol>
           </li>
           <li class="collection-item">
-            <ul>
+            <ol>
               <li>Who among your acquaintances,</li>
               <li>a. encourages you most</li>
               <li>b. cautions you most</li>
               <li>c. discourages you most</li>
               <li>d. help you most in other ways</li>
-            </ul>
+            </ol>
           </li>
           <li class="collection-item">What is your greatest worry? Why do you tolerate it?</li>
           <li class="collection-item">When others offer you free, unsolicited advice, do you accept it without question, or analyze their motive?</li>
