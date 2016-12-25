@@ -3,7 +3,7 @@ author: Napoleon Hill
 categories: [book]
 class: 15
 date: 2016-12-15 10:00:00
-description: If you desire a remarkable life this is the book to read. The amount of knowledge you gain from knowing the law of success can help you undertand how your mind works. It opened my mind on how the world works and how riches can be achieved by anyone. The laws are based on history and the lives of many successful and powerful man. Learn and follow the thirteen steps to riches will bring your desires into reality.
+description: If you desire a remarkable life this is the book to read. The amount of knowledge you gain from knowing the law of success will help you determine your desires. It opened my mind on how the world works and how riches can be achieved by anyone. The laws are based on the lives of many successful and powerful men in history. Learn and follow the thirteen steps to riches, doing so will turn your desires into reality.
 hidden: true
 img-path: /assets/images/books/think-and-grow-rich.jpg
 layout: book
@@ -205,7 +205,7 @@ title: "Think And Grow Rich"
       
         <p>8. <b>SYMPATHY AND UNDERSTANDING</b>. The successful leader must be in sympathy with his followers, moreover, he must understand them and their problems.</p>
 
-        <p>9. <b>MASTERY OF DETAIL</b>. Successful leadership call for mastery od details of the leader's position.</p>
+        <p>9. <b>MASTERY OF DETAIL</b>. Successful leadership call for mastery of details of the leader's position.</p>
 
         <p>10. <b>WILLINGNESS TO ASSUME FULL RESPONSIBILITY</b>. The successful leader must be willing to assume responsibility for the mistakes and the shortcomings of his followers.</p>
 
