@@ -32,7 +32,7 @@ You start by writing your Eulogy, first by identifying your key relationships. D
 
 Life Accounts, your life is an interrelated collection of interests, responsibilities, dreams, and activities. This is divided into three circles - Circle of Being (solely on you in relation to yourself), Circle of Relating (collection of activities centered on you in relation to others), and Circle of Doing (collection of activities dealing with you in relation to your output). Write out your Life Accounts and remember that they are unique to you and are interrelated. Once you have your list of Life Accounts, determine the condition of each Life Account. They can be growing balance (more than you need), consistent balance (have what you need), or declining balance (less than you need). Your Life is a collection of accounts and each of them requires the right attentions.
 
-Remember we have to attend to ourselves first in order to be spiritually, emotionally, intellectually, and physically avialable to others.
+Remember we have to attend to ourselves first in order to be spiritually, emotionally, intellectually, and physically available to others.
 
 ##### Break each Life Account down into five sections
 
@@ -42,7 +42,7 @@ Remember we have to attend to ourselves first in order to be spiritually, emotio
 4. Current Reality
 5. Specific Commitments
 
-Each sections should be a series of bullets that are Specific, Measurable, Actionable, Realistic, and Time-bound (SMART).
+Each section should be a series of bullets that are Specific, Measurable, Actionable, Realistic, and Time-bound (SMART).
 
 ##### The day of creating your Life Plan (spend the whole day working on it)
 
@@ -52,7 +52,7 @@ Each sections should be a series of bullets that are Specific, Measurable, Actio
 4. Listen to Your Heart
 5. Stay Focused
 
-You need to review, tweak, and revisit it regularly if it is to actually shape your life. Reviewing your Life Plan will help expand your working memory and there by increase the chances you'll achieve your goals. Start by reading your Plan out loud daily for the first ninty days. Then review your Plan weekly while tweaking it Quarterly. Always revise your Plan yearly!
+You need to review, tweak, and revisit it regularly if it is to actually shape your life. Reviewing your Life Plan will help expand your working memory and thereby increase the chances you'll achieve your goals. Start by reading your Plan out loud daily for the first ninety days. Then review your Plan weekly while tweaking it Quarterly. Always revise your Plan yearly!
 
 ##### Quick Guide
 
