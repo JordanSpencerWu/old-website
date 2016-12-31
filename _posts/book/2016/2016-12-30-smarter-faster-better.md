@@ -49,7 +49,7 @@ Productivity, put simply, is the name we give our attempts to figure out the bes
     <div class="collapsible-body" style="padding: 0 10px;">
       <p>Mental automation lets us choose, almost subconsciously, what to pay attention to and what to ignore. As automation become more common, the risks that our attention spans will fail have risen. Errors are particularly likely when people are forced to toggle between automaticity and focus.</p>
 
-      <p>"cognitive tunneling" - a mental glitch that sometimes occurs when our rains are forced to transition abruptly from relaxed automation to panicked attention.</p>
+      <p>"cognitive tunneling" - a mental glitch that sometimes occurs when our brain are forced to transition abruptly from relaxed automation to panicked attention.</p>
 
       <p>We can learn techniques to get better at toggling between relaxation and concentration, but they require practice and a desire to remain engaged.</p>
 
@@ -73,7 +73,7 @@ Productivity, put simply, is the name we give our attempts to figure out the bes
 
       <p>High goals lead to a higher level of task performance than do easy goals or vague, abstract goals such as the exhortation to 'do one's best'. The process of making a goal specific and proving it is achievable involves figuring out the steps it requires, or shifting that goal slightly, if your initial aims turn out to be unrealistic.</p>
 
-      <p>Making yourself break a goal into its SMART components is the difference between hoping something come true and fighting out how to do it.</p>
+      <p>Making yourself break a goal into its SMART components is the difference between hoping something come true and figuring out how to do it.</p>
 
       <p>People respond to the conditions around them. If you're being constantly told to focus on achievable results, you're only going to think of achievable goals. You're not going to dream big. "bullet train thinking", a stretch goal using dreams to set business targets, with no real idea of how to get there. Numerous academic studies have examined the impact of stretch goals, and have consistently found that forcing people to commit to ambitious, seemingly out-of-reach objectives can spark outsized jumps in innovation and productivity.</p>
 
