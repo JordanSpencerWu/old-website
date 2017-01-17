@@ -3,7 +3,7 @@ author: Ryan Holiday
 categories: [book]
 class: 17
 date: 2016-12-26 10:00:00
-description: As we strive to become successful and live a life of meaning and purpose. Our ego will be our worst enemy. Being able to control our ego will determine our outcome in life. Remember to replaces ego is humility and confidence, and that humility and reality are the cure to ego.
+description: As we strive to become successful and live a life of meaning and purpose. Our ego will be our worst enemy. Being able to control our ego will determine our outcome in life. Remember to replaces ego with humility and confidence, and that humility and reality are the cure to ego.
 hidden: true
 img-path: /assets/images/books/ego-is-the-enemy.jpg
 layout: book
