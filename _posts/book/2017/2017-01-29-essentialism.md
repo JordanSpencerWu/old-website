@@ -3,7 +3,7 @@ author: Greg McKeown
 categories: [book]
 class: 23
 date: 2017-01-29 10:00:00
-description: This book is about doing the important things in life and eliminating the nonessentials. We can't do it all, we must filter out what's important and control our life. To become an Essentialist, we must learn to prioritize our life and to say no. Remember life is short, focus on what is meaningful and live life that really matters.
+description: This book is about doing the important things in life and eliminating the nonessentials. We can't do it all, we must filter out what's important and control our life. To become an Essentialist, we must learn to prioritize our life and to say no. Remember life is short, focus on what is meaningful and live a life that really matters.
 hidden: true
 img-path: /assets/images/books/essentialism.jpg
 layout: book
