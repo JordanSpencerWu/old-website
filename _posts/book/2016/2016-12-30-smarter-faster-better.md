@@ -3,7 +3,7 @@ author: Charles Duhigg
 categories: [book]
 class: 18
 date: 2016-12-29 10:00:00
-description: This is a book about how to recognize the choices that fuel true productivity. It is a guide to the science, techniques, and opportunities that have changed lives. This is a book about how to become smarter, faster, and better at everything you do.
+description: This is a book about how to recognize the choices that fuel true productivity. It is a guide to the science, techniques, and opportunities that have changed lives. It's about how to become smarter, faster, and better at everything you do.
 hidden: true
 img-path: /assets/images/books/smarter-faster-better.jpg
 layout: book
