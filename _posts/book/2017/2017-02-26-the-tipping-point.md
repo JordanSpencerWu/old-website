@@ -69,3 +69,11 @@ __The Rule of 150__ suggests that the size of a group is another one of those su
 ##### Conclusion
 
 The paradox of the epidemic: that in order to create one contagious movement, you often have to create many small movements first.
+
+Translation: What Mavens and Connectors and Salesmen do to an idea in order to make it contagious is to alter it in such a way that extraneous details are dropped and others are exaggerated so that the message itself comes to acquire a deeper meaning.
+
+That our environment plays as big, if not bigger, a role as heredity in shaping personality and intelligence.
+
+That the environmental influence that helps children become who they are, that shapes their character and personality, is their peer group.
+
+That people can radically transform their behavior or beliefs in the face of the right kind of impetus. We are actually powerfully influenced by our surroundings, our immediate context, and the personalities of those around us.
