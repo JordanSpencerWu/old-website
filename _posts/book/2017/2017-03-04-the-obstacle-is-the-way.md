@@ -14,7 +14,7 @@ title: "THE OBSTACLE IS THE WAY"
 Our actions may be impeded... but there can be no impeding our intentions or dispositions. Because we can accommodate and adapt. The mind adapts and converts to its own purposes the obstacle to our acting.
 
 The impediment to action advances action.
-What stands in the way becomes the way.
+What stands in the way becomes the way?
 
 Whatever we face, we have a choice: Will we be blocked by obstacles, or will we advance through and over them?
 
@@ -29,11 +29,11 @@ When you have a goal, obstacles are actually teaching you how to get where you w
 <blockquote>
   Objective judgement, now at this very moment.<br>
   Unselfish action, now at this very moment.<br>
-  Willing accceptance, now at this very moment of all external events.<br>
+  Willing acceptance, now at this very moment of all external events.<br>
   That's all you need.
 </blockquote>
 
-Overcoming obstacles is a discipline of three critical steps. It begins with how we look at our specific problems, our attitude or approach; then the energy and creativity with which we actively break them down and turn them into opportunities; finally, the cultivation and mainenance of an inner will that allows us to handle defeat and difficulty. (__Perception__, __Action__, and the __Will__)
+Overcoming obstacles is a discipline of three critical steps. It begins with how we look at our specific problems, our attitude or approach; then the energy and creativity with which we actively break them down and turn them into opportunities; finally, the cultivation and maintenance of an inner will that allows us to handle defeat and difficulty. (__Perception__, __Action__, and the __Will__)
 
 <blockquote>
   First, see clearly.<br>
@@ -90,7 +90,7 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <ol>
         <li>Context: a sense of the larger picture of the world, not just what is immediately in front of us.</li>
-        <li>Framing: an individual's unique way of looking at the world, a wawy that interprets its events.</li>
+        <li>Framing: an individual's unique way of looking at the world, a way that interprets its events.</li>
       </ol>
 
       <p>The difference between the right and the wrong perspective is everything. Perception precedes action. Right action follows the right perspective.</p>
@@ -174,7 +174,7 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <p>Failure shows us the way by showing us what isn't the way.</p>
 
-      <p>Follw the process and not the prize. The process is about finishing</p>
+      <p>Follow the process and not the prize. The process is about finishing</p>
 
       <p>The process is order, it keeps our perceptions in check and our actions in sync.</p>
 
@@ -184,7 +184,7 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <p>Everything we do matters. Everything is a chance to do and be your best.</p>
 
-      <p>Whereever we are, whatever we're doing and wherever we are going, we owe it to ourselves, to our act, to the world to do it well.</p>
+      <p>Wherever we are, whatever we're doing and wherever we are going, we owe it to ourselves, to our act, to the world to do it well.</p>
 
       <p>In every situation, life is asking us a question, and our actions are the answer.</p>
 
@@ -194,13 +194,13 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <p>We wrongly assume that moving forward is the only way to progress, the only way we can win. Sometimes, staying put, going sideways, or moving backward is actually the best way to eliminate what blocks or impedes your path.</p>
 
-      <p>Adversity can harden you. Or it can lossen you up and make you better, if you let it.</p>
+      <p>Adversity can harden you. Or it can loosen you up and make you better, if you let it.</p>
 
       <p>External factors influence the path, but not the direction: forward.</p>
 
       <p>It's at the seemingly bad moments, when people least expect it, that we can act swiftly and unexpectedly to pull off a big victory.</p>
 
-      <p>Ordinary people shy away from negative situation, jsut as they do with failure. They do their best to avoid trouble. What great people do is the opposite. They are their best in these situation. They turn personal tragedy or misfortune, really anything, everything to their advantage.</p>
+      <p>Ordinary people shy away from negative situation, just as they do with failure. They do their best to avoid trouble. What great people do is the opposite. They are their best in these situations. They turn personal tragedy or misfortune, really anything, everything to their advantage.</p>
 
       <p>Do we accept this as an exclusively negative event, or can we get past whatever negativity or adversity it represents and mount an offensive? Or more precisely, can we see that this "problem" presents an opportunity for a solution that we have long been waiting for?</p>
 
@@ -216,11 +216,11 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
     <div class="collapsible-body" style="padding: 0 10px;">
       <p>Placed in some situation that seems unchangeable and undeniably negative, we can turn it into a learning experience, a humbling experience, a chance to provide comfort to others.</p>
 
-      <p>We must prepare for adversity and turmoil, we must learn the art of acquiecence and practice cheerfulness even in dark times.</p>
+      <p>We must prepare for adversity and turmoil, we must learn the art of acquiescence and practice cheerfulness even in dark times.</p>
 
       <p>True will is quiet humility, resilience, and flexibility; the other kind of will is weakness disguised by bluster and ambition.</p>
 
-      <p>If Preception and Action were the disciplines of the mind and the body, then Will is the discipline of the heart and the soul. The will is the one thing we control completely, always.</p>
+      <p>If Perception and Action were the disciplines of the mind and the body, then Will is the discipline of the heart and the soul. The will is the one thing we control completely, always.</p>
 
       <p>Will is fortitude and wisdom: the strength to endure, contextualize, and derive meaning from the obstacle we cannot simply overcome.</p>
 
@@ -228,7 +228,7 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <p>We can think, act, and finally adjust to a world that is inherently unpredictable.</p>
 
-      <p>Confident, calm, ready to work regardless of the coniditons. Willing and able to continue, even during the unthinkable, even when our worst nightmares have come true.</p>
+      <p>Confident, calm, ready to work regardless of the conditions. Willing and able to continue, even during the unthinkable, even when our worst nightmares have come true.</p>
 
       <h5>In every situation, we can:</h5>
 
@@ -246,7 +246,7 @@ Overcoming obstacles is a discipline of three critical steps. It begins with how
 
       <p>We craft our spiritual strength through physical exercise, and our physical hardiness through mental practice.</p>
 
-      <p>To do great things, we need to be able to endure tragedy and setbacks. We've got tot love what we do and all that it entails, good and bad. we have to learn to find joy in every single thing that happens.</p>
+      <p>To do great things, we need to be able to endure tragedy and setbacks. We've got to love what we do and all that it entails, good and bad. we have to learn to find joy in every single thing that happens.</p>
 
       <p>Accept what happens to us, after understanding that certain things, particularly bad things, are outside our control, is this: loving whatever happens to us and facing it with unfailing cheerfulness.</p>
 
