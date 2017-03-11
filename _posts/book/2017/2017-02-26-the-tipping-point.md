@@ -22,7 +22,7 @@ __The Stickiness Factor__ says that there are specific ways of making a contagio
 __The Power of Context__ says that human beings are a lot more sensitive to their environment than they may seem.
 
 
-##### Law of the Few__
+##### Law of the Few
 
 Word-of-mouth epidemic is heavily dependent on the involvement of people with a particular and rare set of social gifts.
 
@@ -44,7 +44,7 @@ Watching something intellectually and physically, the more memorable and meaning
 
 There is a simple way to package information that, under the right circumstances, can make it irresistible. All you have to do is find it.
 
-##### The Power of Context__
+##### The Power of Context
 
 Epidemics are sensitive to the conditions and circumstances of the times and places in which they occur.
 
