@@ -28,7 +28,7 @@ We have two lives, the life we live, and the unlived life. What stands between t
 * RESISTANCE PLAYS FOR KEEPS
 * RESISTANCE IS FUELED BY FEAR
 * RESISTANCE ONLY OPPOSES IN ONE DIRECTION
-* RESISTANCE IS MOST POWERFUL AAT THE FINISH LINE
+* RESISTANCE IS MOST POWERFUL AT THE FINISH LINE
 * RESISTANCE CAN BE BEATEN
 
 Procrastination is the most common manifestation of Resistance because it's the easiest to rationalize. The most pernicious aspect of procrastination is that it can become a habit. Never forget: This very moment, we can change our lives.
@@ -41,7 +41,7 @@ Creating soap opera in our lives is a symptom of Resistance.
 
 Depression and anxiety may be real. But they can also be Resistance.
 
-That the truly free individual is free only to the extent of his own self-mastery. While those who will not govern, themselves are condemned to find masters to govern over them.
+That the truly free individual is free only to the extent of his own self-mastery. While those who will not govern themselves are condemned to find masters to govern over them.
 
 If you find yourself criticizing other people, you're probably doing it out of Resistance. Individuals who are realized in their own lives almost never criticize others.
 
@@ -132,7 +132,7 @@ When we sit down each day and do our work, power concentrates around us. When we
 
 "Eternity is in love with the creations of time" means, these creatures of higher sphere (or the sphere itself, in the abstract) take joy in what we time-bound beings can bring forth into physical existence in our limited material sphere.
 
-Before I sit down to work, I'll take a minute and how respects to this unseen Power who can make or break me.
+Before I sit down to work, I'll take a minute and show respects to this unseen Power who can make or break me.
 
 "Whatever you can do, or dream you can, begin it. Boldness has genius, magic, and power in it. Begin it now."
 
