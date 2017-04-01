@@ -8,7 +8,7 @@ hidden: true
 img-path: /assets/images/books/creativity-inc.jpg
 layout: book
 permalink: /creativity-inc/
-title: "CREATIVITY, INC.: OVERCOMING THE UNSEEN FORCES THAT STAND IN THE WAY OF TRUE INSPIRATION"
+title: "CREATIVITY, INC: OVERCOMING THE UNSEEN FORCES THAT STAND IN THE WAY OF TRUE INSPIRATION"
 ---
 
 Gradually, a pattern began to emerge: Someone had a creative idea, obtained funding, brought on a lot of smart people, and developed and sold a product that got a boatload of attention.
