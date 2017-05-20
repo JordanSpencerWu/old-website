@@ -15,7 +15,7 @@ The physician's duty is not to stave of death or return patient to their old liv
 
 ##### Caelica 83: You that seek what life is in death
 <blockquote>
-  You that seek whay life is in death,<br>
+  You that seek what life is in death,<br>
   Now find it air that once was break.<br>
   New names unknown, old names gone:<br>
   Till time end bodies, but souls none.<br>
