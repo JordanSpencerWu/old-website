@@ -15,4 +15,4 @@ Another feature is _Hot Module Replacement_ (HMR) which improves the development
 
 Webpack makes building production code easier and faster. It provides a production cli command that optimize and minimize your output. Using this with it's code splitting option will greatly improve your web performance. The code splitting will allow you to utilize browser asset caching by splitting up your source code with your vendor libraries.
 
-Webpack is commonly used in many open source projects and it's a useful tool to know and use. The documentation for it has greatly improve compared to Webpack 1. There's many guides that will help you learn the basics, click [here](https://webpack.js.org/guides/get-started/) to learn more.
+Webpack is commonly used in many open source projects and it's a useful tool to know and use. The documentation for it has greatly improved compared to Webpack 1. There's many guides that will help you learn the basics, click [here](https://webpack.js.org/guides/get-started/) to learn more.
