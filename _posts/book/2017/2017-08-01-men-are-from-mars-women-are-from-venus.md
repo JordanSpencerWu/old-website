@@ -10,6 +10,7 @@ layout: book
 permalink: /men-are-from-mars-women-are-from-venus/
 title: "Men Are from Mars, Women Are from Venus"
 ---
+
 Men often complain, she is over-reacting and women complain, he doesn't listen!
 
 Only when we do not understand one another is there tension, resentment, or conflict.
