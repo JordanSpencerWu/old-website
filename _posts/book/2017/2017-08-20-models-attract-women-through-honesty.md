@@ -3,7 +3,7 @@ author: Mark Manson
 categories: [book]
 class: 49
 date: 2017-08-20 10:00:00
-description: The first step in dating is to constantly improve ourselves by becoming vulnerable and fearless. We must feel our fears and not let it define us. Define your values, interests, and needs in life before seeking a relationship. Remember male attractiveness is based on how non-needy one is.  
+description: The first step in dating is to constantly improve ourselves by becoming vulnerable and fearless. We must feel our fears and not let it define us. Start by defining your values, interests, and needs in life before seeking a relationship. Remember male attractiveness is based on how non-needy one is.  
 hidden: true
 img-path: /assets/images/books/models-attract-women-through-honesty.jpg
 layout: book

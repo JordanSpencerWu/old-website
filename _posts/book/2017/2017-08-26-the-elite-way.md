@@ -3,7 +3,7 @@ author: Tariq Nasheed
 categories: [book]
 class: 50
 date: 2017-08-26 10:00:00
-description: You have to think about relationships and dating as a game where you are the player. In the game, you have to learn from your mistakes and experiences before you can win. It's about finding your own self-imposed rules and learning how to deal with women. Remember the goals of the game is to learn and grow as an individual while finding a relationship that's worth your time and energy.
+description: You must think about relationships and dating as a game where you are the player. In the game, you have to learn from your mistakes and experiences before you can win. It's about finding your own self-imposed rules and learning how to deal with women. Remember the goals of the game is to learn and grow as an individual while finding a relationship that's worth your time and energy.
 hidden: true
 img-path: /assets/images/books/the-elite-way.jpg
 layout: book

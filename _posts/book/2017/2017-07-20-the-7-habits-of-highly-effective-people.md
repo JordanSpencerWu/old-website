@@ -3,7 +3,7 @@ author: Stephen R. Covey
 categories: [book]
 class: 43
 date: 2017-07-20 10:00:00
-description: This book presents seven habits that will change us from dependent to independent, then finally interdependent. To become effective, we must focus on things we have control over and to have a Win/Win mindset. Remember we have control over our destination in life, but it requires we to constantly adjust our path.
+description: This book presents seven habits that will change us from dependent to independent, then finally interdependent. To become effective, we must focus on things we have control over and to have a Win/Win mindset. Remember we have control over our destination in life, but it requires us to constantly adjust our path.
 hidden: true
 img-path: /assets/images/books/the-7-habits-of-highly-effective-people.jpg
 layout: book
