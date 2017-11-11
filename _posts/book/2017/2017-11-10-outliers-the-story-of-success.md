@@ -2,7 +2,7 @@
 author: Malcolm Gladwell
 categories: [book]
 class: 55
-date: 2017-11-11 10:00:00
+date: 2017-11-10 10:00:00
 description: Outliers are people who seize their given opportunities and made something great out of it. Each one of us has the power to create our own fate and destiny. It requires hard work and a great understanding of our own history. Remember successful people don't do it alone, where they come from matters!
 hidden: true
 img-path: /assets/images/books/outliers-the-story-of-success.jpg
