@@ -3,7 +3,7 @@ author: David Deida
 categories: [book]
 class: 54
 date: 2017-11-01 10:00:00
-description: The sexual attraction is based between masculine and feminine poles. You are always attracted to your sexual reciprocal, so find one as a partner. Remember to live free in this world, you must be willing to face your fears and let go of anything that limits your love. Never stop giving your gift of love to the world and to your woman.
+description: Sexual attraction is based between masculine and feminine poles. You are always attracted to your sexual reciprocal, so find one as a partner. Remember to live free in this world, you must be willing to face your fears and let go of anything that limits your love. Never stop giving your gift of love to the world and to your woman.
 hidden: true
 img-path: /assets/images/books/the-way-of-the-superior-man.jpg
 layout: book

@@ -3,7 +3,7 @@ author: Cheryl Strayed
 categories: [book]
 class: 52
 date: 2017-10-18 10:00:00
-description: Cheryl Strayed is an advice columnist who produce this book with advices she gave to her followers. Life is not easy and we all go through it day by day. We are all imperfect human and this book shows you some of the issues people have their life. What I learned from this book is that we are not alone in this world. We all have worries, fears, insecurity, and whatever it may be, there are others who have felt that way.
+description: Cheryl Strayed is an advice columnist who produce this book with advices she gave to her followers. Life is not easy and we all go through it day by day. We are all imperfect human and this book shows you some of the issues people have in their life. What I learned from this book is that we are not alone in this world. We all have worries, fears, insecurity, and whatever it may be, there are others who have felt that way.
 hidden: true
 img-path: /assets/images/books/tiny-beautiful-things.jpg
 layout: book
