@@ -3,7 +3,7 @@ author: Adam Grant
 categories: [book]
 class: 59
 date: 2017-12-25 10:00:00
-description: This book helps you understand what it means to be original in business. Many of us probably go with the default, but once we understand that there are better options. We will think of great ideas that will improve existing products, services, or processes. The world needs more originals without them nothing will change.
+description: This book helps you understand what it means to be original in business. Many of us probably go with the default, but once we understand that there are better options. We'll start to think of great ideas that will improve existing products, services, or processes. The world needs more originals without them nothing will change.
 hidden: true
 img-path: /assets/images/books/originals.jpg
 layout: book
