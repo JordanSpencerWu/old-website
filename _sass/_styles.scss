@@ -261,3 +261,10 @@ p > code {
   background-color: #eee;
   padding: 0 5px 2px;
 }
+
+.book-container {
+  @media #{$medium-and-up} {
+    margin: auto;
+    width: 200px;
+  }
+}

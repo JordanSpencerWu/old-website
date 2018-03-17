@@ -3,7 +3,7 @@ author: Benjamin Hardy
 categories: [book]
 class: 66
 date: 2018-03-10 10:00:00
-description: A great book that show you why changing ourselves involves changing our environment. We have the power of choice to change our environment to aligns with our goals and dreams. We have to control our environment to live at our highest level because willpower doesn't work!
+description: A great book that show you why changing ourselves involves changing our environment. We have the power of choice to change our environment to align with our goals and dreams. We have to control our environment to live at our highest level, because willpower doesn't work!
 hidden: true
 img-path: /assets/images/books/willpower-doesnt-work.jpg
 layout: book

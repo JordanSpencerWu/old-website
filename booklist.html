@@ -17,25 +17,27 @@ permalink: /booklist/
 <div class="row">
   {% for post in site.categories.book %}
     <div class="col s6 offset-s3 m4 offset-m4" style="margin-bottom: 15px;">
-      <div class="card-image waves-effect waves-block waves-light z-depth-5">
-        <a href={{ "#" | append: post.class }} class="{{ post.class }}">
-          <img class="responsive-img" src="{{post.img-path}}">
-        </a>
-      </div>
-      <div id={{ post.class }} style="display:none;">
-        <header class="card-header">{{post.title}}</header>
-        <div class="author-byline">
-          <span class="author-byline-inside">By {{ post.author }}</span>
+      <div class="book-container">
+        <div class="card-image waves-effect waves-block waves-light z-depth-5">
+          <a href={{ "#" | append: post.class }} class="{{ post.class }}">
+            <img class="responsive-img" src="{{post.img-path}}">
+          </a>
         </div>
-        <p>{{ post.description }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}">Notes <i class="fa fa-angle-double-right" aria-hidden="true""></i></a>
+        <div id={{ post.class }} style="display:none;">
+          <header class="card-header">{{post.title}}</header>
+          <div class="author-byline">
+            <span class="author-byline-inside">By {{ post.author }}</span>
+          </div>
+          <p>{{ post.description }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}">Notes <i class="fa fa-angle-double-right" aria-hidden="true""></i></a>
+        </div>
       </div>
     </div>
   {% endfor %}
 </div>
 
 <script type="text/javascript">
-  var numberOfBooks = 67;
+  var numberOfBooks = 68;
   var booksId = [];
 
   for (var i = 0; i < numberOfBooks; i++) {
