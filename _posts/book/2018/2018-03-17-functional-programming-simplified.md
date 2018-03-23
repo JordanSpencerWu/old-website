@@ -3,7 +3,7 @@ author: Alvin Alexander
 categories: [book]
 class: 67
 date: 2018-03-17 10:00:00
-description: A great to learn about functional programming using the language Scala. The book goes in depth about FP using Scala examples, it would be better if you know Scala before reading. I didn't know Scala but got a general idea of the syntax. I skim through the book to understand the basic of FP.
+description: A great book to learn about functional programming using the language Scala. This will give you a better understanding why functional programming is used for real-time system. Remember all race conditions, deadlock conditions, and concurrent condition or a concurrent update problem are due to mutable variables. With functional programming, application consist of only immutable values and pure functions which makes writing concurrent programs easier.
 hidden: true
 img-path: /assets/images/books/functional-programming-simplified.jpg
 layout: book
