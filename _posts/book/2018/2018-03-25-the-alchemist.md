@@ -3,7 +3,7 @@ author: Paulo Coelho
 categories: [book]
 class: 69
 date: 2018-03-25 10:00:00
-description: Everyone has dreams, it's our Personal Legend, our search for purpose and meaning. For us to chase them, we must take action. Along the way we will learn from others and our environments. Remember to be present and focused without losing sight our surrounding. It's our decision that determines where we go in life and it's a choice we all have!
+description: Everyone has dreams, it's our Personal Legend, our search for purpose and meaning. For us to chase them, we must take action. Along the way we will learn from others and our environments. Remember to be present and focused without losing sight of our surrounding. It's our decision that determines where we go in life and it's a choice we all have!
 hidden: true
 img-path: /assets/images/books/the-alchemist.jpg
 layout: book
