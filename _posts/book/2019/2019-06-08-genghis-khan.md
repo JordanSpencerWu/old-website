@@ -1,7 +1,7 @@
 ---
 author: Jack Weatherford
 categories: [book]
-class: 74
+class: 75
 date: 2019-06-08 10:00:00
 description: The quest to conquer the world, Genghis Khan's attempt to unify the world. After seeing many warring conflicts growing up, a boy decided to make a change. This book is about how a boy growing up as a hunter changed the world around him.
 hidden: true

@@ -1,7 +1,7 @@
 ---
 author: Tim Ferriss
 categories: [book]
-class: 73
+class: 74
 date: 2019-05-27 10:00:00
 description: Tim writes about each interviewee he had on his podcast, this includes many interesting stories and questions. It's divided into three sections Healthy, Wealthy, and Wise. The main take way for me is the powerful the quotes used in the book; words that sparks change. "What's on the other side of fear?"
 hidden: true

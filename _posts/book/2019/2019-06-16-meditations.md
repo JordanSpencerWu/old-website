@@ -1,7 +1,7 @@
 ---
 author: Marcus Aurelius
 categories: [book]
-class: 75
+class: 76
 date: 2019-06-16 10:00:00
 description: A powerful book with many observations about a way to live as a man by Marcus Aurelius. Like most mindfulness books, it's about focusing on the present time and mastering our thoughts. We should not fear death and should live with the right mindset. If we can do that, we will live happy.
 hidden: true
