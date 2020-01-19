@@ -3,7 +3,7 @@ author: Robin A Frederick
 categories: [book]
 class: 82
 date: 2020-01-18 10:00:00
-description: To write a good song you have to understand what works. To do that you need to spend time listening to your favorite songs. Look at the structure and lyrics then keep asking yourself good questions. What makes the song good? What's emotions and story?
+description: To write a good song you have to understand what works. To do that you need to spend time listening to your favorite songs. Look at the structure and lyrics then keep asking yourself good questions. What makes the song good? What's the emotion and story behind the song?
 hidden: true
 img-path: /assets/images/books/shortcuts-to-hits-songwriting.jpg
 layout: book
