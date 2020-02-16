@@ -3,7 +3,7 @@ author: AUSTIN KLEON
 categories: [book]
 class: 83
 date: 2020-01-19 10:00:00
-description: Nothing is original! It was influenced by work that came before. Remember. we stand on the shoulders of giants. It's ok to steal from your heroes to create something better and unique to you.
+description: Nothing is original! It was influenced by work that came before. Remember, we stand on the shoulders of giants. It's ok to steal from your heroes to create something better and unique to you.
 hidden: true
 img-path: /assets/images/books/steal-like-an-artist.jpg
 layout: book
