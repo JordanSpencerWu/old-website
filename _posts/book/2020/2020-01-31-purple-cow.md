@@ -3,7 +3,7 @@ author: Seth Godin
 categories: [book]
 class: 86
 date: 2020-01-31 10:00:00
-description: Be the cow that isn't afraid to stand out and create something remarkable.
+description: Be the cow that isn't afraid to stand out and create something remarkable!
 hidden: true
 img-path: /assets/images/books/purple-cow.jpg
 layout: book

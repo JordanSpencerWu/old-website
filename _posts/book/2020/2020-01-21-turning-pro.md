@@ -3,7 +3,7 @@ author: STEVEN PRESSFIELD
 categories: [book]
 class: 85
 date: 2020-01-21 10:00:00
-description: Turning pro is free and it's a choice we all have.
+description: Turning pro is free and it's a choice we all have!
 hidden: true
 img-path: /assets/images/books/turning-pro.jpg
 layout: book
