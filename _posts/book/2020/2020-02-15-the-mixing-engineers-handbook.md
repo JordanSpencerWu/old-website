@@ -34,13 +34,13 @@ vibrato changes the pitch of the sound.
 
 It's important to time the delay to the track in order for it to pulse with the song.
 
-$1/4\,Note = (60\,Sec\,/\,BPM) * 1000\,Sec$
+$1/4\,Note = (60\,Sec\,/\,BPM) * 1000$
 
 $Dotted\,Value = Delay\,Time * 1.5$
 
 $Triplet\,Value = Delay\,Time * (2/3)$
 
-#### Delay Chart
+#### Delay Chart (in milliseconds)
 
 <div class="row">
   <div class="input-field col s6 m6 l6">
